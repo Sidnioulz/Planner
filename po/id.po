@@ -2,15 +2,15 @@
 # Copyright (C) 2003 THE planner'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the planner package.
 # Arief Mulya Utama <arief_mulya@yahoo.com>, 2003.
-# Andika Triwidada <andika@gmail.com>, 2012.
+# Andika Triwidada <andika@gmail.com>, 2012, 2013.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: planner master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=planner&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2012-08-12 01:18+0000\n"
-"PO-Revision-Date: 2012-10-18 20:39+0700\n"
+"POT-Creation-Date: 2013-12-19 16:10+0000\n"
+"PO-Revision-Date: 2014-01-02 17:46+0700\n"
 "Last-Translator: Andika Triwidada <andika@gmail.com>\n"
 "Language-Team: Indonesian <gnome@i15n.org>\n"
 "Language: id\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 1.5.7\n"
 
 #: ../data/glade/add-predecessor.glade.h:1
 msgid "Add Predecessor"
@@ -321,13 +321,15 @@ msgstr "_Nama pendek:"
 #: ../data/glade/resource-dialog.glade.h:8
 #: ../data/glade/resource-input-dialog.glade.h:8
 msgid "Optional - overrides resource name in Gantt view."
-msgstr ""
+msgstr "Opsional - menimpa nama sumber daya dalam tilikan Gantt."
 
 #: ../data/glade/resource-dialog.glade.h:10
 msgid ""
 "Select the calendar to use for this resource. If you want to use the default "
 "calendar of the project, select 'None'. "
 msgstr ""
+"Pilih kalender yang akan dipakai untuk sumber daya ini. Bila Anda ingin "
+"memakai kalender baku projek, pilih 'Nihil'."
 
 #: ../data/glade/resource-dialog.glade.h:11
 msgid "Edit Calendars..."
@@ -338,9 +340,8 @@ msgid "Calendar"
 msgstr "Kalender"
 
 #: ../data/glade/resource-dialog.glade.h:13
-#, fuzzy
 msgid "_Insert time stamp"
-msgstr "Masukkan Tanggal/Jam"
+msgstr "S_isipkan tanda waktu"
 
 #: ../data/glade/resource-dialog.glade.h:14
 #: ../data/glade/task-dialog.glade.h:18
@@ -383,6 +384,7 @@ msgstr "Pilih Projek"
 #: ../data/glade/sql.glade.h:8
 msgid "The database contains the following projects. Select a project to open:"
 msgstr ""
+"Basis data memuat projek-projek berikut. Pilih suatu projek untuk dibuka:"
 
 #: ../data/glade/task-date-widget.glade.h:1
 msgid "window"
@@ -403,6 +405,9 @@ msgid ""
 "No earlier than\n"
 "On fixed date"
 msgstr ""
+"Sesegera mungkin\n"
+"Tak kurang dari\n"
+"Pada tanggal tertentu"
 
 #: ../data/glade/task-date-widget.glade.h:7
 #: ../src/planner-cell-renderer-date.c:161
@@ -423,7 +428,6 @@ msgstr "Pilih"
 
 #: ../data/glade/task-dialog.glade.h:2
 #: ../data/glade/task-input-dialog.glade.h:4
-#, fuzzy
 msgid "_Work:"
 msgstr "_Kantor:"
 
@@ -450,7 +454,7 @@ msgstr "  "
 
 #: ../data/glade/task-dialog.glade.h:10
 msgid "_Milestone"
-msgstr ""
+msgstr "_Milestone"
 
 #: ../data/glade/task-dialog.glade.h:11
 msgid "_Fixed duration"
@@ -498,37 +502,37 @@ msgstr "Planner Manajemen Projek"
 
 #: ../data/planner.desktop.in.in.h:4
 msgid "Handle the tasks, resources, and cost of your projects"
-msgstr ""
+msgstr "Menangani tugas, sumber daya, dan biaya projek-projek Anda"
 
 #: ../data/planner.desktop.in.in.h:5
 msgid "Gantt;Chart;Critical path;Relationship;Dependency;WBS;"
-msgstr ""
+msgstr "Gantt;Chart;Critical path;Relationship;Dependency;WBS;"
 
 #: ../data/planner.schemas.in.h:1
 msgid "Highlight critical path in Gantt view"
-msgstr ""
+msgstr "Sorot path kritis dalam tilikan Gantt"
 
 #: ../data/planner.schemas.in.h:2
 msgid ""
 "Whether to highlight the tasks along the cricital path in the Gantt view."
-msgstr ""
+msgstr "Apakah menyorot tugas-tugas sepanjang path kritis dalam tilikan Gantt."
 
 #: ../data/planner.schemas.in.h:3
 msgid "Display nonstandard days in Gantt view"
-msgstr ""
+msgstr "Tampilkan hari tak standar dalam tilikan Gantt"
 
 #: ../data/planner.schemas.in.h:4
 msgid "Whether to display nonstandard days in the Gantt view."
-msgstr ""
+msgstr "Apakah menampilkan hari-hari tak standar dalam tilikan Gantt."
 
 #: ../data/planner.schemas.in.h:5
 msgid "Highlight critical path in Task view"
-msgstr ""
+msgstr "Sorot path kritis dalam tilikan Tugas"
 
 #: ../data/planner.schemas.in.h:6
 msgid ""
 "Whether to highlight the tasks along the cricital path in the Task view."
-msgstr ""
+msgstr "Apakah menyorot tugas-tugas sepanjang path kritis dalam tilikan Tugas."
 
 #: ../data/planner.schemas.in.h:7
 msgid "Print the Gantt view"
@@ -536,7 +540,7 @@ msgstr "Cetak tilikan Gantt"
 
 #: ../data/planner.schemas.in.h:8
 msgid "Whether printing of the Gantt view is enabled."
-msgstr ""
+msgstr "Apakah pencetakan tilikan Gantt difungsikan."
 
 #: ../data/planner.schemas.in.h:9
 msgid "Print the Task view"
@@ -544,7 +548,7 @@ msgstr "Cetak tilikan Tugas"
 
 #: ../data/planner.schemas.in.h:10
 msgid "Whether printing of the Task view is enabled."
-msgstr ""
+msgstr "Apakah pencetakan tilikan Tugas difungsikan."
 
 #: ../data/planner.schemas.in.h:11
 msgid "Print the Resource view"
@@ -552,7 +556,7 @@ msgstr "Cetak tilikan Sumber Daya"
 
 #: ../data/planner.schemas.in.h:12
 msgid "Whether printing of the Resource view is enabled."
-msgstr ""
+msgstr "Apakah pencetakan tilikan Sumber Daya difungsikan."
 
 #: ../data/planner.schemas.in.h:13
 msgid "The active view"
@@ -560,7 +564,7 @@ msgstr "Tampilan aktif"
 
 #: ../data/planner.schemas.in.h:14
 msgid "Which view to display in the user interface."
-msgstr ""
+msgstr "Tilikan mana yang ditampilkan dalam antarmuka pengguna."
 
 #: ../data/stylesheets/localizable.xml.h:1
 msgid "Company:"
@@ -596,7 +600,7 @@ msgstr "Selesai"
 
 #: ../data/stylesheets/localizable.xml.h:9
 msgid "This file was generated by"
-msgstr ""
+msgstr "Berkas ini dibuat oleh"
 
 #: ../data/stylesheets/localizable.xml.h:10
 msgid "Gantt Chart"
@@ -616,7 +620,7 @@ msgstr "Bekerja"
 
 #: ../libplanner/mrp-day.c:55
 msgid "A default working day"
-msgstr "Hari kerja default"
+msgstr "Hari kerja baku"
 
 #: ../libplanner/mrp-day.c:57
 msgid "Nonworking"
@@ -637,14 +641,14 @@ msgstr "Gunakan hari dari kalendar dasar"
 #: ../libplanner/mrp-file-module.c:125
 #, c-format
 msgid "This format does not support reading"
-msgstr ""
+msgstr "Format ini tak mendukung pembacaan"
 
-#: ../libplanner/mrp-parser.c:1062 ../libplanner/mrp-parser.c:1157
+#: ../libplanner/mrp-parser.c:1060 ../libplanner/mrp-parser.c:1155
 #, c-format
 msgid "Could not create XML tree"
-msgstr "Tak bisa membuat tree XML"
+msgstr "Tak bisa membuat pohon XML"
 
-#: ../libplanner/mrp-parser.c:1123
+#: ../libplanner/mrp-parser.c:1121
 #, c-format
 msgid "Could not write XML file"
 msgstr "Tak bisa menulis berkas XML"
@@ -667,6 +671,8 @@ msgstr "Tak bisa temukan modul berkas yang cocok untuk memuat '%s'"
 #, c-format
 msgid "No support for SQL storage built into this version of Planner."
 msgstr ""
+"Tak ada dukungan bagi penyimpanan SQL yang dibangun ke dalam versi Planner "
+"ini."
 
 #: ../libplanner/mrp-project.c:816
 #, c-format
@@ -674,9 +680,9 @@ msgid "Invalid URI."
 msgstr "URI yang tak valid."
 
 #: ../libplanner/mrp-project.c:957
-#, fuzzy, c-format
+#, c-format
 msgid "Unable to find file writer identified by '%s'"
-msgstr "Gagal menemukan berkas yang ditulis oleh '%s'"
+msgstr "Tak bisa menemukan penulis berkas yang diidentifikasi oleh '%s'"
 
 #: ../libplanner/mrp-project.c:1020
 #, c-format
@@ -717,26 +723,23 @@ msgstr "Biaya"
 msgid "None"
 msgstr "Tidak ada"
 
-#: ../libplanner/mrp-sql.c:280 ../src/planner-sql-plugin.c:152
+#: ../libplanner/mrp-sql.c:280 ../src/planner-sql-plugin.c:151
 msgid "Can't connect to database server"
 msgstr "Tak bisa menyambung ke server basis data"
 
-#: ../libplanner/mrp-sql.c:285 ../src/planner-sql-plugin.c:157
-#, fuzzy
+#: ../libplanner/mrp-sql.c:285 ../src/planner-sql-plugin.c:156
 msgid "No errors reported."
-msgstr "Galat Tak Dapat Dikoreksi Yang Dilaporkan"
+msgstr "Tak ada galat yang dilaporkan."
 
 #. Give up.
-#: ../libplanner/mrp-sql.c:374 ../src/planner-sql-plugin.c:226
+#: ../libplanner/mrp-sql.c:374 ../src/planner-sql-plugin.c:225
 msgid "Invalid Unicode"
 msgstr "Unicode tak valid"
 
 #: ../libplanner/mrp-sql.c:2258
-#, fuzzy, c-format
+#, c-format
 msgid "Connection to database '%s' failed.\n"
-msgstr ""
-"Koneksi ke database '%s' gagal.\n"
-"%s"
+msgstr "Koneksi ke basis data '%s' gagal.\n"
 
 #: ../libplanner/mrp-sql.c:2263
 #, c-format
@@ -749,12 +752,12 @@ msgstr ""
 
 #: ../libplanner/mrp-sql.c:2272 ../libplanner/mrp-sql.c:3711
 msgid "Failed to create a dictionary for the database connection.\n"
-msgstr ""
+msgstr "Gagal membuat suatu kamus bagi koneksi basis data.\n"
 
 #: ../libplanner/mrp-sql.c:2286
-#, fuzzy, c-format
+#, c-format
 msgid "BEGIN command failed %s."
-msgstr "Perintah IMAP gagal: %s"
+msgstr "Perintah BEGIN gagal: %s."
 
 #: ../libplanner/mrp-sql.c:2455
 #, c-format
@@ -766,11 +769,9 @@ msgstr ""
 "Apakah Anda tetap ingin menyimpannya?"
 
 #: ../libplanner/mrp-sql.c:3704
-#, fuzzy, c-format
+#, c-format
 msgid "Connection to database '%s' failed."
-msgstr ""
-"Koneksi ke database '%s' gagal.\n"
-"%s"
+msgstr "Koneksi ke basis data '%s' gagal."
 
 #: ../libplanner/mrp-storage-sql.c:206
 #, c-format
@@ -798,22 +799,28 @@ msgstr ""
 #: ../libplanner/mrp-task.c:1079
 msgid "Start to Finish relation type cannot be combined with other relations."
 msgstr ""
+"Tipe relasi Mulai ke Selesai tak bisa dikombinasikan dengan relasi lain."
 
 #: ../libplanner/mrp-task.c:1081
 msgid "Finish to Finish relation type cannot be combined with other relations."
 msgstr ""
+"Tipe relasi Selesai ke Selesai tak bisa dikombinasikan dengan relasi lain."
 
 #: ../libplanner/mrp-task.c:1098
 msgid ""
 "Start to Finish relation type cannot be combined with Start No Earlier Than "
 "constraint."
 msgstr ""
+"Tipe relasei Mulai ke Selesai tak bisa dikombinasikan dengan kendala Mulai "
+"Tak Lebih Awal Dari."
 
 #: ../libplanner/mrp-task.c:1100
 msgid ""
 "Finish to Finish relation type cannot be combined with Start No Earlier Than "
 "constraint."
 msgstr ""
+"Tipe relasei Selesai ke Selesai tak bisa dikombinasikan dengan kendala Mulai "
+"Tak Lebih Awal Dari."
 
 #: ../libplanner/mrp-task.c:1124
 #, c-format
@@ -821,18 +828,19 @@ msgid ""
 "Start to Finish relation cannot be set. Predecessor starts on project start "
 "date."
 msgstr ""
+"Relasi Mulai ke Selesai tak bisa ditata. Pendahulu dimulai pada tanggal awal "
+"projek."
 
 #: ../libplanner/mrp-task-manager.c:2603
-#, fuzzy, c-format
+#, c-format
 msgid "Cannot add a predecessor, because it would result in a loop."
 msgstr ""
-"Tak bisa menambahkan hubungan pendahulu, karena tugas-tugas tersebut telah "
-"terhubung."
+"Tak bisa menambahkan pendahulu, karena akan menyebabkan hubungan melingkar."
 
 #: ../libplanner/mrp-task-manager.c:2647
 #, c-format
 msgid "Cannot move the task, because it would result in a loop."
-msgstr ""
+msgstr "Tak bisa memindah tugas tersebut, karena akan menyebabkan loop."
 
 #. Translators: Example output: October 9, 2006
 #: ../libplanner/mrp-xsl.c:93
@@ -866,7 +874,7 @@ msgstr "Indentasi"
 
 #: ../src/planner-application.c:89
 msgid "Unindent"
-msgstr ""
+msgstr "Indentasi Mundur"
 
 #: ../src/planner-application.c:96
 msgid "Move up"
@@ -898,41 +906,39 @@ msgstr "Sesegera mungkin"
 
 #: ../src/planner-cell-renderer-date.c:147
 msgid "No earlier than"
-msgstr ""
+msgstr "Tak lebih awal dari"
 
 #: ../src/planner-cell-renderer-date.c:148
 msgid "On fixed date"
 msgstr "Pada tanggal tetap"
 
 #: ../src/planner-cmd-manager.c:227
-#, fuzzy, c-format
+#, c-format
 msgid "Undo '%s'"
-msgstr "Undo"
+msgstr "Batal '%s'"
 
 #: ../src/planner-cmd-manager.c:229
-#, fuzzy
 msgid "Undo"
-msgstr "Undo"
+msgstr "Batal"
 
 #: ../src/planner-cmd-manager.c:239
-#, fuzzy, c-format
+#, c-format
 msgid "Redo '%s'"
-msgstr "_Jadi Lagi"
+msgstr "Jadi Lagi '%s'"
 
 #: ../src/planner-cmd-manager.c:241
-#, fuzzy
 msgid "Redo"
-msgstr "Redo"
+msgstr "Jadi Lagi"
 
 #: ../src/planner-day-type-dialog.c:499
 #, c-format
 msgid "Add day type \"%s\""
-msgstr ""
+msgstr "Tambah tipe hari \"%s\""
 
 #: ../src/planner-day-type-dialog.c:560
 #, c-format
 msgid "Remove day type \"%s\""
-msgstr ""
+msgstr "Hapus tipe hari \"%s\""
 
 #: ../src/planner-default-week-dialog.c:42
 msgid "Monday"
@@ -963,9 +969,8 @@ msgid "Sunday"
 msgstr "Minggu"
 
 #: ../src/planner-default-week-dialog.c:288
-#, fuzzy
 msgid "No working time"
-msgstr "Sunting Waktu Kerja"
+msgstr "Bukan waktu kerja"
 
 #: ../src/planner-default-week-dialog.c:299
 #: ../src/planner-default-week-dialog.c:303
@@ -987,7 +992,7 @@ msgstr "Impor sumber daya dari Server Data Evolution"
 #: ../src/planner-eds-plugin.c:384 ../src/planner-gantt-print.c:191
 #: ../src/planner-gantt-view.c:624 ../src/planner-group-dialog.c:818
 #: ../src/planner-property-dialog.c:475 ../src/planner-resource-view.c:1200
-#: ../src/planner-task-dialog.c:2605 ../src/planner-task-dialog.c:2679
+#: ../src/planner-task-dialog.c:2610 ../src/planner-task-dialog.c:2684
 #: ../src/planner-task-view.c:367
 msgid "Name"
 msgstr "Nama"
@@ -1138,9 +1143,8 @@ msgid "%Y %b %d"
 msgstr "%Y %b %d"
 
 #: ../src/planner-gantt-background.c:645
-#, fuzzy
 msgid "Project start"
-msgstr "Tanggal mulai:"
+msgstr "Mulai projek"
 
 #: ../src/planner-gantt-header.c:659
 msgid "%a, %e %b %Y"
@@ -1150,13 +1154,12 @@ msgstr "%a, %e %b %Y"
 #: ../src/planner-resource-dialog.c:1836 ../src/planner-resource-view.c:790
 #: ../src/planner-resource-view.c:806 ../src/planner-resource-view.c:1760
 #: ../src/planner-task-view.c:370
-#, fuzzy
 msgid "Work"
-msgstr "Kantor"
+msgstr "Kerja"
 
 #: ../src/planner-gantt-print.c:546 ../src/planner-gantt-row.c:771
 #: ../src/planner-html-plugin.c:120 ../src/planner-task-tree.c:1584
-#: ../src/planner-window.c:1837
+#: ../src/planner-window.c:1805
 msgid "Unnamed"
 msgstr "Tanpa nama"
 
@@ -1168,7 +1171,7 @@ msgstr "Ubah kerja ke %s"
 #: ../src/planner-gantt-row.c:2366
 #, c-format
 msgid "Change progress to %u%% complete"
-msgstr ""
+msgstr "Ubah kemajuan ke %u%% komplit"
 
 #: ../src/planner-gantt-row.c:2405 ../src/planner-gantt-row.c:2408
 msgid "No name"
@@ -1177,7 +1180,7 @@ msgstr "Tanpa nama"
 #: ../src/planner-gantt-row.c:2411
 #, c-format
 msgid "Make task '%s' a predecessor of '%s'"
-msgstr ""
+msgstr "Buat tugas '%s' pendahulu dari '%s'"
 
 #: ../src/planner-gantt-row.c:3443 ../src/planner-task-dialog.c:455
 #: ../src/planner-task-tree.c:259 ../src/planner-task-tree.c:941
@@ -1202,7 +1205,7 @@ msgstr "_Hapus Tugas"
 
 #: ../src/planner-gantt-view.c:145 ../src/planner-task-view.c:126
 msgid "Remove the selected tasks"
-msgstr "Hapus tugas yang dipilih"
+msgstr "Hapus tugas-tugas yang dipilih"
 
 #: ../src/planner-gantt-view.c:147
 msgid "_Edit Task Properties..."
@@ -1219,14 +1222,12 @@ msgid "Select all tasks"
 msgstr "Pilih semua tugas"
 
 #: ../src/planner-gantt-view.c:153 ../src/planner-task-view.c:134
-#, fuzzy
 msgid "_Unlink Task"
-msgstr "Tugas Kalender"
+msgstr "Lepas Kait T_ugas"
 
 #: ../src/planner-gantt-view.c:154 ../src/planner-task-view.c:135
-#, fuzzy
 msgid "Unlink the selected tasks"
-msgstr "Hapus tugas yang dipilih"
+msgstr "Lepaskan kait tugas-tugas yang dipilih"
 
 #: ../src/planner-gantt-view.c:156 ../src/planner-task-view.c:137
 msgid "_Link Tasks"
@@ -1237,23 +1238,20 @@ msgid "Link the selected tasks"
 msgstr "Kaitkan tugas-tugas yang dipilih"
 
 #: ../src/planner-gantt-view.c:159 ../src/planner-task-view.c:140
-#, fuzzy
 msgid "I_ndent Task"
-msgstr "Tugas Kalender"
+msgstr "I_ndentasikan Tugas"
 
 #: ../src/planner-gantt-view.c:160 ../src/planner-task-view.c:141
-#, fuzzy
 msgid "Indent the selected tasks"
-msgstr "Hapus tugas yang dipilih"
+msgstr "Indentasikan tugas-tugas yang dipilih"
 
 #: ../src/planner-gantt-view.c:162 ../src/planner-task-view.c:143
 msgid "Unin_dent Task"
-msgstr ""
+msgstr "In_dentasi Mundur Tugas"
 
 #: ../src/planner-gantt-view.c:163 ../src/planner-task-view.c:144
-#, fuzzy
 msgid "Unindent the selected tasks"
-msgstr "Hapus tugas yang dipilih"
+msgstr "Mundurkan indentasi tugas-tugas yang dipilih"
 
 #: ../src/planner-gantt-view.c:165 ../src/planner-task-view.c:146
 msgid "Move Task _Up"
@@ -1261,20 +1259,19 @@ msgstr "Pindah Tugas _Naik"
 
 #: ../src/planner-gantt-view.c:166 ../src/planner-task-view.c:147
 msgid "Move the selected tasks upwards"
-msgstr ""
+msgstr "Pindahkan tugas-tugas yang dipilih ke arah atas"
 
 #: ../src/planner-gantt-view.c:168 ../src/planner-task-view.c:149
 msgid "Move Task Do_wn"
-msgstr ""
+msgstr "Pindah Tugas _Turun"
 
 #: ../src/planner-gantt-view.c:169 ../src/planner-task-view.c:150
 msgid "Move the selected tasks downwards"
-msgstr ""
+msgstr "Pindahkan tugas-tugas yang dipilih ke arah bawah"
 
 #: ../src/planner-gantt-view.c:171 ../src/planner-task-view.c:152
-#, fuzzy
 msgid "Reset _Constraint"
-msgstr "Sumber kendala"
+msgstr "Reset _Kendala"
 
 #: ../src/planner-gantt-view.c:174
 msgid "Zoom To _Fit"
@@ -1282,7 +1279,7 @@ msgstr "Zum Sampai _Pas"
 
 #: ../src/planner-gantt-view.c:175 ../src/planner-usage-view.c:115
 msgid "Zoom to fit the entire project"
-msgstr ""
+msgstr "Zum agar pas seluruh projek"
 
 #: ../src/planner-gantt-view.c:177
 msgid "_Zoom In"
@@ -1313,18 +1310,16 @@ msgid "Edit visible columns"
 msgstr "Sunting kolom nampak"
 
 #: ../src/planner-gantt-view.c:189 ../src/planner-task-view.c:164
-#, fuzzy
 msgid "_Highlight Critical Tasks"
-msgstr "Sorot tugas yang terlambat selesai"
+msgstr "Sorot Tugas _Kritis"
 
 #: ../src/planner-gantt-view.c:192
 msgid "_Show Guide Lines"
-msgstr ""
+msgstr "Tampilkan Gari_s Pandu"
 
 #: ../src/planner-gantt-view.c:195 ../src/planner-task-view.c:166
-#, fuzzy
 msgid "_Nonstandard Days"
-msgstr "Hari publikasi"
+msgstr "Hari Tak Sta_ndar"
 
 #. i18n: Label used for the sidebar. Please try to make it short and use
 #. * a linebreak if necessary/possible.
@@ -1334,9 +1329,8 @@ msgid "Gantt"
 msgstr "Gantt"
 
 #: ../src/planner-gantt-view.c:385
-#, fuzzy
 msgid "_Gantt Chart"
-msgstr "Gantt Chart"
+msgstr "Diagram _Gantt"
 
 #. i18n: WBS is short for work breakdown structure, and is a
 #. * project management term. You might want to leave it
@@ -1351,19 +1345,16 @@ msgid "WBS"
 msgstr "WBS"
 
 #: ../src/planner-gantt-view.c:625 ../src/planner-task-view.c:368
-#, fuzzy
 msgid "Start"
-msgstr "Awal"
+msgstr "Mulai"
 
 #: ../src/planner-gantt-view.c:626 ../src/planner-task-view.c:369
-#, fuzzy
 msgid "Finish"
 msgstr "Selesai"
 
 #: ../src/planner-gantt-view.c:629 ../src/planner-task-view.c:372
-#, fuzzy
 msgid "Slack"
-msgstr "Slack"
+msgstr "Kendor"
 
 #: ../src/planner-gantt-view.c:631 ../src/planner-task-view.c:374
 msgid "Assigned to"
@@ -1383,18 +1374,16 @@ msgid "Edit Gantt Columns"
 msgstr "Sunting Kolom Gantt"
 
 #: ../src/planner-group-dialog.c:304
-#, fuzzy
 msgid "Insert group"
-msgstr "Grup Snippet:"
+msgstr "Sisip grup"
 
 #: ../src/planner-group-dialog.c:431
 msgid "Remove group"
 msgstr "Hapus grup"
 
 #: ../src/planner-group-dialog.c:525
-#, fuzzy
 msgid "Default group"
-msgstr "_Kelompok utama:"
+msgstr "Grup baku"
 
 #: ../src/planner-group-dialog.c:643
 msgid "Edit group property"
@@ -1421,9 +1410,8 @@ msgid "Export project to HTML"
 msgstr "Ekspor projek ke HTML"
 
 #: ../src/planner-html-plugin.c:79
-#, fuzzy
 msgid "Could not export to HTML"
-msgstr "Tak bisa menulis berkas XML"
+msgstr "Tak bisa ekspor ke HTML"
 
 #: ../src/planner-html-plugin.c:105
 msgid "Export to HTML"
@@ -1431,29 +1419,25 @@ msgstr "Ekspor ke HTML"
 
 #: ../src/planner-html-plugin.c:149
 msgid "Show result in browser"
-msgstr ""
+msgstr "Tampilkan hasil di peramban"
 
-#: ../src/planner-html-plugin.c:168 ../src/planner-window.c:1564
+#: ../src/planner-html-plugin.c:168 ../src/planner-window.c:1532
 #: ../src/planner-xml-planner-plugin.c:124
-#, fuzzy, c-format
+#, c-format
 msgid "File \"%s\" exists, do you want to overwrite it?"
-msgstr ""
-"File %s sudah ada.\n"
-"Apakah Anda ingin menimpanya?"
+msgstr "Berkas %s sudah ada, apakah Anda ingin menimpanya?"
 
 #: ../src/planner-main.c:44
-#, fuzzy
 msgid "Create the initial window with the given geometry."
-msgstr "Membuat jendela baru dengan ukuran yang telah ditentukan."
+msgstr "Membuat jendela awal dengan geometri yang diberikan."
 
 #: ../src/planner-main.c:44
 msgid "GEOMETRY"
 msgstr "GEOMETRI"
 
 #: ../src/planner-main.c:45
-#, fuzzy
 msgid "FILES|URIs"
-msgstr "Total URI"
+msgstr "BERKAS|URI"
 
 #: ../src/planner-main.c:68
 msgid "- Planner project management"
@@ -1470,9 +1454,9 @@ msgstr ""
 "perintah.\n"
 
 #: ../src/planner-main.c:99
-#, fuzzy, c-format
+#, c-format
 msgid "Invalid geometry string \"%s\"\n"
-msgstr "String geometrynya salah \"%s\"\n"
+msgstr "String geometri tak valid \"%s\"\n"
 
 #: ../src/planner-msp-plugin.c:49
 msgid "MS Project XML..."
@@ -1483,9 +1467,8 @@ msgid "Import an MS Project XML file"
 msgstr "Impor suatu berkas XML MS Project"
 
 #: ../src/planner-msp-plugin.c:117
-#, fuzzy
 msgid "Couldn't import file."
-msgstr "Mengimpor _satu file"
+msgstr "Tak bisa mengimpor berkas."
 
 #: ../src/planner-msp-plugin.c:205
 msgid "Import a File"
@@ -1495,43 +1478,42 @@ msgstr "Impor Berkas"
 msgid "XML Files"
 msgstr "Berkas XML"
 
-#: ../src/planner-msp-plugin.c:218 ../src/planner-window.c:882
+#: ../src/planner-msp-plugin.c:218 ../src/planner-window.c:878
 msgid "All Files"
-msgstr "Semua File"
+msgstr "Semua Berkas"
 
 #: ../src/planner-phase-dialog.c:540
-#, fuzzy
 msgid "Insert phase"
-msgstr "Jalankan ulang fasa %s"
+msgstr "Sisip fasa"
 
 #: ../src/planner-phase-dialog.c:639
 msgid "Remove phase"
 msgstr "Hapus fasa"
 
 #: ../src/planner-plugin-loader.c:40
-#, fuzzy, c-format
+#, c-format
 msgid "Could not open plugin file '%s'\n"
-msgstr "Tidak bisa membuka berkas surat %s: %s"
+msgstr "Tidak bisa membuka berkas pengaya '%s'\n"
 
-#: ../src/planner-predecessor-model.c:191 ../src/planner-task-dialog.c:2206
+#: ../src/planner-predecessor-model.c:191 ../src/planner-task-dialog.c:2211
 msgid "FS"
 msgstr "FS"
 
-#: ../src/planner-predecessor-model.c:194 ../src/planner-task-dialog.c:2207
+#: ../src/planner-predecessor-model.c:194 ../src/planner-task-dialog.c:2212
 msgid "FF"
 msgstr "FF"
 
-#: ../src/planner-predecessor-model.c:197 ../src/planner-task-dialog.c:2208
+#: ../src/planner-predecessor-model.c:197 ../src/planner-task-dialog.c:2213
 msgid "SS"
 msgstr "SS"
 
-#: ../src/planner-predecessor-model.c:200 ../src/planner-task-dialog.c:2209
+#: ../src/planner-predecessor-model.c:200 ../src/planner-task-dialog.c:2214
 msgid "SF"
 msgstr "SF"
 
 #: ../src/planner-print-dialog.c:247
 msgid "Select the views to print:"
-msgstr ""
+msgstr "Pilih tilikan yang akan dicetak:"
 
 #: ../src/planner-print-job.c:168
 msgid "Select views"
@@ -1539,7 +1521,7 @@ msgstr "Pilih tampilan"
 
 #: ../src/planner-project-properties.c:387
 msgid "Select a calendar to use for this project:"
-msgstr ""
+msgstr "Pilih kalender yang akan dipakai oleh projek ini:"
 
 #: ../src/planner-project-properties.c:487
 msgid "Edit Project Name"
@@ -1577,23 +1559,21 @@ msgstr "Nilai"
 #: ../src/planner-project-properties.c:1391
 #: ../src/planner-property-dialog.c:323
 msgid "The name of the custom property needs to start with a letter."
-msgstr ""
+msgstr "Nama properti ubahan perlu dimulai dengan suatu huruf."
 
 #: ../src/planner-project-properties.c:1462
 #: ../src/planner-property-dialog.c:393
 #, c-format
 msgid "Do you really want to remove the property '%s' from the project?"
-msgstr ""
+msgstr "Anda yakin ingin menghapus properti '%s' dari projek?"
 
 #: ../src/planner-project-properties.c:1557
-#, fuzzy
 msgid "Could not create properties dialog."
-msgstr "Tidak dapat menampilkan dialog properti"
+msgstr "Tidak dapat membuat dialog properti."
 
 #: ../src/planner-project-properties.c:1591
-#, fuzzy
 msgid "Date..."
-msgstr "Tanggal"
+msgstr "Tanggal..."
 
 #: ../src/planner-project-properties.c:1935
 msgid "Add project property"
@@ -1612,7 +1592,7 @@ msgid "Label"
 msgstr "Label"
 
 #: ../src/planner-property-dialog.c:504 ../src/planner-resource-view.c:1253
-#: ../src/planner-task-dialog.c:2711
+#: ../src/planner-task-dialog.c:2716
 msgid "Type"
 msgstr "Tipe"
 
@@ -1629,9 +1609,8 @@ msgid "Edit property label"
 msgstr "Sunting label properti"
 
 #: ../src/planner-resource-cmd.c:75
-#, fuzzy
 msgid "Insert resource"
-msgstr "<b>Tak Sertakan Sumber Daya</b>"
+msgstr "Sisip sumber daya"
 
 #. Put "no group" at the top.
 #: ../src/planner-resource-dialog.c:312
@@ -1641,7 +1620,7 @@ msgid "(None)"
 msgstr "(Nihil)"
 
 #: ../src/planner-resource-dialog.c:322
-#: ../src/planner-resource-input-dialog.c:110 ../src/planner-task-dialog.c:381
+#: ../src/planner-resource-input-dialog.c:110 ../src/planner-task-dialog.c:385
 msgid "(No name)"
 msgstr "(Tanpa nama)"
 
@@ -1670,7 +1649,7 @@ msgstr "%a %d %b %Y, %H:%M\n"
 
 #: ../src/planner-resource-dialog.c:1512
 msgid "None (use project default)"
-msgstr ""
+msgstr "Nihil (pakai baku projek)"
 
 #: ../src/planner-resource-dialog.c:1634 ../src/planner-resource-dialog.c:1636
 msgid "Edit resource properties"
@@ -1679,31 +1658,27 @@ msgstr "Sunting properti sumber daya"
 #: ../src/planner-resource-dialog.c:1837 ../src/planner-resource-view.c:793
 #: ../src/planner-resource-view.c:807 ../src/planner-resource-view.c:1761
 msgid "Material"
-msgstr ""
+msgstr "Material"
 
 #: ../src/planner-resource-view.c:233
-#, fuzzy
 msgid "_Insert Resource"
-msgstr "<b>Tak Sertakan Sumber Daya</b>"
+msgstr "S_isip Sumber Daya"
 
 #: ../src/planner-resource-view.c:234
-#, fuzzy
 msgid "Insert a new resource"
-msgstr "Sisipkan sebuah lembaran baru"
+msgstr "Sisipkan sebuah sumber daya baru"
 
 #: ../src/planner-resource-view.c:236
-#, fuzzy
 msgid "In_sert Resources..."
-msgstr "Sumber daya"
+msgstr "_Sisip Beberapa Sumber Daya..."
 
 #: ../src/planner-resource-view.c:239
 msgid "_Remove Resource"
 msgstr "Hapus Sumbe_r Daya"
 
 #: ../src/planner-resource-view.c:240
-#, fuzzy
 msgid "Remove the selected resource"
-msgstr "Hapus snippet yang dipilih"
+msgstr "Hapus sumber daya yang dipilih"
 
 #: ../src/planner-resource-view.c:242
 msgid "_Edit Resource Properties..."
@@ -1718,24 +1693,20 @@ msgid "Edit resource groups"
 msgstr "Sunting grup sumber daya"
 
 #: ../src/planner-resource-view.c:251
-#, fuzzy
 msgid "Edit _Custom Properties..."
-msgstr "Membaca properti ubahan…"
+msgstr "Sunting Properti _Ubahan…"
 
 #: ../src/planner-resource-view.c:269
-#, fuzzy
 msgid "/_Insert resource"
-msgstr "<b>Tak Sertakan Sumber Daya</b>"
+msgstr "/S_isip sumber daya"
 
 #: ../src/planner-resource-view.c:272
-#, fuzzy
 msgid "/_Remove resource"
-msgstr "<b>Tak Sertakan Sumber Daya</b>"
+msgstr "/Hapus sumbe_r daya"
 
 #: ../src/planner-resource-view.c:275 ../src/planner-usage-tree.c:102
-#, fuzzy
 msgid "/_Edit resource..."
-msgstr "<b>Tak Sertakan Sumber Daya</b>"
+msgstr "/Sunting sumb_er daya"
 
 #: ../src/planner-resource-view.c:463
 msgid "_Resources"
@@ -1751,7 +1722,7 @@ msgstr "Sunting Kolom Sumber Daya"
 
 #: ../src/planner-resource-view.c:1084
 msgid "Edit custom resource properties"
-msgstr ""
+msgstr "Sunting properti ubahan sumber daya"
 
 #: ../src/planner-resource-view.c:1226
 msgid "Short name"
@@ -1812,34 +1783,36 @@ msgstr "S%d"
 msgid "%04d, H%d"
 msgstr "%04d, S%d"
 
-#: ../src/planner-sql-plugin.c:94
+#: ../src/planner-sql-plugin.c:93
 msgid "Open from Database..."
 msgstr "Buka dari Basis Data..."
 
-#: ../src/planner-sql-plugin.c:95
+#: ../src/planner-sql-plugin.c:94
 msgid "Open a project from a database"
-msgstr ""
+msgstr "Buka projek dari suatu basis data"
 
-#: ../src/planner-sql-plugin.c:97 ../src/planner-sql-plugin.c:1145
+#: ../src/planner-sql-plugin.c:96 ../src/planner-sql-plugin.c:1141
 msgid "Save to Database"
 msgstr "Simpan ke Basis Data"
 
-#: ../src/planner-sql-plugin.c:98
+#: ../src/planner-sql-plugin.c:97
 msgid "Save the current project to a database"
-msgstr ""
+msgstr "Simpan projek saat ini ke suatu basis data"
 
-#: ../src/planner-sql-plugin.c:524
+#: ../src/planner-sql-plugin.c:523
 #, c-format
 msgid ""
 "Database %s needs to be upgraded from version %s to version %s.\n"
 "Please backup database before the upgrade."
 msgstr ""
+"Basis data %s perlu ditingkatkan dari versi %s ke versi %s.\n"
+"Harap buat cadangan basis data sebelum meningkatkan."
 
-#: ../src/planner-sql-plugin.c:531
+#: ../src/planner-sql-plugin.c:530
 msgid "Upgrade"
 msgstr "Tingkatkan"
 
-#: ../src/planner-sql-plugin.c:545
+#: ../src/planner-sql-plugin.c:544
 #, c-format
 msgid ""
 "Could not upgrade database %s.\n"
@@ -1848,46 +1821,49 @@ msgid ""
 "Database error: \n"
 "%s"
 msgstr ""
-
-#: ../src/planner-sql-plugin.c:585
-#, c-format
-msgid "Can't create tables in database %s"
-msgstr ""
-
-#: ../src/planner-sql-plugin.c:647
-#, c-format
-msgid "Database %s is not setup for Planner. Do you want to do that?"
-msgstr ""
-
-#: ../src/planner-sql-plugin.c:690
-#, fuzzy, c-format
-msgid "Connection to database '%s@%s' failed."
-msgstr ""
-"Koneksi ke database '%s' gagal.\n"
+"Tak bisa meningkatkan basis data %s.\n"
+"  Berkas peningkatan yang dipakai: %s.\n"
+"\n"
+"Galat basis data: \n"
 "%s"
 
-#: ../src/planner-sql-plugin.c:709
+#: ../src/planner-sql-plugin.c:584
+#, c-format
+msgid "Can't create tables in database %s"
+msgstr "Tak bisa membuat tabel-tabel dalam basis data %s"
+
+#: ../src/planner-sql-plugin.c:646
+#, c-format
+msgid "Database %s is not setup for Planner. Do you want to do that?"
+msgstr "Basis data %s tak disiapkan untuk Planner. Anda ingin melakukan itu?"
+
+#: ../src/planner-sql-plugin.c:689
+#, c-format
+msgid "Connection to database '%s@%s' failed."
+msgstr "Koneksi ke basis data '%s@%s' gagal."
+
+#: ../src/planner-sql-plugin.c:708
 #, c-format
 msgid "Test to tables in database '%s' failed."
 msgstr "Tes ke tabel dalam basis data '%s' gagal."
 
-#: ../src/planner-sql-plugin.c:811
+#: ../src/planner-sql-plugin.c:810
 msgid "ID"
 msgstr "ID"
 
-#: ../src/planner-sql-plugin.c:819
+#: ../src/planner-sql-plugin.c:818
 msgid "Project"
 msgstr "Projek"
 
-#: ../src/planner-sql-plugin.c:827
+#: ../src/planner-sql-plugin.c:826
 msgid "Phase"
 msgstr "Fase"
 
-#: ../src/planner-sql-plugin.c:835
+#: ../src/planner-sql-plugin.c:834
 msgid "Revision"
 msgstr "Revisi"
 
-#: ../src/planner-sql-plugin.c:1033
+#: ../src/planner-sql-plugin.c:1029
 msgid "Open from Database"
 msgstr "Buka dari Basis Data"
 
@@ -1896,9 +1872,8 @@ msgid "Link task"
 msgstr "Kaitkan tugas"
 
 #: ../src/planner-task-cmd.c:172
-#, fuzzy
 msgid "Unlink task"
-msgstr "Tugas Kalender"
+msgstr "Lepas kait tugas"
 
 #: ../src/planner-task-cmd.c:267
 msgid "Insert task"
@@ -1910,21 +1885,19 @@ msgstr "Sunting tipe tugas"
 
 #: ../src/planner-task-dialog.c:596
 msgid "Toggle fixed duration"
-msgstr ""
+msgstr "Jungkitkan durasi tetap"
 
 #: ../src/planner-task-dialog.c:663
 msgid "Edit task scheduling"
 msgstr "Sunting penjadwalan tugas"
 
 #: ../src/planner-task-dialog.c:743
-#, fuzzy
 msgid "Assign resource to task"
 msgstr "Tugaskan sumber daya ke tugas"
 
 #: ../src/planner-task-dialog.c:803
-#, fuzzy
 msgid "Unassign resource from task"
-msgstr "Memuat data sumber daya"
+msgstr "Tarik sumber daya dari tugas"
 
 #: ../src/planner-task-dialog.c:862
 msgid "Change resource units in task"
@@ -1936,7 +1909,7 @@ msgstr "Sunting tugas pendahulu"
 
 #: ../src/planner-task-dialog.c:1021
 msgid "Edit lag predecessor"
-msgstr ""
+msgstr "Sunting pendahulu yang lambat"
 
 #: ../src/planner-task-dialog.c:1086
 msgid "Edit task note"
@@ -1945,83 +1918,76 @@ msgstr "Sunting catatan tugas"
 #: ../src/planner-task-dialog.c:1489
 #, c-format
 msgid "No earlier than %s"
-msgstr ""
+msgstr "Tak lebih awal dari %s"
 
 #: ../src/planner-task-dialog.c:1493
-#, fuzzy, c-format
+#, c-format
 msgid "On fixed date %s"
-msgstr "Tanggal tetap"
+msgstr "Pada tanggal tetap %s"
 
 #: ../src/planner-task-dialog.c:1909
 msgid "Finish to start (FS)"
-msgstr "Akhir ke awal"
+msgstr "Selesai ke mulai (FS)"
 
 #: ../src/planner-task-dialog.c:1910
 msgid "Finish to finish (FF)"
-msgstr "Akhir ke akhir (FF)"
+msgstr "Selesai ke selesai (FF)"
 
 #: ../src/planner-task-dialog.c:1911
-#, fuzzy
 msgid "Start to start (SS)"
-msgstr "Untuk memulai presentasi:"
+msgstr "Mulai ke mulai (SS)"
 
 #: ../src/planner-task-dialog.c:1912
 msgid "Start to finish (SF)"
-msgstr ""
+msgstr "Mulai ke selesai (SF)"
 
-#: ../src/planner-task-dialog.c:1967
+#: ../src/planner-task-dialog.c:1972
 msgid "Can't add new predecessor. No task selected!"
-msgstr ""
+msgstr "Tak bisa menambah pendahulu. Tak ada tugas yang dipilih!"
 
-#: ../src/planner-task-dialog.c:2452
+#: ../src/planner-task-dialog.c:2457
 msgid "Change..."
 msgstr "Ubah…"
 
-#: ../src/planner-task-dialog.c:2626
+#: ../src/planner-task-dialog.c:2631
 msgid "Assigned"
 msgstr "Ditugaskan"
 
-#: ../src/planner-task-dialog.c:2643
+#: ../src/planner-task-dialog.c:2648
 msgid "Units"
 msgstr "Unit"
 
-#: ../src/planner-task-dialog.c:2733
+#: ../src/planner-task-dialog.c:2738
 msgid "Lag"
-msgstr ""
+msgstr "Lambat"
 
-#: ../src/planner-task-dialog.c:2876 ../src/planner-task-dialog.c:2878
+#: ../src/planner-task-dialog.c:2881 ../src/planner-task-dialog.c:2883
 msgid "Edit task properties"
 msgstr "Sunting properti tugas"
 
 #: ../src/planner-task-popup.c:52
-#, fuzzy
 msgid "/_Insert task"
-msgstr "Tugas Kalender"
+msgstr "/S_isip tugas"
 
 #: ../src/planner-task-popup.c:55
-#, fuzzy
 msgid "/Insert _subtask"
-msgstr "Sisipkan Wak_tu"
+msgstr "/Sisip _sub tugas"
 
 #: ../src/planner-task-popup.c:58
-#, fuzzy
 msgid "/_Remove task"
-msgstr "Tugas Kalender"
+msgstr "/_Hapus tugas"
 
 #: ../src/planner-task-popup.c:63
-#, fuzzy
 msgid "/_Unlink task"
-msgstr "Tugas Kalender"
+msgstr "/Lepas kait t_ugas"
 
 #: ../src/planner-task-popup.c:68
-#, fuzzy
 msgid "/Assign _resources..."
-msgstr "Sumber Daya yang Dipantau"
+msgstr "/Tugaskan sumbe_r daya..."
 
 #: ../src/planner-task-popup.c:71 ../src/planner-usage-tree.c:105
-#, fuzzy
 msgid "/_Edit task..."
-msgstr "Sunting Tugas %s"
+msgstr "/_Sunting tugas..."
 
 #: ../src/planner-task-tree.c:561
 msgid "Remove task"
@@ -2029,11 +1995,11 @@ msgstr "Hapus tugas"
 
 #: ../src/planner-task-tree.c:638
 msgid "Apply constraint to task"
-msgstr ""
+msgstr "Terapkan kendala ke task"
 
 #: ../src/planner-task-tree.c:700
 msgid "Reset task constraint"
-msgstr ""
+msgstr "Reset kendala tugas"
 
 #: ../src/planner-task-tree.c:1483 ../src/planner-task-tree.c:1637
 msgid "N/A"
@@ -2049,35 +2015,32 @@ msgid ""
 "You are about to open an edit dialog each for %i tasks. Are you sure that "
 "you want to do that?"
 msgstr ""
+"Anda akan membuka dialog sunting bagi setiap %i tugas. Anda yakin ingin "
+"melakukannya?"
 
 #: ../src/planner-task-tree.c:2968
-#, fuzzy
 msgid "Unlink tasks"
-msgstr "Tugas Git"
+msgstr "Lepas kait tugas"
 
 #: ../src/planner-task-tree.c:3020
 msgid "Link tasks"
 msgstr "Kaitkan tugas"
 
 #: ../src/planner-task-tree.c:3109
-#, fuzzy
 msgid "Indent tasks"
-msgstr "Tugas Git"
+msgstr "Indentasikan tugas-tugas"
 
 #: ../src/planner-task-tree.c:3120
-#, fuzzy
 msgid "Indent task"
-msgstr "Tugas Kalender"
+msgstr "Indentasikan tugas"
 
 #: ../src/planner-task-tree.c:3212
-#, fuzzy
 msgid "Unindent tasks"
-msgstr "Tugas Git"
+msgstr "Mundurkan indentasi tugas-tugas"
 
 #: ../src/planner-task-tree.c:3230
-#, fuzzy
 msgid "Unindent task"
-msgstr "Tugas Kalender"
+msgstr "Mundurkan indentasi tugas"
 
 #: ../src/planner-task-tree.c:3306
 msgid "Move tasks up"
@@ -2098,20 +2061,19 @@ msgstr "Pindahkan tugas ke bawah"
 
 #: ../src/planner-task-tree.c:3534
 msgid "Reset task constraints"
-msgstr ""
+msgstr "Reset kendala tugas"
 
 #: ../src/planner-task-tree.c:3566
 msgid "Reset all task constraints"
-msgstr ""
+msgstr "Reset semua kendala tugas"
 
 #: ../src/planner-task-view.c:128
 msgid "_Edit Task"
 msgstr "_Sunting Tugas"
 
 #: ../src/planner-task-view.c:155
-#, fuzzy
 msgid "_Edit Custom Properties..."
-msgstr "Membaca properti ubahan…"
+msgstr "Sunting Prop_erti Ubahan…"
 
 #: ../src/planner-task-view.c:301
 msgid "Tasks"
@@ -2123,34 +2085,35 @@ msgstr "_Tugas"
 
 #: ../src/planner-task-view.c:609
 msgid "Edit custom task properties"
-msgstr ""
+msgstr "Sunting properti ubahan tugas"
 
 #: ../src/planner-task-view.c:663
 msgid "Edit Task Columns"
 msgstr "Sunting Kolom Tugas"
 
 #: ../src/planner-usage-tree.c:108
-#, fuzzy
 msgid "/_Expand all resources"
-msgstr "Lebarkan semua thread"
+msgstr "/K_embangkan semua sumber daya"
 
 #: ../src/planner-usage-tree.c:111
-#, fuzzy
 msgid "/_Collapse all resources"
-msgstr "Runtuhkan Seluruh _Topik"
+msgstr "/_Runtuhkan semua sumber daya"
 
 #: ../src/planner-usage-tree.c:379
-#, fuzzy
 msgid ""
 "\n"
 "Name"
-msgstr "_Nama:"
+msgstr ""
+"\n"
+"Nama"
 
 #: ../src/planner-usage-tree.c:381
 msgid ""
 "\n"
 "Task"
 msgstr ""
+"\n"
+"Tugas"
 
 #: ../src/planner-usage-view.c:114
 msgid "Zoom to fit"
@@ -2160,231 +2123,223 @@ msgstr "Zum sampai pas"
 #. * a linebreak if necessary/possible.
 #.
 #: ../src/planner-usage-view.c:261
-#, fuzzy
 msgid ""
 "Resource\n"
 "Usage"
-msgstr "<b>Tak Sertakan Sumber Daya</b>"
+msgstr ""
+"Pemakaian\n"
+"Sumber Daya"
 
 #: ../src/planner-usage-view.c:267
-#, fuzzy
 msgid "Resource _Usage"
-msgstr "Penggunaan memori"
+msgstr "Penggunaan S_umber Daya"
 
 #: ../src/planner-usage-view.c:380
 msgid "Edit Resource Usage Columns"
 msgstr "Sunting Kolom Penggunaan Sumber Daya"
 
 #: ../src/planner-util-win32.c:45
-#, fuzzy, c-format
+#, c-format
 msgid "Unable to open '%s'"
 msgstr "Tidak bisa membuka '%s'"
 
 #: ../src/planner-util-win32.c:72
-#, fuzzy
 msgid "Unable to open help file"
 msgstr "Tak bisa membuka berkas bantuan"
 
-#: ../src/planner-window.c:220
+#: ../src/planner-window.c:216
 msgid "_File"
 msgstr "_Berkas"
 
-#: ../src/planner-window.c:224
+#: ../src/planner-window.c:220
 msgid "_New Project"
 msgstr "Projek _Baru"
 
-#: ../src/planner-window.c:224
+#: ../src/planner-window.c:220
 msgid "Create a new project"
 msgstr "Buat projek baru"
 
-#: ../src/planner-window.c:228
+#: ../src/planner-window.c:224
 msgid "_Open..."
 msgstr "_Buka…"
 
-#: ../src/planner-window.c:228
+#: ../src/planner-window.c:224
 msgid "Open a project"
 msgstr "Buka projek"
 
-#: ../src/planner-window.c:231
-#, fuzzy
+#: ../src/planner-window.c:227
 msgid "Open _Recent"
 msgstr "Buka Te_rkini"
 
-#: ../src/planner-window.c:234
+#: ../src/planner-window.c:230
 msgid "_Import"
 msgstr "_Impor"
 
-#: ../src/planner-window.c:238 ../src/planner-window.c:1433
+#: ../src/planner-window.c:234 ../src/planner-window.c:1401
 msgid "_Save"
 msgstr "_Simpan"
 
-#: ../src/planner-window.c:238
+#: ../src/planner-window.c:234
 msgid "Save the current project"
 msgstr "Simpan projek sekarang"
 
-#: ../src/planner-window.c:241
+#: ../src/planner-window.c:237
 msgid "_Export"
 msgstr "_Ekspor"
 
-#: ../src/planner-window.c:244
+#: ../src/planner-window.c:240
 msgid "Save _As..."
 msgstr "Simp_an Sebagai…"
 
-#: ../src/planner-window.c:244
+#: ../src/planner-window.c:240
 msgid "Save the current project with a different name"
 msgstr "Simpan projek kini dengan nama yang berbeda"
 
-#: ../src/planner-window.c:247
+#: ../src/planner-window.c:243
 msgid "Page Set_up..."
 msgstr "_Tata Halaman…"
 
-#: ../src/planner-window.c:247
-#, fuzzy
+#: ../src/planner-window.c:243
 msgid "Setup the page settings for your current printer"
-msgstr "Setup seting halaman untuk printer Anda yang sekarang"
+msgstr "Siapkan pengaturan halaman untuk pencetak Anda saat ini"
 
-#: ../src/planner-window.c:250
+#: ../src/planner-window.c:246
 msgid "_Print..."
 msgstr "_Cetak…"
 
-#: ../src/planner-window.c:250
+#: ../src/planner-window.c:246
 msgid "Print the current project"
 msgstr "Cetak projek sekarang"
 
-#: ../src/planner-window.c:253
+#: ../src/planner-window.c:249
 msgid "Print Pre_view"
 msgstr "Pratilik _Cetak"
 
-#: ../src/planner-window.c:253
+#: ../src/planner-window.c:249
 msgid "Print preview of the current project"
-msgstr ""
+msgstr "Pratinjau cetak dari projek saat ini"
 
-#: ../src/planner-window.c:256
+#: ../src/planner-window.c:252
 msgid "_Close"
 msgstr "_Tutup"
 
-#: ../src/planner-window.c:256
+#: ../src/planner-window.c:252
 msgid "Close the current file"
 msgstr "Tutup berkas kini"
 
-#: ../src/planner-window.c:259
+#: ../src/planner-window.c:255
 msgid "_Quit"
 msgstr "_Keluar"
 
-#: ../src/planner-window.c:259
+#: ../src/planner-window.c:255
 msgid "Exit the program"
 msgstr "Keluar dari program"
 
-#: ../src/planner-window.c:263
+#: ../src/planner-window.c:259
 msgid "_Edit"
 msgstr "_Sunting"
 
-#: ../src/planner-window.c:266
-#, fuzzy
+#: ../src/planner-window.c:262
 msgid "_Undo"
 msgstr "_Tak Jadi"
 
-#: ../src/planner-window.c:266
-#, fuzzy
+#: ../src/planner-window.c:262
 msgid "Undo the last action"
 msgstr "Batalkan aksi terakhir"
 
-#: ../src/planner-window.c:269
-#, fuzzy
+#: ../src/planner-window.c:265
 msgid "_Redo"
 msgstr "_Jadi Lagi"
 
-#: ../src/planner-window.c:269
-#, fuzzy
+#: ../src/planner-window.c:265
 msgid "Redo the undone action"
 msgstr "Jalankan aksi yang telah dibatalkan"
 
-#: ../src/planner-window.c:273
+#: ../src/planner-window.c:269
 msgid "_View"
 msgstr "_Tampilan"
 
-#: ../src/planner-window.c:277
+#: ../src/planner-window.c:273
 msgid "_Actions"
 msgstr "_Aksi"
 
-#: ../src/planner-window.c:281
+#: ../src/planner-window.c:277
 msgid "_Project"
 msgstr "_Projek"
 
-#: ../src/planner-window.c:284
+#: ../src/planner-window.c:280
 msgid "_Manage Calendars"
 msgstr "_Kelola Kalender"
 
-#: ../src/planner-window.c:287
+#: ../src/planner-window.c:283
 msgid "Edit Day _Types"
 msgstr "Sunting _Tipe Hari"
 
-#: ../src/planner-window.c:290
+#: ../src/planner-window.c:286
 msgid "Edit Project _Phases"
 msgstr "Sunting Fase _Projek"
 
-#: ../src/planner-window.c:293
+#: ../src/planner-window.c:289
 msgid "_Edit Project Properties"
 msgstr "Sunting Prop_erti Projek"
 
-#: ../src/planner-window.c:293
+#: ../src/planner-window.c:289
 msgid "Edit the project properties"
 msgstr "Sunting properti projek"
 
-#: ../src/planner-window.c:301
+#: ../src/planner-window.c:297
 msgid "_Help"
 msgstr "Ba_ntuan"
 
-#: ../src/planner-window.c:304
+#: ../src/planner-window.c:300
 msgid "_User Guide"
 msgstr "Pand_uan Pengguna"
 
-#: ../src/planner-window.c:304
+#: ../src/planner-window.c:300
 msgid "Show the Planner User Guide"
 msgstr "Tampilkan Panduan Pengguna Planner"
 
-#: ../src/planner-window.c:307
+#: ../src/planner-window.c:303
 msgid "_About"
 msgstr "Tent_ang"
 
-#: ../src/planner-window.c:307
+#: ../src/planner-window.c:303
 msgid "About this application"
 msgstr "Tentang aplikasi ini"
 
-#: ../src/planner-window.c:696
-#, fuzzy, c-format
+#: ../src/planner-window.c:692
+#, c-format
 msgid "Switch to the view \"%s\""
-msgstr "Profil untuk ditilik"
+msgstr "Tukar ke tilikan \"%s\""
 
-#: ../src/planner-window.c:866
+#: ../src/planner-window.c:862
 msgid "Open a File"
 msgstr "Buka Berkas"
 
-#: ../src/planner-window.c:876
-#, fuzzy
+#: ../src/planner-window.c:872
 msgid "Planner Files"
-msgstr "Berkas Teks"
+msgstr "Berkas Planner"
 
-#: ../src/planner-window.c:1212
+#: ../src/planner-window.c:1180
 msgid "A Project Management application for the GNOME desktop"
 msgstr "Aplikasi Manajemen Projek bagi desktop GNOME"
 
-#: ../src/planner-window.c:1215
+#: ../src/planner-window.c:1183
 msgid "translator-credits"
 msgstr ""
 "Arief Mulya Utama <arief_mulya@yahoo.com>, 2003.\n"
-"Andika Triwidada <andika@gmail.com>, 2012."
+"Andika Triwidada <andika@gmail.com>, 2012, 2013."
 
-#: ../src/planner-window.c:1217
+#: ../src/planner-window.c:1185
 msgid "The Planner Homepage"
 msgstr "Situs Web Planner"
 
-#: ../src/planner-window.c:1366
+#: ../src/planner-window.c:1334
 msgid "If you don't save, changes made the last minute will be discarded."
 msgstr ""
 "Bila Anda tak menyimpan, perubahan yang dibuat menit terakhir akan dibuang."
 
-#: ../src/planner-window.c:1372
+#: ../src/planner-window.c:1340
 #, c-format
 msgid "If you don't save, changes made the last %d minute will be discarded."
 msgid_plural ""
@@ -2393,12 +2348,12 @@ msgstr[0] ""
 "Bila Anda tak menyimpan, perubahan yang dibuat %d menit terakhir akan "
 "dibuang."
 
-#: ../src/planner-window.c:1380
+#: ../src/planner-window.c:1348
 msgid "If you don't save, changes made the last hour will be discarded."
 msgstr ""
 "Bila Anda tak menyimpan, perubahan yang dibuat jam terakhir akan dibuang."
 
-#: ../src/planner-window.c:1385
+#: ../src/planner-window.c:1353
 #, c-format
 msgid "If you don't save, changes made the last %d hour will be discarded."
 msgid_plural ""
@@ -2406,24 +2361,24 @@ msgid_plural ""
 msgstr[0] ""
 "Bila Anda tak menyimpan, perubahan yang dibuat %d jam terakhir akan dibuang."
 
-#: ../src/planner-window.c:1395
+#: ../src/planner-window.c:1363
 #, c-format
 msgid "Save changes to document '%s' before closing?"
 msgstr "Simpan perubahan ke dokumen '%s' sebelum menutup?"
 
-#: ../src/planner-window.c:1420
+#: ../src/planner-window.c:1388
 msgid "C_lose without saving"
 msgstr "_Tutup tanpa menyimpan"
 
-#: ../src/planner-window.c:1426
+#: ../src/planner-window.c:1394
 msgid "_Cancel"
 msgstr "_Batal"
 
-#: ../src/planner-window.c:1526
+#: ../src/planner-window.c:1494
 msgid "Save a File"
 msgstr "Simpan Berkas"
 
-#: ../src/planner-window.c:1794
+#: ../src/planner-window.c:1762
 msgid ""
 "You have opened a file that was saved with an old version of Planner.\n"
 "\n"
@@ -2438,9 +2393,21 @@ msgid ""
 "After doing this, you can remove all constraints by selecting the menu item "
 "'Remove all constraints' in the 'Edit' menu."
 msgstr ""
+"Anda telah membuka berkas yang disimpan dengan Planner versi lama\n"
+"\n"
+"Ketika memuat berkas lama, semua tugas akan memakai kendala 'Mesti Dimulai "
+"Pada', karena versi lama tak sepenuhnya mendukung penjadwalan ulang "
+"otomatis. Untuk memanfaatkan fitur baru ini, Anda mesti menambah relasi "
+"pendahulu antara tugas yang bergantung satu sama lain.\n"
+"\n"
+"Anda dapat menambahkan relasi pendahulu dengan mengklik pada pendahulu dan "
+"menyeretnya ke penerus.\n"
+"\n"
+"Setelah melakukan ini, Anda dapat menghapus semua kendala dengan memilih "
+"butir menu 'Hapus semua kendala' dalam menu 'Sunting'."
 
 #. Hack.
-#: ../src/planner-window.c:1829
+#: ../src/planner-window.c:1797
 msgid "Unnamed database project"
 msgstr "Projek basis data tanpa nama"
 
