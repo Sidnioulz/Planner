@@ -6,8 +6,10 @@
 
   <name xml:lang="en">planner</name>
   <shortdesc xml:lang="en">Project management application</shortdesc>
-  <homepage rdf:resource="http://live.gnome.org/Planner" />
+  <homepage rdf:resource="https://wiki.gnome.org/Apps/Planner" />
   <mailing-list rdf:resource="http://mail.gnome.org/mailman/listinfo/planner-dev-list" />
+  <download-page rdf:resource="http://download.gnome.org/sources/planner/" />
+  <bug-database rdf:resource="https://bugzilla.gnome.org/browse.cgi?product=planner" />
   <category rdf:resource="http://api.gnome.org/doap-extensions#productivity" />
 
   <maintainer>

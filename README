@@ -1,13 +1,13 @@
 About Planner
 =============
 
-Planner is a project management tool for the Gnome desktop, for planning, 
+Planner is a project management tool for the GNOME desktop, for planning,
 scheduling and tracking projects. 
 
 Planner was originally developed and maintained by the guys at Imendio, but
-is now maintained by the Planner community.  We wish to extend our thanks 
-to Imendio for all their hard work and dedication to this an many other 
-open source projects.  For more information on Imendio, please visit 
+is now maintained by the Planner community.  We wish to extend our thanks
+to Imendio for all their hard work and dedication to this an many other
+open source projects.  For more information on Imendio, please visit
 http://www.imendio.com
 
 
@@ -30,23 +30,23 @@ Available Platforms
 
 Planner is available on Linux/UNIX platforms, and included in most Linux
 distributions. It's also available in a Windows version at
-http://live.gnome.org/Planner/Downloads.
+http://wiki.gnome.org/Apps/Planner/Downloads.
 
 Resources
 =========
 
 Please check out Planner FAQ which is a list of frequently asked questions
 before posting a question to any of the mailing lists. You can read the
-archives and subscribe to the user and developer mailing lists at the Gnome
-mailing lists page (http://mail.gnome.org/mailman/listinfo). 
+archives and subscribe to the user and developer mailing lists at the GNOME
+mailing lists page (http://mail.gnome.org/mailman/listinfo).
 Note that you must be subscribed to the list to be able to post to it.
 
 If you find a bug or missing feature, you can let us know by filing a report in
-the GNOME Bugzilla (http://bugzilla.gnome.org/enter_bug.cgi?product=planner). 
+the GNOME Bugzilla (http://bugzilla.gnome.org/enter_bug.cgi?product=planner).
 
-See http://live.gnome.org/Planner for more information.
+See http://wiki.gnome.org/Apps/Planner for more information.
 
-You can download the latest tarball from the gnome ftp server:
+You can download the latest tarball from the GNOME FTP server:
 
     http://ftp.gnome.org/pub/GNOME/sources/planner/
 
@@ -76,5 +76,5 @@ Simple install procedure:
   $ make install			# install planner
 
 More detailed installation instructions can be found at
-http://live.gnome.org/Planner 
+http://wiki.gnome.org/Apps/Planner
 
