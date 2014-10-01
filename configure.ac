@@ -161,9 +161,6 @@ GETTEXT_PACKAGE=planner
 AC_SUBST(GETTEXT_PACKAGE)
 AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE, "$GETTEXT_PACKAGE", [The prefix for our gettext translation domains.])
 
-AM_GNU_GETTEXT_VERSION([0.17])
-AM_GNU_GETTEXT([external])
-
 if test "x$prefix" = "xNONE"; then
   GNOMELOCALEDIR=$ac_default_prefix/${DATADIRNAME}/locale
 else
