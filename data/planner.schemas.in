@@ -9,7 +9,7 @@
       <default>false</default>
       <locale name="C">
         <short>Highlight critical path in Gantt view</short>
-        <long>Whether to highlight the tasks along the cricital path in the Gantt view.</long>
+        <long>Whether to highlight the tasks along the critical path in the Gantt view.</long>
       </locale>
     </schema>
 
@@ -33,7 +33,7 @@
       <default>false</default>
       <locale name="C">
         <short>Highlight critical path in Task view</short>
-        <long>Whether to highlight the tasks along the cricital path in the Task view.</long>
+        <long>Whether to highlight the tasks along the critical path in the Task view.</long>
       </locale>
     </schema>
 
