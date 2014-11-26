@@ -14,14 +14,14 @@ msgstr ""
 "Project-Id-Version: planner\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=planner&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2012-03-14 10:55+0000\n"
-"PO-Revision-Date: 2012-05-04 20:38+0200\n"
+"POT-Creation-Date: 2014-11-25 21:50+0000\n"
+"PO-Revision-Date: 2014-11-26 07:33+0100\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: Czech <gnome-cs-list@gnome.org>\n"
+"Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: cs\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
 #: ../data/glade/add-predecessor.glade.h:1
@@ -518,7 +518,7 @@ msgstr "Zvýraznit kritickou cestu v Ganttově pohledu"
 
 #: ../data/planner.schemas.in.h:2
 msgid ""
-"Whether to highlight the tasks along the cricital path in the Gantt view."
+"Whether to highlight the tasks along the critical path in the Gantt view."
 msgstr "Jestli v Ganttově pohledu zvýraznit úlohy na kritické cestě."
 
 #: ../data/planner.schemas.in.h:3
@@ -535,7 +535,7 @@ msgstr "Zvýraznit kritickou cestu v pohledu na úlohy"
 
 #: ../data/planner.schemas.in.h:6
 msgid ""
-"Whether to highlight the tasks along the cricital path in the Task view."
+"Whether to highlight the tasks along the critical path in the Task view."
 msgstr "Jestli v pohledu na úlohy zvýraznit úlohy na kritické cestě."
 
 #: ../data/planner.schemas.in.h:7
@@ -647,12 +647,12 @@ msgstr "Použít den ze základního kalendáře"
 msgid "This format does not support reading"
 msgstr "Tento formát nepodporuje čtení"
 
-#: ../libplanner/mrp-parser.c:1062 ../libplanner/mrp-parser.c:1157
+#: ../libplanner/mrp-parser.c:1060 ../libplanner/mrp-parser.c:1155
 #, c-format
 msgid "Could not create XML tree"
 msgstr "Nelze vytvořit strom XML"
 
-#: ../libplanner/mrp-parser.c:1123
+#: ../libplanner/mrp-parser.c:1121
 #, c-format
 msgid "Could not write XML file"
 msgstr "Nelze zapsat soubor XML"
@@ -725,16 +725,16 @@ msgstr "Cena"
 msgid "None"
 msgstr "Žádný"
 
-#: ../libplanner/mrp-sql.c:280 ../src/planner-sql-plugin.c:152
+#: ../libplanner/mrp-sql.c:280 ../src/planner-sql-plugin.c:151
 msgid "Can't connect to database server"
 msgstr "Nelze se připojit k databázovému serveru"
 
-#: ../libplanner/mrp-sql.c:285 ../src/planner-sql-plugin.c:157
+#: ../libplanner/mrp-sql.c:285 ../src/planner-sql-plugin.c:156
 msgid "No errors reported."
 msgstr "Nebyla ohlášena žádná chyba."
 
 #. Give up.
-#: ../libplanner/mrp-sql.c:374 ../src/planner-sql-plugin.c:226
+#: ../libplanner/mrp-sql.c:374 ../src/planner-sql-plugin.c:225
 msgid "Invalid Unicode"
 msgstr "Neplatné Unicode"
 
@@ -988,7 +988,7 @@ msgstr "Importovat zdroje z datového serveru Evolution"
 #: ../src/planner-eds-plugin.c:384 ../src/planner-gantt-print.c:191
 #: ../src/planner-gantt-view.c:624 ../src/planner-group-dialog.c:818
 #: ../src/planner-property-dialog.c:475 ../src/planner-resource-view.c:1200
-#: ../src/planner-task-dialog.c:2605 ../src/planner-task-dialog.c:2679
+#: ../src/planner-task-dialog.c:2610 ../src/planner-task-dialog.c:2684
 #: ../src/planner-task-view.c:367
 msgid "Name"
 msgstr "Jméno"
@@ -1155,7 +1155,7 @@ msgstr "Práce"
 
 #: ../src/planner-gantt-print.c:546 ../src/planner-gantt-row.c:771
 #: ../src/planner-html-plugin.c:120 ../src/planner-task-tree.c:1584
-#: ../src/planner-window.c:1837
+#: ../src/planner-window.c:1805
 msgid "Unnamed"
 msgstr "Nepojmenovaný"
 
@@ -1417,29 +1417,29 @@ msgstr "Export do HTML"
 msgid "Show result in browser"
 msgstr "Zobrazit výsledek v prohlížeči"
 
-#: ../src/planner-html-plugin.c:168 ../src/planner-window.c:1564
+#: ../src/planner-html-plugin.c:168 ../src/planner-window.c:1532
 #: ../src/planner-xml-planner-plugin.c:124
 #, c-format
 msgid "File \"%s\" exists, do you want to overwrite it?"
 msgstr "Soubor „%s“ existuje, chcete jej přepsat?"
 
-#: ../src/planner-main.c:39
+#: ../src/planner-main.c:44
 msgid "Create the initial window with the given geometry."
 msgstr "Vytvořit počáteční okno s zadanou geometrií."
 
-#: ../src/planner-main.c:39
+#: ../src/planner-main.c:44
 msgid "GEOMETRY"
 msgstr "GEOMETRIE"
 
-#: ../src/planner-main.c:40
+#: ../src/planner-main.c:45
 msgid "FILES|URIs"
 msgstr "SOUBORY|adresy_URI"
 
-#: ../src/planner-main.c:63
+#: ../src/planner-main.c:68
 msgid "- Planner project management"
 msgstr "- Správa projektů Planner"
 
-#: ../src/planner-main.c:67
+#: ../src/planner-main.c:72
 #, c-format
 msgid ""
 "%s\n"
@@ -1449,7 +1449,7 @@ msgstr ""
 "Spusťte „%s --help“ pro zobrazení seznamu dostupných přepínačů příkazové "
 "řádky\n"
 
-#: ../src/planner-main.c:91
+#: ../src/planner-main.c:99
 #, c-format
 msgid "Invalid geometry string \"%s\"\n"
 msgstr "Neplatný řetězec s polohou a rozměry „%s“\n"
@@ -1474,7 +1474,7 @@ msgstr "Importovat soubor"
 msgid "XML Files"
 msgstr "Soubory XML"
 
-#: ../src/planner-msp-plugin.c:218 ../src/planner-window.c:882
+#: ../src/planner-msp-plugin.c:218 ../src/planner-window.c:878
 msgid "All Files"
 msgstr "Všechny soubory"
 
@@ -1491,19 +1491,19 @@ msgstr "Odstranit fázi"
 msgid "Could not open plugin file '%s'\n"
 msgstr "Nelze otevřít soubor zásuvného modulu „%s“\n"
 
-#: ../src/planner-predecessor-model.c:191 ../src/planner-task-dialog.c:2206
+#: ../src/planner-predecessor-model.c:191 ../src/planner-task-dialog.c:2211
 msgid "FS"
 msgstr "KZ"
 
-#: ../src/planner-predecessor-model.c:194 ../src/planner-task-dialog.c:2207
+#: ../src/planner-predecessor-model.c:194 ../src/planner-task-dialog.c:2212
 msgid "FF"
 msgstr "KK"
 
-#: ../src/planner-predecessor-model.c:197 ../src/planner-task-dialog.c:2208
+#: ../src/planner-predecessor-model.c:197 ../src/planner-task-dialog.c:2213
 msgid "SS"
 msgstr "ZZ"
 
-#: ../src/planner-predecessor-model.c:200 ../src/planner-task-dialog.c:2209
+#: ../src/planner-predecessor-model.c:200 ../src/planner-task-dialog.c:2214
 msgid "SF"
 msgstr "ZK"
 
@@ -1588,7 +1588,7 @@ msgid "Label"
 msgstr "Jmenovka"
 
 #: ../src/planner-property-dialog.c:504 ../src/planner-resource-view.c:1253
-#: ../src/planner-task-dialog.c:2711
+#: ../src/planner-task-dialog.c:2716
 msgid "Type"
 msgstr "Typ"
 
@@ -1616,7 +1616,7 @@ msgid "(None)"
 msgstr "(žádná)"
 
 #: ../src/planner-resource-dialog.c:322
-#: ../src/planner-resource-input-dialog.c:110 ../src/planner-task-dialog.c:381
+#: ../src/planner-resource-input-dialog.c:110 ../src/planner-task-dialog.c:385
 msgid "(No name)"
 msgstr "(beze jména)"
 
@@ -1774,23 +1774,23 @@ msgstr "P%d"
 msgid "%04d, H%d"
 msgstr "%04d, P%d"
 
-#: ../src/planner-sql-plugin.c:94
+#: ../src/planner-sql-plugin.c:93
 msgid "Open from Database..."
 msgstr "Otevřít z databáze…"
 
-#: ../src/planner-sql-plugin.c:95
+#: ../src/planner-sql-plugin.c:94
 msgid "Open a project from a database"
 msgstr "Otevřít projekt z databáze"
 
-#: ../src/planner-sql-plugin.c:97 ../src/planner-sql-plugin.c:1145
+#: ../src/planner-sql-plugin.c:96 ../src/planner-sql-plugin.c:1141
 msgid "Save to Database"
 msgstr "Uložit do databáze"
 
-#: ../src/planner-sql-plugin.c:98
+#: ../src/planner-sql-plugin.c:97
 msgid "Save the current project to a database"
 msgstr "Uložit aktuální projekt do databáze"
 
-#: ../src/planner-sql-plugin.c:524
+#: ../src/planner-sql-plugin.c:523
 #, c-format
 msgid ""
 "Database %s needs to be upgraded from version %s to version %s.\n"
@@ -1799,11 +1799,11 @@ msgstr ""
 "Databázi %s je potřeba aktualizovat z verze %s na verzi %s.\n"
 "Před aktualizací prosím databázi zazálohujte."
 
-#: ../src/planner-sql-plugin.c:531
+#: ../src/planner-sql-plugin.c:530
 msgid "Upgrade"
 msgstr "Aktualizovat"
 
-#: ../src/planner-sql-plugin.c:545
+#: ../src/planner-sql-plugin.c:544
 #, c-format
 msgid ""
 "Could not upgrade database %s.\n"
@@ -1818,43 +1818,43 @@ msgstr ""
 "Chyba databáze: \n"
 "%s"
 
-#: ../src/planner-sql-plugin.c:585
+#: ../src/planner-sql-plugin.c:584
 #, c-format
 msgid "Can't create tables in database %s"
 msgstr "Nelze vytvořit tabulky v databázi %s"
 
-#: ../src/planner-sql-plugin.c:647
+#: ../src/planner-sql-plugin.c:646
 #, c-format
 msgid "Database %s is not setup for Planner. Do you want to do that?"
 msgstr "Databáze %s není nastavena pro Planner. Chcete to udělat?"
 
-#: ../src/planner-sql-plugin.c:690
+#: ../src/planner-sql-plugin.c:689
 #, c-format
 msgid "Connection to database '%s@%s' failed."
 msgstr "Připojení k databázi „%s@%s“ selhalo."
 
-#: ../src/planner-sql-plugin.c:709
+#: ../src/planner-sql-plugin.c:708
 #, c-format
 msgid "Test to tables in database '%s' failed."
 msgstr "Test do tabulek v databázi „%s“ selhal."
 
-#: ../src/planner-sql-plugin.c:811
+#: ../src/planner-sql-plugin.c:810
 msgid "ID"
 msgstr "ID"
 
-#: ../src/planner-sql-plugin.c:819
+#: ../src/planner-sql-plugin.c:818
 msgid "Project"
 msgstr "Projekt"
 
-#: ../src/planner-sql-plugin.c:827
+#: ../src/planner-sql-plugin.c:826
 msgid "Phase"
 msgstr "Fáze"
 
-#: ../src/planner-sql-plugin.c:835
+#: ../src/planner-sql-plugin.c:834
 msgid "Revision"
 msgstr "Verze"
 
-#: ../src/planner-sql-plugin.c:1033
+#: ../src/planner-sql-plugin.c:1029
 msgid "Open from Database"
 msgstr "Otevřít z databáze"
 
@@ -1932,27 +1932,27 @@ msgstr "Začátek do začátku (ZZ)"
 msgid "Start to finish (SF)"
 msgstr "Začátek do konce (ZK)"
 
-#: ../src/planner-task-dialog.c:1967
+#: ../src/planner-task-dialog.c:1972
 msgid "Can't add new predecessor. No task selected!"
 msgstr "Nelze přidat nového předchůdce. Nevybrána žádná úloha!"
 
-#: ../src/planner-task-dialog.c:2452
+#: ../src/planner-task-dialog.c:2457
 msgid "Change..."
 msgstr "Změnit…"
 
-#: ../src/planner-task-dialog.c:2626
+#: ../src/planner-task-dialog.c:2631
 msgid "Assigned"
 msgstr "Přiřazeno"
 
-#: ../src/planner-task-dialog.c:2643
+#: ../src/planner-task-dialog.c:2648
 msgid "Units"
 msgstr "Jednotky"
 
-#: ../src/planner-task-dialog.c:2733
+#: ../src/planner-task-dialog.c:2738
 msgid "Lag"
 msgstr "Zpoždění"
 
-#: ../src/planner-task-dialog.c:2876 ../src/planner-task-dialog.c:2878
+#: ../src/planner-task-dialog.c:2881 ../src/planner-task-dialog.c:2883
 msgid "Edit task properties"
 msgstr "Upravit vlastnosti úlohy"
 
@@ -2138,196 +2138,196 @@ msgstr "Nelze otevřít „%s“"
 msgid "Unable to open help file"
 msgstr "Nelze otevřít soubor s nápovědou"
 
-#: ../src/planner-window.c:220
+#: ../src/planner-window.c:216
 msgid "_File"
 msgstr "_Soubor"
 
-#: ../src/planner-window.c:224
+#: ../src/planner-window.c:220
 msgid "_New Project"
 msgstr "_Nový projekt"
 
-#: ../src/planner-window.c:224
+#: ../src/planner-window.c:220
 msgid "Create a new project"
 msgstr "Vytvořit nový projekt"
 
-#: ../src/planner-window.c:228
+#: ../src/planner-window.c:224
 msgid "_Open..."
 msgstr "_Otevřít…"
 
-#: ../src/planner-window.c:228
+#: ../src/planner-window.c:224
 msgid "Open a project"
 msgstr "Otevřít projekt"
 
-#: ../src/planner-window.c:231
+#: ../src/planner-window.c:227
 msgid "Open _Recent"
 msgstr "Otevřít ne_dávné"
 
-#: ../src/planner-window.c:234
+#: ../src/planner-window.c:230
 msgid "_Import"
 msgstr "_Importovat"
 
-#: ../src/planner-window.c:238 ../src/planner-window.c:1433
+#: ../src/planner-window.c:234 ../src/planner-window.c:1401
 msgid "_Save"
 msgstr "_Uložit"
 
-#: ../src/planner-window.c:238
+#: ../src/planner-window.c:234
 msgid "Save the current project"
 msgstr "Uložit aktuální projekt"
 
-#: ../src/planner-window.c:241
+#: ../src/planner-window.c:237
 msgid "_Export"
 msgstr "_Exportovat"
 
-#: ../src/planner-window.c:244
+#: ../src/planner-window.c:240
 msgid "Save _As..."
 msgstr "Uložit _jako…"
 
-#: ../src/planner-window.c:244
+#: ../src/planner-window.c:240
 msgid "Save the current project with a different name"
 msgstr "Uložit aktuální projekt pod jiným jménem"
 
-#: ../src/planner-window.c:247
+#: ../src/planner-window.c:243
 msgid "Page Set_up..."
 msgstr "Nastavení s_tránky…"
 
-#: ../src/planner-window.c:247
+#: ../src/planner-window.c:243
 msgid "Setup the page settings for your current printer"
 msgstr "Upravit nastavení stránky pro aktivní tiskárnu"
 
-#: ../src/planner-window.c:250
+#: ../src/planner-window.c:246
 msgid "_Print..."
 msgstr "_Tisk…"
 
-#: ../src/planner-window.c:250
+#: ../src/planner-window.c:246
 msgid "Print the current project"
 msgstr "Vytisknout aktuální projekt"
 
-#: ../src/planner-window.c:253
+#: ../src/planner-window.c:249
 msgid "Print Pre_view"
 msgstr "_Náhled před tiskem"
 
-#: ../src/planner-window.c:253
+#: ../src/planner-window.c:249
 msgid "Print preview of the current project"
 msgstr "Náhled aktuálního projektu před tiskem"
 
-#: ../src/planner-window.c:256
+#: ../src/planner-window.c:252
 msgid "_Close"
 msgstr "_Zavřít"
 
-#: ../src/planner-window.c:256
+#: ../src/planner-window.c:252
 msgid "Close the current file"
 msgstr "Zavřít aktuální soubor"
 
-#: ../src/planner-window.c:259
+#: ../src/planner-window.c:255
 msgid "_Quit"
 msgstr "_Konec"
 
-#: ../src/planner-window.c:259
+#: ../src/planner-window.c:255
 msgid "Exit the program"
 msgstr "Ukončit program"
 
-#: ../src/planner-window.c:263
+#: ../src/planner-window.c:259
 msgid "_Edit"
 msgstr "_Upravit"
 
-#: ../src/planner-window.c:266
+#: ../src/planner-window.c:262
 msgid "_Undo"
 msgstr "_Zpět"
 
-#: ../src/planner-window.c:266
+#: ../src/planner-window.c:262
 msgid "Undo the last action"
 msgstr "Vrátit poslední akci"
 
-#: ../src/planner-window.c:269
+#: ../src/planner-window.c:265
 msgid "_Redo"
 msgstr "Z_novu"
 
-#: ../src/planner-window.c:269
+#: ../src/planner-window.c:265
 msgid "Redo the undone action"
 msgstr "Zrušit poslední akci zpět"
 
-#: ../src/planner-window.c:273
+#: ../src/planner-window.c:269
 msgid "_View"
 msgstr "_Zobrazit"
 
-#: ../src/planner-window.c:277
+#: ../src/planner-window.c:273
 msgid "_Actions"
 msgstr "_Akce"
 
-#: ../src/planner-window.c:281
+#: ../src/planner-window.c:277
 msgid "_Project"
 msgstr "_Projekt"
 
-#: ../src/planner-window.c:284
+#: ../src/planner-window.c:280
 msgid "_Manage Calendars"
 msgstr "_Spravovat kalendáře"
 
-#: ../src/planner-window.c:287
+#: ../src/planner-window.c:283
 msgid "Edit Day _Types"
 msgstr "Upravit _typy dnů"
 
-#: ../src/planner-window.c:290
+#: ../src/planner-window.c:286
 msgid "Edit Project _Phases"
 msgstr "Upravit _fáze projektu"
 
-#: ../src/planner-window.c:293
+#: ../src/planner-window.c:289
 msgid "_Edit Project Properties"
 msgstr "Upravit _vlastnosti projektu"
 
-#: ../src/planner-window.c:293
+#: ../src/planner-window.c:289
 msgid "Edit the project properties"
 msgstr "Upravit vlastnosti projektu"
 
-#: ../src/planner-window.c:301
+#: ../src/planner-window.c:297
 msgid "_Help"
 msgstr "_Nápověda"
 
-#: ../src/planner-window.c:304
+#: ../src/planner-window.c:300
 msgid "_User Guide"
 msgstr "_Příručka uživatele"
 
-#: ../src/planner-window.c:304
+#: ../src/planner-window.c:300
 msgid "Show the Planner User Guide"
 msgstr "Zobrazit příručku uživatele Planneru"
 
-#: ../src/planner-window.c:307
+#: ../src/planner-window.c:303
 msgid "_About"
 msgstr "_O programu"
 
-#: ../src/planner-window.c:307
+#: ../src/planner-window.c:303
 msgid "About this application"
 msgstr "O této aplikaci"
 
-#: ../src/planner-window.c:696
+#: ../src/planner-window.c:692
 #, c-format
 msgid "Switch to the view \"%s\""
 msgstr "Přepnout na pohled „%s“"
 
-#: ../src/planner-window.c:866
+#: ../src/planner-window.c:862
 msgid "Open a File"
 msgstr "Otevřít soubor"
 
-#: ../src/planner-window.c:876
+#: ../src/planner-window.c:872
 msgid "Planner Files"
 msgstr "Soubory Planneru"
 
-#: ../src/planner-window.c:1212
+#: ../src/planner-window.c:1180
 msgid "A Project Management application for the GNOME desktop"
 msgstr "Aplikace pro správu projektů pro prostředí pracovní plochy GNOME"
 
-#: ../src/planner-window.c:1215
+#: ../src/planner-window.c:1183
 msgid "translator-credits"
 msgstr "Miloslav Trmač <mitr@volny.cz>"
 
-#: ../src/planner-window.c:1217
+#: ../src/planner-window.c:1185
 msgid "The Planner Homepage"
 msgstr "Domácí stránka Planneru"
 
-#: ../src/planner-window.c:1366
+#: ../src/planner-window.c:1334
 msgid "If you don't save, changes made the last minute will be discarded."
 msgstr "Pokud je neuložíte, budou změny provedené za poslední minutu ztraceny."
 
-#: ../src/planner-window.c:1372
+#: ../src/planner-window.c:1340
 #, c-format
 msgid "If you don't save, changes made the last %d minute will be discarded."
 msgid_plural ""
@@ -2339,11 +2339,11 @@ msgstr[1] ""
 msgstr[2] ""
 "Pokud je neuložíte, budou změny provedené za posledních %d minut ztraceny."
 
-#: ../src/planner-window.c:1380
+#: ../src/planner-window.c:1348
 msgid "If you don't save, changes made the last hour will be discarded."
 msgstr "Pokud je neuložíte, budou změny provedené za poslední hodinu ztraceny."
 
-#: ../src/planner-window.c:1385
+#: ../src/planner-window.c:1353
 #, c-format
 msgid "If you don't save, changes made the last %d hour will be discarded."
 msgid_plural ""
@@ -2355,24 +2355,24 @@ msgstr[1] ""
 msgstr[2] ""
 "Pokud je neuložíte, budou změny provedené za posledních %d hodin ztraceny."
 
-#: ../src/planner-window.c:1395
+#: ../src/planner-window.c:1363
 #, c-format
 msgid "Save changes to document '%s' before closing?"
 msgstr "Uložit před zavřením změny do dokumentu „%s“?"
 
-#: ../src/planner-window.c:1420
+#: ../src/planner-window.c:1388
 msgid "C_lose without saving"
 msgstr "Z_avřít bez uložení"
 
-#: ../src/planner-window.c:1426
+#: ../src/planner-window.c:1394
 msgid "_Cancel"
 msgstr "_Zrušit"
 
-#: ../src/planner-window.c:1526
+#: ../src/planner-window.c:1494
 msgid "Save a File"
 msgstr "Uložit soubor"
 
-#: ../src/planner-window.c:1794
+#: ../src/planner-window.c:1762
 msgid ""
 "You have opened a file that was saved with an old version of Planner.\n"
 "\n"
@@ -2401,7 +2401,7 @@ msgstr ""
 "omezení“ nabídky „Úpravy“."
 
 #. Hack.
-#: ../src/planner-window.c:1829
+#: ../src/planner-window.c:1797
 msgid "Unnamed database project"
 msgstr "Nepojmenovaný projekt v databázi"
 
