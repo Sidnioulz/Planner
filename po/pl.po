@@ -7,14 +7,14 @@
 # Zbigniew Chyla <chyla@alice.ci.pwr.wroc.pl>, 2002-2003.
 # Artur Flinta <aflinta@at.kernel.pl>, 2003.
 # Tomasz Kłoczko <kloczek@rudy.mif.pg.gda.pl>, 2004.
-# Piotr Drąg <piotrdrag@gmail.com>, 2010-2013.
-# Aviary.pl <gnomepl@aviary.pl>, 2010-2013.
+# Piotr Drąg <piotrdrag@gmail.com>, 2010-2014.
+# Aviary.pl <gnomepl@aviary.pl>, 2010-2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: planner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-08-20 23:48+0200\n"
-"PO-Revision-Date: 2013-08-20 23:49+0200\n"
+"POT-Creation-Date: 2014-11-30 18:25+0100\n"
+"PO-Revision-Date: 2014-11-30 18:27+0100\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <gnomepl@aviary.pl>\n"
 "Language: pl\n"
@@ -520,7 +520,7 @@ msgstr "Wyróżnianie krytycznych ścieżek w widoku Gantta"
 
 #: ../data/planner.schemas.in.h:2
 msgid ""
-"Whether to highlight the tasks along the cricital path in the Gantt view."
+"Whether to highlight the tasks along the critical path in the Gantt view."
 msgstr ""
 "Określa, czy wyróżniać zadania należące do krytycznej ścieżki w widoku "
 "Gantta."
@@ -539,7 +539,7 @@ msgstr "Wyróżnianie krytycznych ścieżek w widoku zadań"
 
 #: ../data/planner.schemas.in.h:6
 msgid ""
-"Whether to highlight the tasks along the cricital path in the Task view."
+"Whether to highlight the tasks along the critical path in the Task view."
 msgstr ""
 "Określa, czy wyróżniać zadania należące do ścieżki krytycznej w widoku zadań."
 
@@ -2338,8 +2338,8 @@ msgstr ""
 "Zbigniew Chyla <chyla@alice.ci.pwr.wroc.pl>, 2002-2003\n"
 "Artur Flinta <aflinta@at.kernel.pl>, 2003\n"
 "Tomasz Kłoczko <kloczek@rudy.mif.pg.gda.pl>, 2004\n"
-"Piotr Drąg <piotrdrag@gmail.com>, 2010-2013\n"
-"Aviary.pl <gnomepl@aviary.pl>, 2010-2013"
+"Piotr Drąg <piotrdrag@gmail.com>, 2010-2014\n"
+"Aviary.pl <gnomepl@aviary.pl>, 2010-2014"
 
 #: ../src/planner-window.c:1185
 msgid "The Planner Homepage"
