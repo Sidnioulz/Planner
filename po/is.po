@@ -1,146 +1,57 @@
 # Icelandic translation of Planner
 # Copyright (C) 2008 Free Software Foundation, Inc.
+#
 # Samúel Jón Gunnarsson <sammi@techattack.nu>, 2003.
 # Anna Jonna Ármannsdóttir <annajonna@gmail.com>, 2008.
-#
+# Sveinn í Felli <sv1@fellsnet.is>, 2015.
 msgid ""
 msgstr ""
 "Project-Id-Version: planner\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-05-13 20:35+0000\n"
-"PO-Revision-Date: 2008-05-14 00:13+0000\n"
-"Last-Translator: Anna Jonna Ármannsdóttir <annajonna@gmail.com>\n"
-"Language-Team: Icelandic\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=planner&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2014-11-25 21:50+0000\n"
+"PO-Revision-Date: 2015-03-13 12:02+0000\n"
+"Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
+"Language-Team: Icelandic <translation-team-is@lists.sourceforge.net>\n"
+"Language: is\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 1.5\n"
 
 #: ../data/glade/add-predecessor.glade.h:1
 msgid "Add Predecessor"
-msgstr "Bæta við forvera"
+msgstr "Bæta við fyrirrennara"
 
 #: ../data/glade/add-predecessor.glade.h:2
-msgid "_Lag:"
-msgstr "_Töf:"
-
-#: ../data/glade/add-predecessor.glade.h:3
-#: ../data/glade/calendar-dialog.glade.h:35
-#: ../data/glade/new-property.glade.h:5
-#: ../data/glade/project-properties.glade.h:9
-#: ../data/glade/resource-dialog.glade.h:12
-#: ../data/glade/resource-input-dialog.glade.h:7
-#: ../data/glade/task-dialog.glade.h:16
-#: ../data/glade/task-input-dialog.glade.h:4
+#: ../data/glade/calendar-dialog.glade.h:36
+#: ../data/glade/new-property.glade.h:2
+#: ../data/glade/project-properties.glade.h:2
+#: ../data/glade/resource-dialog.glade.h:1
+#: ../data/glade/resource-input-dialog.glade.h:3
+#: ../data/glade/task-dialog.glade.h:1
+#: ../data/glade/task-input-dialog.glade.h:3
 msgid "_Name:"
 msgstr "_Nafn:"
 
-#: ../data/glade/add-predecessor.glade.h:4
+#: ../data/glade/add-predecessor.glade.h:3
 msgid "_Relation type:"
 msgstr "_Skyldleikasamband:"
 
+#: ../data/glade/add-predecessor.glade.h:4
+msgid "_Lag:"
+msgstr "_Töf:"
+
 #: ../data/glade/calendar-dialog.glade.h:1
-msgid ""
-"\n"
-"The selected day type has the following working hours:"
-msgstr ""
-"\n"
-"Valin dagsgerð inniheldur eftirfarandi vinnustundir:"
-
-#: ../data/glade/calendar-dialog.glade.h:3
-#: ../data/glade/column-dialog.glade.h:1 ../data/glade/task-dialog.glade.h:2
-msgid "    "
-msgstr "    "
-
-#: ../data/glade/calendar-dialog.glade.h:4 ../data/glade/eds.glade.h:1
-#: ../data/glade/new-property.glade.h:1
-#: ../data/glade/resource-dialog.glade.h:1
-#: ../data/glade/resource-input-dialog.glade.h:1 ../data/glade/sql.glade.h:1
-#: ../data/glade/task-input-dialog.glade.h:1
-msgid "*"
-msgstr "*"
-
-#: ../data/glade/calendar-dialog.glade.h:5
-msgid "-"
-msgstr "-"
-
-#: ../data/glade/calendar-dialog.glade.h:6
-msgid "<b>Calendar:</b>"
-msgstr "<b>Dagatal:</b>"
-
-#: ../data/glade/calendar-dialog.glade.h:7
-msgid "<b>Day types</b>"
-msgstr "<b>Dag gerðir</b>"
-
-#: ../data/glade/calendar-dialog.glade.h:8
-msgid "<b>Working hours</b>"
-msgstr "<b>Vinnustundir</b>"
-
-#: ../data/glade/calendar-dialog.glade.h:9
-msgid "<b>Working time</b>"
-msgstr "<b>Vinnutími</b>"
-
-#: ../data/glade/calendar-dialog.glade.h:10
-msgid "Add Day Type"
-msgstr "Ný gerð dags"
-
-#: ../data/glade/calendar-dialog.glade.h:11
-msgid "Apply"
-msgstr "Virkja"
-
-#: ../data/glade/calendar-dialog.glade.h:12
-msgid "C_opy an existing calendar"
-msgstr "_Afrita fyrirliggjandi dagatal"
-
-#: ../data/glade/calendar-dialog.glade.h:13
-msgid "C_reate"
-msgstr "_Búa til"
-
-#: ../data/glade/calendar-dialog.glade.h:14
-msgid "Calendar Editor"
-msgstr "Dagatalsritill"
-
-#: ../data/glade/calendar-dialog.glade.h:15
-msgid "Create an _empty calendar"
-msgstr "Sto_fna tómt dagatal"
-
-#: ../data/glade/calendar-dialog.glade.h:16
-msgid "Custom working time"
-msgstr "Sérvalin vinnutími"
-
-#: ../data/glade/calendar-dialog.glade.h:17
-msgid "Day type:"
-msgstr "Gerð dags:"
-
-#: ../data/glade/calendar-dialog.glade.h:18
 msgid "Default Week"
 msgstr "Sjálfgefin vika"
 
-#: ../data/glade/calendar-dialog.glade.h:19
-msgid "Default week..."
-msgstr "Sjálfgefin vika..."
+#: ../data/glade/calendar-dialog.glade.h:2
+msgid "<b>Calendar:</b>"
+msgstr "<b>Dagatal:</b>"
 
-#: ../data/glade/calendar-dialog.glade.h:20
-msgid "Edit Day Types"
-msgstr "Breyta dagsstillingum"
-
-#: ../data/glade/calendar-dialog.glade.h:21
-msgid "Edit Working Time"
-msgstr "Breyta vinnutímum"
-
-#: ../data/glade/calendar-dialog.glade.h:22
-msgid "From:"
-msgstr "Frá:"
-
-#: ../data/glade/calendar-dialog.glade.h:23
-msgid "New Calendar"
-msgstr "Nýtt dagatal"
-
-#: ../data/glade/calendar-dialog.glade.h:24
-msgid "Select a Calendar"
-msgstr "Veldu dagatal"
-
-#: ../data/glade/calendar-dialog.glade.h:25
+#: ../data/glade/calendar-dialog.glade.h:3
 msgid ""
 "Select a weekday and the day type to use for that day in the default week "
 "for this calendar.\n"
@@ -148,87 +59,180 @@ msgstr ""
 "Veldu vikudag og dags gerð til notkunar með sjálfgefinni viku í þessu "
 "dagatali.\n"
 
-#: ../data/glade/calendar-dialog.glade.h:27
-msgid "Set day type to:"
-msgstr "Setja gerð dags til:"
-
-#: ../data/glade/calendar-dialog.glade.h:28
-msgid "To:"
-msgstr "Til:"
-
-#: ../data/glade/calendar-dialog.glade.h:29
-msgid "Use working time from derived calendar"
-msgstr "Nota vinnustundir fengnar frá dagatali"
-
-#: ../data/glade/calendar-dialog.glade.h:30
+#: ../data/glade/calendar-dialog.glade.h:5
 msgid "Week day:"
 msgstr "Vikudagur:"
 
-#: ../data/glade/calendar-dialog.glade.h:31
+#: ../data/glade/calendar-dialog.glade.h:6
+msgid "Day type:"
+msgstr "Gerð dags:"
+
+#: ../data/glade/calendar-dialog.glade.h:7
+msgid ""
+"\n"
+"The selected day type has the following working hours:"
+msgstr ""
+"\n"
+"Valin dagsgerð inniheldur eftirfarandi vinnustundir:"
+
+#: ../data/glade/calendar-dialog.glade.h:9
+#: ../data/glade/column-dialog.glade.h:2 ../data/glade/task-dialog.glade.h:9
+msgid "    "
+msgstr "    "
+
+#: ../data/glade/calendar-dialog.glade.h:10
+msgid "Edit Working Time"
+msgstr "Breyta vinnutímum"
+
+#: ../data/glade/calendar-dialog.glade.h:11
+msgid "<b>Day types</b>"
+msgstr "<b>Dagagerðir</b>"
+
+#: ../data/glade/calendar-dialog.glade.h:12
+msgid "<b>Working hours</b>"
+msgstr "<b>Vinnustundir</b>"
+
+#: ../data/glade/calendar-dialog.glade.h:13
+msgid "-"
+msgstr "-"
+
+#: ../data/glade/calendar-dialog.glade.h:14 ../data/glade/eds.glade.h:4
+#: ../data/glade/new-property.glade.h:5
+#: ../data/glade/resource-dialog.glade.h:6
+#: ../data/glade/resource-input-dialog.glade.h:5 ../data/glade/sql.glade.h:5
+#: ../data/glade/task-input-dialog.glade.h:5
+msgid "*"
+msgstr "*"
+
+#: ../data/glade/calendar-dialog.glade.h:15
+msgid "Calendar Editor"
+msgstr "Dagatalsritill"
+
+#: ../data/glade/calendar-dialog.glade.h:16
+msgid "_New..."
+msgstr "_Nýtt..."
+
+#: ../data/glade/calendar-dialog.glade.h:17
 msgid "Working time..."
 msgstr "Vinnutími..."
 
-#: ../data/glade/calendar-dialog.glade.h:32
-msgid "_Derive from a calendar"
-msgstr "_Afrita frá dagatali"
+#: ../data/glade/calendar-dialog.glade.h:18
+msgid "Default week..."
+msgstr "Sjálfgefin vika..."
 
-#: ../data/glade/calendar-dialog.glade.h:33
+#: ../data/glade/calendar-dialog.glade.h:19
+msgid "Use working time from derived calendar"
+msgstr "Nota vinnustundir fengnar frá dagatali"
+
+#: ../data/glade/calendar-dialog.glade.h:20
+msgid "Set day type to:"
+msgstr "Setja gerð dags sem:"
+
+#: ../data/glade/calendar-dialog.glade.h:21
+msgid "Custom working time"
+msgstr "Sérvalin vinnutími"
+
+#: ../data/glade/calendar-dialog.glade.h:22
+msgid "<b>Working time</b>"
+msgstr "<b>Vinnutími</b>"
+
+#: ../data/glade/calendar-dialog.glade.h:23
+msgid "From:"
+msgstr "Frá:"
+
+#: ../data/glade/calendar-dialog.glade.h:24
+msgid "To:"
+msgstr "Til:"
+
+#: ../data/glade/calendar-dialog.glade.h:25
+msgid "Apply"
+msgstr "Virkja"
+
+#: ../data/glade/calendar-dialog.glade.h:26
+msgid "New Calendar"
+msgstr "Nýtt dagatal"
+
+#: ../data/glade/calendar-dialog.glade.h:27
+msgid "C_reate"
+msgstr "_Búa til"
+
+#: ../data/glade/calendar-dialog.glade.h:28
 msgid "_Existing calendars:"
 msgstr "_Fyrirliggjandi dagatöl:"
 
-#: ../data/glade/calendar-dialog.glade.h:34
+#: ../data/glade/calendar-dialog.glade.h:29
 msgid "_Name of the new calendar:"
 msgstr "_Nafn á nýju dagatali:"
 
-#: ../data/glade/calendar-dialog.glade.h:36
-msgid "_New..."
-msgstr "_Ný..."
+#: ../data/glade/calendar-dialog.glade.h:30
+msgid "_Derive from a calendar"
+msgstr "_Afrita frá dagatali"
 
-#: ../data/glade/column-dialog.glade.h:2
+#: ../data/glade/calendar-dialog.glade.h:31
+msgid "C_opy an existing calendar"
+msgstr "_Afrita fyrirliggjandi dagatal"
+
+#: ../data/glade/calendar-dialog.glade.h:32
+msgid "Create an _empty calendar"
+msgstr "Sto_fna tómt dagatal"
+
+#: ../data/glade/calendar-dialog.glade.h:33
+msgid "Select a Calendar"
+msgstr "Veldu dagatal"
+
+#: ../data/glade/calendar-dialog.glade.h:34
+msgid "Edit Day Types"
+msgstr "Breyta dagsstillingum"
+
+#: ../data/glade/calendar-dialog.glade.h:35
+msgid "Add Day Type"
+msgstr "Bæta við dagagerð"
+
+#: ../data/glade/column-dialog.glade.h:1
 msgid "Hidden columns:"
 msgstr "Faldir dálkar"
 
 #: ../data/glade/column-dialog.glade.h:3
-msgid "Visible columns:"
-msgstr "Sýnilegir dálkar"
+msgid "_Show"
+msgstr "_Birta"
 
 #: ../data/glade/column-dialog.glade.h:4
 msgid "_Hide"
 msgstr "_Fela"
 
 #: ../data/glade/column-dialog.glade.h:5
-msgid "_Show"
-msgstr "_Sýna"
+msgid "Visible columns:"
+msgstr "Sýnilegir dálkar:"
+
+#: ../data/glade/eds.glade.h:1
+msgid "dialog1"
+msgstr "fyrirspurnargluggi1"
 
 #: ../data/glade/eds.glade.h:2
-msgid "Loading resource data"
-msgstr "Hleð tilfangar gögn"
+msgid "Select group"
+msgstr "Velja hóp"
 
 #: ../data/glade/eds.glade.h:3
 msgid "Search"
 msgstr "Leita"
 
-#: ../data/glade/eds.glade.h:4
+#: ../data/glade/eds.glade.h:5
 msgid "Select All"
 msgstr "Velja allt"
-
-#: ../data/glade/eds.glade.h:5
-msgid "Select group"
-msgstr "Velja hóp"
 
 #: ../data/glade/eds.glade.h:6
 msgid "Unselect All"
 msgstr "Afvelja allt"
 
 #: ../data/glade/eds.glade.h:7
-msgid "dialog1"
-msgstr "fyrirspurnargluggi1"
+msgid "Loading resource data"
+msgstr "Hleð inn tilfangagögnum"
 
 #: ../data/glade/group-dialog.glade.h:1
 msgid "Group Editor"
 msgstr "Hóparitill"
 
-#: ../data/glade/new-property.glade.h:2
+#: ../data/glade/new-property.glade.h:1
 msgid "Add Property"
 msgstr "Bæta við eiginleika"
 
@@ -237,150 +241,165 @@ msgid "_Description:"
 msgstr "_Lýsing:"
 
 #: ../data/glade/new-property.glade.h:4
-msgid "_Label:"
-msgstr "_Miði:"
-
-#: ../data/glade/new-property.glade.h:6
-#: ../data/glade/resource-dialog.glade.h:14
+#: ../data/glade/resource-dialog.glade.h:2
 msgid "_Type:"
 msgstr "_Gerð:"
 
+#: ../data/glade/new-property.glade.h:6
+msgid "_Label:"
+msgstr "S_kýring:"
+
 #: ../data/glade/project-properties.glade.h:1
-msgid "Custom"
-msgstr "Sérsniðið"
-
-#: ../data/glade/project-properties.glade.h:2
-msgid "Edit Project Phases"
-msgstr "Breyta verk áföngum"
-
-#: ../data/glade/project-properties.glade.h:3
-#: ../data/glade/resource-dialog.glade.h:5 ../data/glade/task-dialog.glade.h:6
-msgid "General"
-msgstr "Almennt"
-
-#: ../data/glade/project-properties.glade.h:4
-msgid "New Project Phase"
-msgstr "Nýr verk áfangi"
-
-#: ../data/glade/project-properties.glade.h:5
 msgid "Project Properties"
 msgstr "Eiginleikar verkefnis"
 
-#: ../data/glade/project-properties.glade.h:6
-msgid "Select..."
-msgstr "Velja..."
+#: ../data/glade/project-properties.glade.h:3
+msgid "_Start:"
+msgstr "_Byrja:"
 
-#: ../data/glade/project-properties.glade.h:7
-msgid "_Calendar:"
-msgstr "_Dagatal:"
-
-#: ../data/glade/project-properties.glade.h:8
-msgid "_Manager:"
-msgstr "St_jórnandi:"
-
-#: ../data/glade/project-properties.glade.h:10
+#: ../data/glade/project-properties.glade.h:4
 msgid "_Organization:"
 msgstr "S_ofnun:"
 
-#: ../data/glade/project-properties.glade.h:11
+#: ../data/glade/project-properties.glade.h:5
+msgid "_Manager:"
+msgstr "St_jórnandi:"
+
+#: ../data/glade/project-properties.glade.h:6
+msgid "_Calendar:"
+msgstr "_Dagatal:"
+
+#: ../data/glade/project-properties.glade.h:7
+msgid "Select..."
+msgstr "Velja..."
+
+#: ../data/glade/project-properties.glade.h:8
 msgid "_Phase:"
 msgstr "_Áfangi:"
 
+#: ../data/glade/project-properties.glade.h:9
+#: ../data/glade/resource-dialog.glade.h:9
+#: ../data/glade/task-dialog.glade.h:14
+msgid "General"
+msgstr "Almennt"
+
+#: ../data/glade/project-properties.glade.h:10
+msgid "Custom"
+msgstr "Sérsniðið"
+
+#: ../data/glade/project-properties.glade.h:11
+msgid "Edit Project Phases"
+msgstr "Breyta verkáföngum"
+
 #: ../data/glade/project-properties.glade.h:12
-msgid "_Start:"
-msgstr "_Byrja:"
+msgid "New Project Phase"
+msgstr "Nýr verkáfangi"
 
 #: ../data/glade/property-dialog.glade.h:1
 msgid "Custom Properties"
 msgstr "Eiginleikar snérsniðs"
 
-#: ../data/glade/resource-dialog.glade.h:2
+#: ../data/glade/resource-dialog.glade.h:3
+#: ../data/glade/resource-input-dialog.glade.h:4
+msgid "_Email:"
+msgstr "N_etfang:"
+
+#: ../data/glade/resource-dialog.glade.h:4
+#: ../data/glade/resource-input-dialog.glade.h:6
+msgid "_Group:"
+msgstr "Hó_pur:"
+
+#: ../data/glade/resource-dialog.glade.h:5
 msgid "C_ost:"
 msgstr "K_ostnaður:"
 
-#: ../data/glade/resource-dialog.glade.h:3
-msgid "Calendar"
-msgstr "Dagatal"
-
-#: ../data/glade/resource-dialog.glade.h:4
-msgid "Edit Calendars..."
-msgstr "Breyta dagatölum..."
-
-#: ../data/glade/resource-dialog.glade.h:6 ../data/glade/task-dialog.glade.h:7
-msgid "Notes"
-msgstr "Athugasemdir"
-
 #: ../data/glade/resource-dialog.glade.h:7
-#: ../data/glade/resource-input-dialog.glade.h:3
-msgid "Optional - overrides resource name in Gantt view."
-msgstr "Valkvæmt - kemur í staðinn fyrir tilfangs nafns í Gantt sýn."
+#: ../data/glade/resource-input-dialog.glade.h:7
+msgid "_Short name:"
+msgstr "_Stutt nafn:"
 
 #: ../data/glade/resource-dialog.glade.h:8
+#: ../data/glade/resource-input-dialog.glade.h:8
+msgid "Optional - overrides resource name in Gantt view."
+msgstr "Valkvæmt - kemur í staðinn fyrir heiti tilfangs í Gant- sýn."
+
+#: ../data/glade/resource-dialog.glade.h:10
 msgid ""
 "Select the calendar to use for this resource. If you want to use the default "
 "calendar of the project, select 'None'. "
 msgstr ""
 "Veldu dagatal til notkunar með þessu tilfang. Ef þú vilt nota sjálfgefið "
-"dagatal fyrir verkstýringu, veldu á 'Ekkert'. "
-
-#: ../data/glade/resource-dialog.glade.h:9
-#: ../data/glade/resource-input-dialog.glade.h:4
-msgid "_Email:"
-msgstr "N_etfang:"
-
-#: ../data/glade/resource-dialog.glade.h:10
-#: ../data/glade/resource-input-dialog.glade.h:5
-msgid "_Group:"
-msgstr "Hó_pur:"
+"dagatal fyrir verkefni, veldu á 'Ekkert'. "
 
 #: ../data/glade/resource-dialog.glade.h:11
+msgid "Edit Calendars..."
+msgstr "Breyta dagatölum..."
+
+#: ../data/glade/resource-dialog.glade.h:12
+msgid "Calendar"
+msgstr "Dagatal"
+
+#: ../data/glade/resource-dialog.glade.h:13
 msgid "_Insert time stamp"
 msgstr "Setja _inn tímastimpil"
 
-#: ../data/glade/resource-dialog.glade.h:13
-#: ../data/glade/resource-input-dialog.glade.h:8
-msgid "_Short name:"
-msgstr "_Stutt nafn:"
+#: ../data/glade/resource-dialog.glade.h:14
+#: ../data/glade/task-dialog.glade.h:18
+msgid "Notes"
+msgstr "Athugasemdir"
 
-#: ../data/glade/resource-input-dialog.glade.h:2
+#: ../data/glade/resource-input-dialog.glade.h:1
 msgid "Insert Resource"
 msgstr "_Innsetja tilfang"
 
-#: ../data/glade/resource-input-dialog.glade.h:6
-#: ../data/glade/task-input-dialog.glade.h:3
+#: ../data/glade/resource-input-dialog.glade.h:2
+#: ../data/glade/task-input-dialog.glade.h:2
 msgid "_Insert"
 msgstr "_Setja inn"
 
-#: ../data/glade/sql.glade.h:2
+#: ../data/glade/sql.glade.h:1
 msgid "Open Database"
 msgstr "Opna gangagrunn"
 
+#: ../data/glade/sql.glade.h:2
+msgid "_Server:"
+msgstr "Þ_jónn:"
+
 #: ../data/glade/sql.glade.h:3
+msgid "_Username:"
+msgstr "_Notendanafn:"
+
+#: ../data/glade/sql.glade.h:4
+msgid "_Password:"
+msgstr "_Lykilorð:"
+
+#: ../data/glade/sql.glade.h:6
+msgid "_Database:"
+msgstr "_Gagnagrunnur:"
+
+#: ../data/glade/sql.glade.h:7
 msgid "Select a Project"
 msgstr "Veldu verkefni"
 
-#: ../data/glade/sql.glade.h:4
+#: ../data/glade/sql.glade.h:8
 msgid "The database contains the following projects. Select a project to open:"
 msgstr ""
 "Gagnagrunnurinn inniheldur eftirfarandi verkefni. Veldu verkefni til að opna:"
 
-#: ../data/glade/sql.glade.h:5
-msgid "_Database:"
-msgstr "_Gagnagrunnur:"
-
-#: ../data/glade/sql.glade.h:6
-msgid "_Password:"
-msgstr "_Lykilorð:"
-
-#: ../data/glade/sql.glade.h:7
-msgid "_Server:"
-msgstr "Þ_jónn:"
-
-#: ../data/glade/sql.glade.h:8
-msgid "_Username:"
-msgstr "_Notendanafn:"
-
 #: ../data/glade/task-date-widget.glade.h:1
+msgid "window"
+msgstr "gluggi"
+
+#. The verb "schedule".
+#. This is the verb "schedule"
+#. I18n: the verb "schedule" here.
+#: ../data/glade/task-date-widget.glade.h:3
+#: ../data/glade/task-dialog.glade.h:13
+#: ../src/planner-cell-renderer-date.c:139
+msgid "Schedule:"
+msgstr "Áætlun:"
+
+#: ../data/glade/task-date-widget.glade.h:4
 msgid ""
 "As soon as possible\n"
 "No earlier than\n"
@@ -388,225 +407,226 @@ msgid ""
 msgstr ""
 "Eins fljótt og auðið er\n"
 "Ekki fyrr en\n"
-"Á tiltekinni dagsettningu"
-
-#: ../data/glade/task-date-widget.glade.h:4
-#: ../src/planner-cell-renderer-date.c:182
-#: ../src/planner-project-properties.c:747
-msgid "Cancel"
-msgstr "Hætta við"
-
-#. The verb "schedule".
-#. This is the verb "schedule"
-#. I18n: the verb "schedule" here.
-#: ../data/glade/task-date-widget.glade.h:6
-#: ../data/glade/task-dialog.glade.h:11
-#: ../src/planner-cell-renderer-date.c:154
-msgid "Schedule:"
-msgstr "Áætlun:"
+"Á tiltekinni dagsetningu"
 
 #: ../data/glade/task-date-widget.glade.h:7
-#: ../src/planner-cell-renderer-date.c:189
-msgid "Select"
-msgstr "Velja"
-
-#: ../data/glade/task-date-widget.glade.h:8
-#: ../src/planner-cell-renderer-date.c:176
+#: ../src/planner-cell-renderer-date.c:161
 #: ../src/planner-project-properties.c:740
 msgid "Today"
 msgstr "Í dag"
 
-#: ../data/glade/task-date-widget.glade.h:9
-msgid "window"
-msgstr "gluggi"
+#: ../data/glade/task-date-widget.glade.h:8
+#: ../src/planner-cell-renderer-date.c:167
+#: ../src/planner-project-properties.c:747
+msgid "Cancel"
+msgstr "Hætta við"
 
-#: ../data/glade/task-dialog.glade.h:1
-msgid "  "
-msgstr "  "
+#: ../data/glade/task-date-widget.glade.h:9
+#: ../src/planner-cell-renderer-date.c:174
+msgid "Select"
+msgstr "Velja"
+
+#: ../data/glade/task-dialog.glade.h:2
+#: ../data/glade/task-input-dialog.glade.h:4
+msgid "_Work:"
+msgstr "_Vinna:"
+
+#: ../data/glade/task-dialog.glade.h:3
+msgid "_Duration:"
+msgstr "Leng_d:"
 
 #: ../data/glade/task-dialog.glade.h:4
+msgid "C_omplete:"
+msgstr "L_okið:"
+
+#: ../data/glade/task-dialog.glade.h:5
+msgid "_Priority:"
+msgstr "Fo_rgangsröð:"
+
+#: ../data/glade/task-dialog.glade.h:7
 #, no-c-format
 msgid "%"
 msgstr "%"
 
-#: ../data/glade/task-dialog.glade.h:5
-msgid "C_omplete:"
-msgstr "L_okið:"
-
 #: ../data/glade/task-dialog.glade.h:8
-msgid "Predecessors"
-msgstr "Forennarar"
+msgid "  "
+msgstr "  "
 
-#: ../data/glade/task-dialog.glade.h:9 ../src/planner-resource-view.c:417
-msgid "Resources"
-msgstr "Tilföng"
-
-#: ../data/glade/task-dialog.glade.h:12
-msgid "_Duration:"
-msgstr "Leng_d:"
-
-#: ../data/glade/task-dialog.glade.h:13
-msgid "_Fixed duration"
-msgstr "_Föst lengd"
-
-#: ../data/glade/task-dialog.glade.h:14
-msgid "_Insert Time Stamp"
-msgstr "_Setja inn tímastimpil"
-
-#: ../data/glade/task-dialog.glade.h:15
+#: ../data/glade/task-dialog.glade.h:10
 msgid "_Milestone"
 msgstr "Tí_mamót"
 
+#: ../data/glade/task-dialog.glade.h:11
+msgid "_Fixed duration"
+msgstr "_Föst lengd"
+
+#: ../data/glade/task-dialog.glade.h:15 ../src/planner-resource-view.c:457
+msgid "Resources"
+msgstr "Tilföng"
+
+#: ../data/glade/task-dialog.glade.h:16
+msgid "Predecessors"
+msgstr "Fyrirrennarar"
+
 #: ../data/glade/task-dialog.glade.h:17
-msgid "_Priority:"
-msgstr "Fo_rgangsröð:"
+msgid "_Insert Time Stamp"
+msgstr "_Setja inn tímastimpil"
 
-#: ../data/glade/task-dialog.glade.h:18
-#: ../data/glade/task-input-dialog.glade.h:5
-msgid "_Work:"
-msgstr "_Vinna:"
-
-#: ../data/glade/task-input-dialog.glade.h:2
+#: ../data/glade/task-input-dialog.glade.h:1
 msgid "Insert Task"
 msgstr "Bæta við verki"
 
 #: ../data/mime/planner.keys.in.h:1
-msgid "Documents/Project Management"
-msgstr "Verkstjórnun"
+msgid "Project Plan"
+msgstr "Verkáætlun"
 
 #: ../data/mime/planner.keys.in.h:2
-msgid "Project Plan"
-msgstr "Verkefni"
+msgid "Documents/Project Management"
+msgstr "Skjöl/Verkstjórnun"
 
 #: ../data/mime/planner.xml.in.h:1
 msgid "Planner project plan"
-msgstr "Planner verkefna áætlun"
+msgstr "Planner verkáætlun"
 
 #: ../data/planner.desktop.in.in.h:1
-msgid "Planner Project Management"
-msgstr "Planner Verkefnastjórnun"
+#| msgid "Planner Files"
+msgid "Planner"
+msgstr "Planner"
 
 #: ../data/planner.desktop.in.in.h:2
 msgid "Project Management"
 msgstr "Verkstjórnun"
 
+#: ../data/planner.desktop.in.in.h:3
+msgid "Planner Project Management"
+msgstr "Planner verkstjórnun"
+
+#: ../data/planner.desktop.in.in.h:4
+msgid "Handle the tasks, resources, and cost of your projects"
+msgstr "Sýslaðu með verkþætti, tilföng og kostnað við verkefnin þín"
+
+#: ../data/planner.desktop.in.in.h:5
+msgid "Gantt;Chart;Critical path;Relationship;Dependency;WBS;"
+msgstr ""
+"Gantt;Skýringamynd;Mikilvægi;Útkoma;Verkefni;Vensl;Hæði;WBS;Verkþáttagreining;"
+
 #: ../data/planner.schemas.in.h:1
-msgid "Display nonstandard days in Gantt view"
-msgstr "Sýna óstaðlaða daga í Gantt sýn"
+msgid "Highlight critical path in Gantt view"
+msgstr "Áherslulita mikilvægisferil í Gantt-sýn"
 
 #: ../data/planner.schemas.in.h:2
-msgid "Highlight critical path in Gantt view"
-msgstr "Gera áberandi úrslita slóð í Gantt sýn"
+#| msgid ""
+#| "Whether to highlight the tasks along the cricital path in the Gantt view."
+msgid ""
+"Whether to highlight the tasks along the critical path in the Gantt view."
+msgstr "Hvort áherslulita eigi verkin á mikilvægisferlinum í Gantt-sýninni."
 
 #: ../data/planner.schemas.in.h:3
-msgid "Highlight critical path in Task view"
-msgstr "Gera áberandi úrslita slóð í verka sýn"
+msgid "Display nonstandard days in Gantt view"
+msgstr "Sýna óstaðlaða daga í Gantt-sýn"
 
 #: ../data/planner.schemas.in.h:4
-msgid "Print the Gantt view"
-msgstr "Prenta Gantt sýnina"
+msgid "Whether to display nonstandard days in the Gantt view."
+msgstr "Hvort birta eigi óstaðlaða daga í Gantt-sýninni."
 
 #: ../data/planner.schemas.in.h:5
-msgid "Print the Resource view"
-msgstr "Prenta tilfangasýnina"
+msgid "Highlight critical path in Task view"
+msgstr "Áherslulita mikilvægisferil í verkefnasýn"
 
 #: ../data/planner.schemas.in.h:6
-msgid "Print the Task view"
-msgstr "Prenta verkefnasýnina"
+#| msgid ""
+#| "Whether to highlight the tasks along the cricital path in the Task view."
+msgid ""
+"Whether to highlight the tasks along the critical path in the Task view."
+msgstr "Hvort áherslulita eigi verkin á mikilvægisferlinum í verkefnasýninni."
 
 #: ../data/planner.schemas.in.h:7
-msgid "The active view"
-msgstr "Virka sýnin"
+msgid "Print the Gantt view"
+msgstr "Prenta Gantt-sýnina"
 
 #: ../data/planner.schemas.in.h:8
 msgid "Whether printing of the Gantt view is enabled."
-msgstr "Hvort prentun á Gantt sýn sé virk."
+msgstr "Hvort prentun á Gantt-sýn sé virk."
 
 #: ../data/planner.schemas.in.h:9
-msgid "Whether printing of the Resource view is enabled."
-msgstr "Hvort prentun á tilfangasýninni sé virk."
+msgid "Print the Task view"
+msgstr "Prenta verkefnasýnina"
 
 #: ../data/planner.schemas.in.h:10
 msgid "Whether printing of the Task view is enabled."
 msgstr "Hvort prentun á verkefnasýninni sé virk."
 
 #: ../data/planner.schemas.in.h:11
-msgid "Whether to display nonstandard days in the Gantt view."
-msgstr "Hvort sýna eigi óstaðlaða daga í Gantt sýninni."
+msgid "Print the Resource view"
+msgstr "Prenta tilfangasýnina"
 
 #: ../data/planner.schemas.in.h:12
-msgid ""
-"Whether to highlight the tasks along the cricital path in the Gantt view."
-msgstr "Hvort gera eigi áberandi verkin í úrslita slóðinni í Gantt sýninni."
+msgid "Whether printing of the Resource view is enabled."
+msgstr "Hvort prentun á tilfangasýninni sé virk."
 
 #: ../data/planner.schemas.in.h:13
-msgid ""
-"Whether to highlight the tasks along the cricital path in the Task view."
-msgstr "Hvort gera eigi áberandi verkin í úrslita slóðinni í verka sýninni."
+msgid "The active view"
+msgstr "Virka sýnin"
 
 #: ../data/planner.schemas.in.h:14
 msgid "Which view to display in the user interface."
-msgstr "Hvora sýnina á að sýna í notandaviðmótinu"
+msgstr "Hvora sýnina á að birta í notandaviðmótinu"
 
 #: ../data/stylesheets/localizable.xml.h:1
 msgid "Company:"
 msgstr "Fyrirtæki:"
 
 #: ../data/stylesheets/localizable.xml.h:2
-msgid "Complete"
-msgstr "Lokið"
-
-#: ../data/stylesheets/localizable.xml.h:3
-msgid "Finish:"
-msgstr "Enda"
-
-#: ../data/stylesheets/localizable.xml.h:4
-msgid "Gantt Chart"
-msgstr "Gantt kort"
-
-#: ../data/stylesheets/localizable.xml.h:5
 msgid "Manager:"
 msgstr "Stjórnandi:"
 
+#: ../data/stylesheets/localizable.xml.h:3
+msgid "Start:"
+msgstr "Byrja:"
+
+#: ../data/stylesheets/localizable.xml.h:4
+msgid "Finish:"
+msgstr "Enda"
+
+#: ../data/stylesheets/localizable.xml.h:5
+msgid "Report Date:"
+msgstr "Tilkynna dagsetningu:"
+
 #: ../data/stylesheets/localizable.xml.h:6
-msgid "Phase:"
-msgstr "Áfangi:"
+msgid "Week"
+msgstr "Vika"
 
 #: ../data/stylesheets/localizable.xml.h:7
 msgid "Priority"
 msgstr "Forgangur:"
 
 #: ../data/stylesheets/localizable.xml.h:8
-msgid "Report Date:"
-msgstr "Tilkynna dagsetningu:"
+msgid "Complete"
+msgstr "Lokið"
 
 #: ../data/stylesheets/localizable.xml.h:9
-msgid "Start:"
-msgstr "Byrja:"
+msgid "This file was generated by"
+msgstr "Þessi skrá var gerð með"
 
 #: ../data/stylesheets/localizable.xml.h:10
-msgid "This file was generated by"
-msgstr "Þessi skrá var framleidd í"
+msgid "Gantt Chart"
+msgstr "Gantt kort"
 
 #: ../data/stylesheets/localizable.xml.h:11
+msgid "Phase:"
+msgstr "Áfangi:"
+
+#: ../data/stylesheets/localizable.xml.h:12
 msgid "Unnamed Project"
 msgstr "Ónefnt verkefni"
 
-#: ../data/stylesheets/localizable.xml.h:12
-msgid "Week"
-msgstr "Vika"
-
-#: ../libegg/recent-files/egg-recent-vfs-utils.c:90
-msgid " (invalid Unicode)"
-msgstr " (ógildur Unikóði)"
-
 #: ../libplanner/mrp-day.c:54
 msgid "Working"
-msgstr "Vinn"
+msgstr "Vinna"
 
 #: ../libplanner/mrp-day.c:55
 msgid "A default working day"
-msgstr "Sjálfgefin vinnudagur"
+msgstr "Sjálfgefinn vinnudagur"
 
 #: ../libplanner/mrp-day.c:57
 msgid "Nonworking"
@@ -614,7 +634,7 @@ msgstr "Er ekki vinnutími"
 
 #: ../libplanner/mrp-day.c:58
 msgid "A default non working day"
-msgstr "Sjálfgefin frídagur"
+msgstr "Sjálfgefinn frídagur"
 
 #: ../libplanner/mrp-day.c:60
 msgid "Use base"
@@ -622,51 +642,56 @@ msgstr "Nota grunn"
 
 #: ../libplanner/mrp-day.c:61
 msgid "Use day from base calendar"
-msgstr "_Nota dag frá grunndagatali"
+msgstr "Nota dag úr grunndagatali"
 
-#: ../libplanner/mrp-file-module.c:121
+#: ../libplanner/mrp-file-module.c:125
+#, c-format
 msgid "This format does not support reading"
 msgstr "Þetta snið er styður ekki lestur"
 
-#: ../libplanner/mrp-parser.c:1064 ../libplanner/mrp-parser.c:1159
+#: ../libplanner/mrp-parser.c:1060 ../libplanner/mrp-parser.c:1155
+#, c-format
 msgid "Could not create XML tree"
-msgstr "Ekki tókst að búa til XML tré"
+msgstr "Ekki tókst að búa til XML-greinar"
 
-#: ../libplanner/mrp-parser.c:1125
+#: ../libplanner/mrp-parser.c:1121
+#, c-format
 msgid "Could not write XML file"
-msgstr "Ekki tókst að skrifa XML skrá"
+msgstr "Ekki tókst að skrifa XML-skrá"
 
-#: ../libplanner/mrp-project.c:437 ../src/planner-group-dialog.c:846
+#: ../libplanner/mrp-project.c:437 ../src/planner-group-dialog.c:842
 msgid "Default"
 msgstr "Sjálfgefið"
 
-#: ../libplanner/mrp-project.c:716
+#: ../libplanner/mrp-project.c:715
 #, c-format
 msgid "Invalid URI: '%s'"
 msgstr "Ólöglegt URI: '%s'"
 
-#: ../libplanner/mrp-project.c:759
+#: ../libplanner/mrp-project.c:758
 #, c-format
 msgid "Couldn't find a suitable file module for loading '%s'"
-msgstr "Ekki tókst að finna passandi skráareiningu fyrir hleðslu á '%s'"
+msgstr "Ekki tókst að finna heppilega skráareiningu fyrir hleðslu á '%s'"
 
-#: ../libplanner/mrp-project.c:780 ../libplanner/mrp-project.c:1064
+#: ../libplanner/mrp-project.c:779 ../libplanner/mrp-project.c:1063
+#, c-format
 msgid "No support for SQL storage built into this version of Planner."
 msgstr "Engin stuðningur fyrir SQL geymslu innbyggt í þessa útgáfu af Planner."
 
-#: ../libplanner/mrp-project.c:817
+#: ../libplanner/mrp-project.c:816
+#, c-format
 msgid "Invalid URI."
 msgstr "Ólöglegt URI."
 
-#: ../libplanner/mrp-project.c:958
+#: ../libplanner/mrp-project.c:957
 #, c-format
 msgid "Unable to find file writer identified by '%s'"
 msgstr "Ekki tókst að finna skráarritil auðkenndan af '%s'"
 
-#: ../libplanner/mrp-project.c:1021
+#: ../libplanner/mrp-project.c:1020
+#, c-format
 msgid "Couldn't find a suitable file module for loading project"
-msgstr ""
-"Ekki tókst að finna heppilega skráareiningu fyrir hleðslu á verkstýringu"
+msgstr "Ekki tókst að finna heppilega skráareiningu fyrir hleðslu á verkefni"
 
 #: ../libplanner/mrp-property.c:365
 msgid "Text"
@@ -682,19 +707,19 @@ msgstr "Heiltala"
 
 #: ../libplanner/mrp-property.c:371
 msgid "Floating-point number"
-msgstr "Fleititala"
+msgstr "Fleytitala"
 
 #: ../libplanner/mrp-property.c:373
 msgid "Date"
 msgstr "Dagsetning"
 
-#: ../libplanner/mrp-property.c:375 ../src/planner-gantt-view.c:593
-#: ../src/planner-task-view.c:340
+#: ../libplanner/mrp-property.c:375 ../src/planner-gantt-view.c:628
+#: ../src/planner-task-view.c:371
 msgid "Duration"
-msgstr "Leng_d"
+msgstr "Tímalengd"
 
-#: ../libplanner/mrp-property.c:377 ../src/planner-gantt-view.c:595
-#: ../src/planner-resource-view.c:1314 ../src/planner-task-view.c:342
+#: ../libplanner/mrp-property.c:377 ../src/planner-gantt-view.c:630
+#: ../src/planner-resource-view.c:1343 ../src/planner-task-view.c:373
 msgid "Cost"
 msgstr "Kostnaður"
 
@@ -702,27 +727,25 @@ msgstr "Kostnaður"
 msgid "None"
 msgstr "Ekkert"
 
-#: ../libplanner/mrp-sql.c:292 ../libplanner/mrp-sql.c:310
-#: ../src/planner-sql-plugin.c:207 ../src/planner-sql-plugin.c:225
+#: ../libplanner/mrp-sql.c:280 ../src/planner-sql-plugin.c:151
 msgid "Can't connect to database server"
-msgstr "Gat ekki tengst við gangagrunns þjón"
+msgstr "Gat ekki tengst við gangagrunnsþjón"
 
-#: ../libplanner/mrp-sql.c:297 ../libplanner/mrp-sql.c:315
-#: ../src/planner-sql-plugin.c:212 ../src/planner-sql-plugin.c:230
+#: ../libplanner/mrp-sql.c:285 ../src/planner-sql-plugin.c:156
 msgid "No errors reported."
 msgstr "Engin villa tilkynnt."
 
 #. Give up.
-#: ../libplanner/mrp-sql.c:405 ../src/planner-sql-plugin.c:300
+#: ../libplanner/mrp-sql.c:374 ../src/planner-sql-plugin.c:225
 msgid "Invalid Unicode"
 msgstr "Ógildur Unicode"
 
-#: ../libplanner/mrp-sql.c:2306
+#: ../libplanner/mrp-sql.c:2258
 #, c-format
 msgid "Connection to database '%s' failed.\n"
 msgstr "Tenging við gagnagrunn '%s' mistókst:\n"
 
-#: ../libplanner/mrp-sql.c:2311
+#: ../libplanner/mrp-sql.c:2263
 #, c-format
 msgid ""
 "Connection to database '%s' failed.\n"
@@ -731,87 +754,100 @@ msgstr ""
 "Tenging við gagnagrunn '%s' mistókst.\n"
 "%s"
 
-#: ../libplanner/mrp-sql.c:2326
+#: ../libplanner/mrp-sql.c:2272 ../libplanner/mrp-sql.c:3711
+msgid "Failed to create a dictionary for the database connection.\n"
+msgstr "Mistókst að búa til orðasafn fyrir gagnagrunnstenginguna.\n"
+
+#: ../libplanner/mrp-sql.c:2286
 #, c-format
 msgid "BEGIN command failed %s."
 msgstr "BEGIN skipun mistókst %s."
 
-#: ../libplanner/mrp-sql.c:2486
+#: ../libplanner/mrp-sql.c:2455
 #, c-format
 msgid ""
 "The project '%s' has been changed by the user '%s' since you opened it. Do "
 "you want to save anyway?"
 msgstr ""
-"Verkefnið '%s' hefur verið breyst af notanda '%s' eftir að þú opnaðir það. "
+"Verkefninu '%s' hefur verið breytt af notandanum '%s' eftir að þú opnaðir "
+"það. "
 "Vilt þú vista það hvort sem er?"
 
-#: ../libplanner/mrp-sql.c:3711
+#: ../libplanner/mrp-sql.c:3704
 #, c-format
 msgid "Connection to database '%s' failed."
 msgstr "Tenging við gagnagrunn '%s' mistókst."
 
 #: ../libplanner/mrp-storage-sql.c:206
+#, c-format
 msgid "Invalid SQL URI (must start with 'sql://' and contain '#')."
 msgstr "Ólöglegt SQL URI (verðu að byrja á 'sql://' og innihalda '#')."
 
 #: ../libplanner/mrp-storage-sql.c:275
+#, c-format
 msgid "Invalid SQL URI (invalid project id)."
-msgstr "Ólöglegt SQL URI (ólöglegt auðkenni á verkefni)."
+msgstr "Ólöglegt SQL URI (ógilt auðkenni á verkefni)."
 
 #: ../libplanner/mrp-storage-sql.c:283
+#, c-format
 msgid "Invalid SQL URI (no database name specified)."
-msgstr "Ólöglegt SQL URI (ekkert nafn á gagnagrunn var tilgreint)."
+msgstr "Ólöglegt SQL URI (ekkert nafn á gagnagrunni var tilgreint)."
 
-#: ../libplanner/mrp-task.c:1070
+#: ../libplanner/mrp-task.c:1068
+#, c-format
 msgid ""
 "Could not add a predecessor relation, because the tasks are already related."
 msgstr ""
-"Gat ekki bætt við undanfaraskyldleika vegna þess að verkin eru nú þegar "
+"Gat ekki bætt við fyrirrennaraskyldleika vegna þess að verkin eru nú þegar "
 "skyld."
 
-#: ../libplanner/mrp-task.c:1081
+#: ../libplanner/mrp-task.c:1079
 msgid "Start to Finish relation type cannot be combined with other relations."
 msgstr ""
 "Byrjun til Enda tengslategundina er ekki hægt að sameina við aðrar "
 "tengslategundir."
 
-#: ../libplanner/mrp-task.c:1083
+#: ../libplanner/mrp-task.c:1081
 msgid "Finish to Finish relation type cannot be combined with other relations."
 msgstr ""
-"Endi til Enda tengslategundina er ekki hægt að sameina við aðrar "
+"'Frá enda til enda' tengslategundina er ekki hægt að sameina við aðrar "
 "tengslategundir."
 
-#: ../libplanner/mrp-task.c:1099
+#: ../libplanner/mrp-task.c:1098
 msgid ""
 "Start to Finish relation type cannot be combined with Start No Earlier Than "
 "constraint."
 msgstr ""
-"Byrjun til Enda tengslategundina er ekki hægt að sameina við Ekki Byrja Fyrr "
-"En skorður."
+"'Frá byrjun til enda' tengslategundina er ekki hægt að sameina við 'Ekki fyrr "
+"en' skorður."
 
-#: ../libplanner/mrp-task.c:1101
+#: ../libplanner/mrp-task.c:1100
 msgid ""
 "Finish to Finish relation type cannot be combined with Start No Earlier Than "
 "constraint."
 msgstr ""
-"Endi til Enda tengslategundina er ekki hægt að sameina við Ekki Byrja Fyrr "
-"En skorður."
+"'Frá enda til enda' tengslategundina er ekki hægt að sameina við 'Ekki fyrr "
+"en' skorður."
 
 #: ../libplanner/mrp-task.c:1124
+#, c-format
 msgid ""
 "Start to Finish relation cannot be set. Predecessor starts on project start "
 "date."
 msgstr ""
-"Ekki er hægt að setja Byrjun til Enda tengsl. Forrennari byrjar við "
-"byrjunardagsetningu verks."
+"Ekki er hægt að setja 'Frá byrjun til enda' tengsl. Fyrirrennari hefst við "
+"upphafsdagsetningu verkefnis."
 
-#: ../libplanner/mrp-task-manager.c:2627
+#: ../libplanner/mrp-task-manager.c:2603
+#, c-format
 msgid "Cannot add a predecessor, because it would result in a loop."
-msgstr "Gat ekki bætt við forrennara, vegna þess að það myndi búa til hring."
+msgstr ""
+"Gat ekki bætt við fyrirrennara, vegna þess að það myndi búa til hringtengingu."
 
-#: ../libplanner/mrp-task-manager.c:2671
+#: ../libplanner/mrp-task-manager.c:2647
+#, c-format
 msgid "Cannot move the task, because it would result in a loop."
-msgstr "Gat ekki fært verk, vegna þess að það myndi búa til hring.j"
+msgstr "Gat ekki fært verk, vegna þess að það myndi búa til hringtengingu."
 
 #. Translators: Example output: October 9, 2006
 #: ../libplanner/mrp-xsl.c:93
@@ -819,48 +855,49 @@ msgid "%B %e, %Y"
 msgstr "%e. %B %Y"
 
 #: ../libplanner/mrp-xsl.c:157 ../libplanner/mrp-xsl.c:205
+#, c-format
 msgid "Export to HTML failed"
-msgstr "Flytja út sem HTML mistókst"
+msgstr "Útflutningur sem HTML mistókst"
 
-#: ../src/planner-application.c:55 ../src/planner-application.c:111
+#: ../src/planner-application.c:54 ../src/planner-application.c:110
 msgid "Insert"
 msgstr "Setja inn"
 
-#: ../src/planner-application.c:62 ../src/planner-application.c:118
+#: ../src/planner-application.c:61 ../src/planner-application.c:117
 msgid "Remove"
 msgstr "Fjarlægja"
 
-#: ../src/planner-application.c:69
+#: ../src/planner-application.c:68
 msgid "Unlink"
 msgstr "Aftengja"
 
-#: ../src/planner-application.c:76
+#: ../src/planner-application.c:75
 msgid "Link"
 msgstr "Tengill"
 
-#: ../src/planner-application.c:83
+#: ../src/planner-application.c:82
 msgid "Indent"
 msgstr "Inndráttur"
 
-#: ../src/planner-application.c:90
+#: ../src/planner-application.c:89
 msgid "Unindent"
-msgstr "Minnka inndrátt"
+msgstr "Fjarlægja inndrátt"
 
-#: ../src/planner-application.c:97
+#: ../src/planner-application.c:96
 msgid "Move up"
 msgstr "Færa upp"
 
-#: ../src/planner-application.c:104
+#: ../src/planner-application.c:103
 msgid "Move down"
 msgstr "Færa niður"
 
-#: ../src/planner-application.c:125
+#: ../src/planner-application.c:124
 msgid "Edit"
 msgstr "Breyta"
 
 #: ../src/planner-calendar-dialog.c:184
 msgid "Change day type"
-msgstr "Breyta dags gerð"
+msgstr "Breyta dagagerð"
 
 #: ../src/planner-calendar-dialog.c:306
 msgid "Remove calendar"
@@ -870,17 +907,17 @@ msgstr "Fjarlægja dagatal"
 msgid "Add new calendar"
 msgstr "Bæta við nýju dagatali"
 
-#: ../src/planner-cell-renderer-date.c:161 ../src/planner-task-dialog.c:1491
+#: ../src/planner-cell-renderer-date.c:146 ../src/planner-task-dialog.c:1485
 msgid "As soon as possible"
 msgstr "Eins fljótt og auðið er"
 
-#: ../src/planner-cell-renderer-date.c:162
+#: ../src/planner-cell-renderer-date.c:147
 msgid "No earlier than"
 msgstr "Ekki fyrr en"
 
-#: ../src/planner-cell-renderer-date.c:163
+#: ../src/planner-cell-renderer-date.c:148
 msgid "On fixed date"
-msgstr "Á tiltekinni dagsettningu"
+msgstr "Á tiltekinni dagsetningu"
 
 #: ../src/planner-cmd-manager.c:227
 #, c-format
@@ -903,12 +940,12 @@ msgstr "Endurtaka"
 #: ../src/planner-day-type-dialog.c:499
 #, c-format
 msgid "Add day type \"%s\""
-msgstr "Bæta við dags gerð \"%s\""
+msgstr "Bæta við dagagerð \"%s\""
 
 #: ../src/planner-day-type-dialog.c:560
 #, c-format
 msgid "Remove day type \"%s\""
-msgstr "Fjarlægja dags gerð \"%s\""
+msgstr "Fjarlægja dagagerð \"%s\""
 
 #: ../src/planner-default-week-dialog.c:42
 msgid "Monday"
@@ -940,79 +977,89 @@ msgstr "Sunnudagur"
 
 #: ../src/planner-default-week-dialog.c:288
 msgid "No working time"
-msgstr "Sérvalin vinnutími"
+msgstr "Enginn vinnutími"
 
 #: ../src/planner-default-week-dialog.c:299
 #: ../src/planner-default-week-dialog.c:303
 msgid "%H:%M"
 msgstr "%H:%M"
 
-#: ../src/planner-default-week-dialog.c:553
+#: ../src/planner-default-week-dialog.c:555
 msgid "Edit default week"
-msgstr "Breyta sjálfgefinnri viku"
+msgstr "Breyta sjálfgefinni viku"
 
-#: ../src/planner-eds-plugin.c:167
+#: ../src/planner-eds-plugin.c:155
 msgid "EDS"
 msgstr "EDS"
 
-#: ../src/planner-eds-plugin.c:168
+#: ../src/planner-eds-plugin.c:156
 msgid "Import resources from Evolution Data Server"
 msgstr "Flytja inn tilföng frá Evolution Data Server"
 
-#: ../src/planner-eds-plugin.c:396 ../src/planner-gantt-print.c:190
-#: ../src/planner-gantt-view.c:589 ../src/planner-group-dialog.c:822
-#: ../src/planner-property-dialog.c:485 ../src/planner-resource-view.c:1171
-#: ../src/planner-task-dialog.c:2616 ../src/planner-task-dialog.c:2690
-#: ../src/planner-task-view.c:336
+#: ../src/planner-eds-plugin.c:384 ../src/planner-gantt-print.c:191
+#: ../src/planner-gantt-view.c:624 ../src/planner-group-dialog.c:818
+#: ../src/planner-property-dialog.c:475 ../src/planner-resource-view.c:1200
+#: ../src/planner-task-dialog.c:2610 ../src/planner-task-dialog.c:2684
+#: ../src/planner-task-view.c:367
 msgid "Name"
 msgstr "Nafn"
 
-#: ../src/planner-eds-plugin.c:416 ../src/planner-resource-view.c:1287
+#: ../src/planner-eds-plugin.c:404 ../src/planner-resource-view.c:1316
 msgid "Email"
-msgstr "Netfang"
+msgstr "Tölvupóstur"
 
-#: ../src/planner-eds-plugin.c:437
+#: ../src/planner-eds-plugin.c:425
 msgid "Import"
 msgstr "Flytja inn"
 
-#: ../src/planner-eds-plugin.c:447
+#: ../src/planner-eds-plugin.c:435
 msgid "Photo"
 msgstr "Mynd"
 
-#: ../src/planner-eds-plugin.c:676
+#: ../src/planner-eds-plugin.c:664
 msgid "Imported from Evolution Data Server"
 msgstr "Flytja inn frá Evoltution Data Server"
 
-#: ../src/planner-eds-plugin.c:677
+#: ../src/planner-eds-plugin.c:665
 msgid "Updated from Evolution Data Server"
 msgstr "Uppfæra frá Evolution Data Server"
 
-#: ../src/planner-eds-plugin.c:862
+#: ../src/planner-eds-plugin.c:850
 msgid "Query cancelled."
 msgstr "Hætta við fyrirspurn."
 
-#: ../src/planner-eds-plugin.c:923
+#: ../src/planner-eds-plugin.c:911
 msgid "Evolution Data Server UID"
 msgstr "Evoltution Data Server UID"
 
-#: ../src/planner-eds-plugin.c:924
+#: ../src/planner-eds-plugin.c:912
 msgid "Identifier used by Evolution Data Server for resources"
 msgstr "Auðkenni notað af Evolution Data Server fyrir tilfang"
 
-#: ../src/planner-format.c:149
+#: ../src/planner-format.c:153
 #, c-format
 msgid "%dd %dh"
 msgstr "%dd %dklst"
 
-#: ../src/planner-format.c:152
+#: ../src/planner-format.c:156
 #, c-format
 msgid "%dd"
 msgstr "%dd"
 
-#: ../src/planner-format.c:155
+#: ../src/planner-format.c:161
+#, c-format
+msgid "%dh %dmin"
+msgstr "%dklst %dmín"
+
+#: ../src/planner-format.c:164
 #, c-format
 msgid "%dh"
 msgstr "%dklst"
+
+#: ../src/planner-format.c:168
+#, c-format
+msgid "%dmin"
+msgstr "%dmín"
 
 #  i18n: this string is the date nr and month name, displayed
 #  * e.g. in the date cells in the task tree. See
@@ -1021,83 +1068,83 @@ msgstr "%dklst"
 #. * e.g. in the date cells in the task tree. See
 #. * libmrproject/docs/DateFormat.
 #.
-#: ../src/planner-format.c:190
+#: ../src/planner-format.c:203
 msgid "%b %e"
 msgstr "%e %b"
 
-#: ../src/planner-format.c:374
+#: ../src/planner-format.c:387
 msgid "mon"
 msgstr "mán"
 
 #. month unit variant accepted in input
-#: ../src/planner-format.c:375
+#: ../src/planner-format.c:388
 msgid "month"
 msgstr "mánuður"
 
 #. month unit variant accepted in input
-#: ../src/planner-format.c:376
+#: ../src/planner-format.c:389
 msgid "months"
 msgstr "mánuðir"
 
 #  month unit variant accepted in input
 #. month unit variant accepted in input
-#: ../src/planner-format.c:377
+#: ../src/planner-format.c:390
 msgid "w"
 msgstr "v"
 
 #. week unit variant accepted in input
-#: ../src/planner-format.c:378
+#: ../src/planner-format.c:391
 msgid "week"
 msgstr "vika"
 
 #. week unit variant accepted in input
-#: ../src/planner-format.c:379
+#: ../src/planner-format.c:392
 msgid "weeks"
 msgstr "vikur"
 
 #. week unit variant accepted in input
-#: ../src/planner-format.c:380
+#: ../src/planner-format.c:393
 msgid "d"
 msgstr "d"
 
 #. day unit variant accepted in input
-#: ../src/planner-format.c:381
+#: ../src/planner-format.c:394
 msgid "day"
 msgstr "dagur"
 
 #  day unit variant accepted in input
 #. day unit variant accepted in input
-#: ../src/planner-format.c:382
+#: ../src/planner-format.c:395
 msgid "days"
 msgstr "dagar"
 
 #. day unit variant accepted in input
-#: ../src/planner-format.c:383
+#: ../src/planner-format.c:396
 msgid "h"
 msgstr "klst"
 
 #. hour unit variant accepted in input
-#: ../src/planner-format.c:384
+#: ../src/planner-format.c:397
 msgid "hour"
 msgstr "klukkustund"
 
 #. hour unit variant accepted in input
-#: ../src/planner-format.c:385
+#: ../src/planner-format.c:398
 msgid "hours"
 msgstr "klukkustundir"
 
 #. hour unit variant accepted in input
-#: ../src/planner-format.c:386
+#: ../src/planner-format.c:399
 msgid "min"
 msgstr "mín"
 
 #. minute unit variant accepted in input
-#: ../src/planner-format.c:387
+#: ../src/planner-format.c:400
 msgid "minute"
 msgstr "mínúta"
 
 #. minute unit variant accepted in input
-#: ../src/planner-format.c:388
+#: ../src/planner-format.c:401
 msgid "minutes"
 msgstr "mínútur"
 
@@ -1105,201 +1152,202 @@ msgstr "mínútur"
 #  * libmrproject/docs/DateFormat.
 #. i18n: project start, the date format is described in
 #. * libmrproject/docs/DateFormat.
-#: ../src/planner-gantt-background.c:644
+#: ../src/planner-gantt-background.c:643
 msgid "%Y %b %d"
-msgstr "%Y %d %b"
+msgstr "%Y.%b.%d"
 
-#: ../src/planner-gantt-background.c:646
+#: ../src/planner-gantt-background.c:645
 msgid "Project start"
 msgstr "Verkefni byrjar"
 
-#: ../src/planner-gantt-header.c:671
-msgid "%e %b %Y"
-msgstr "%e %b %Y"
+#: ../src/planner-gantt-header.c:659
+#| msgid "%e %b %Y"
+msgid "%a, %e %b %Y"
+msgstr "%a, %e. %b %Y"
 
 #  COL_START,    _("\n
 # art"),
-#: ../src/planner-gantt-print.c:198 ../src/planner-gantt-view.c:592
-#: ../src/planner-resource-dialog.c:1850 ../src/planner-resource-view.c:750
-#: ../src/planner-resource-view.c:766 ../src/planner-resource-view.c:1736
-#: ../src/planner-task-view.c:339
+#: ../src/planner-gantt-print.c:199 ../src/planner-gantt-view.c:627
+#: ../src/planner-resource-dialog.c:1836 ../src/planner-resource-view.c:790
+#: ../src/planner-resource-view.c:806 ../src/planner-resource-view.c:1760
+#: ../src/planner-task-view.c:370
 msgid "Work"
 msgstr "Vinna"
 
-#: ../src/planner-gantt-print.c:542 ../src/planner-gantt-row.c:776
-#: ../src/planner-html-plugin.c:125 ../src/planner-task-tree.c:1601
-#: ../src/planner-window.c:1988
+#: ../src/planner-gantt-print.c:546 ../src/planner-gantt-row.c:771
+#: ../src/planner-html-plugin.c:120 ../src/planner-task-tree.c:1584
+#: ../src/planner-window.c:1805
 msgid "Unnamed"
-msgstr "ónefnd"
+msgstr "ónefnt"
 
-#: ../src/planner-gantt-row.c:2358
+#: ../src/planner-gantt-row.c:2350
 #, c-format
 msgid "Change work to %s"
 msgstr "Breyta vinnu yfir í %s"
 
-#: ../src/planner-gantt-row.c:2370
+#: ../src/planner-gantt-row.c:2366
 #, c-format
 msgid "Change progress to %u%% complete"
-msgstr "Breyta framvindu í %u%% lokið"
+msgstr "Breyting framvindu í %u%% lokið"
 
-#: ../src/planner-gantt-row.c:2409 ../src/planner-gantt-row.c:2412
+#: ../src/planner-gantt-row.c:2405 ../src/planner-gantt-row.c:2408
 msgid "No name"
 msgstr "Ónafngreint"
 
-#: ../src/planner-gantt-row.c:2415
+#: ../src/planner-gantt-row.c:2411
 #, c-format
 msgid "Make task '%s' a predecessor of '%s'"
-msgstr "Gera verk '%s' að forrennara fyrir '%s'"
+msgstr "Gera verk '%s' að fyrirrennara fyrir '%s'"
 
-#: ../src/planner-gantt-row.c:3436 ../src/planner-task-dialog.c:455
-#: ../src/planner-task-tree.c:262 ../src/planner-task-tree.c:952
+#: ../src/planner-gantt-row.c:3443 ../src/planner-task-dialog.c:455
+#: ../src/planner-task-tree.c:259 ../src/planner-task-tree.c:941
 msgid "Edit task property"
 msgstr "Breyta eiginleikum verks"
 
-#: ../src/planner-gantt-view.c:133 ../src/planner-task-view.c:115
+#: ../src/planner-gantt-view.c:138 ../src/planner-task-view.c:119
 msgid "_Insert Task"
 msgstr "_Setja inn verk"
 
-#: ../src/planner-gantt-view.c:134 ../src/planner-task-view.c:116
+#: ../src/planner-gantt-view.c:139 ../src/planner-task-view.c:120
 msgid "Insert a new task"
 msgstr "Setja inn nýtt verk"
 
-#: ../src/planner-gantt-view.c:136 ../src/planner-task-view.c:118
+#: ../src/planner-gantt-view.c:141 ../src/planner-task-view.c:122
 msgid "In_sert Tasks..."
 msgstr "Setja _inn verk..."
 
-#: ../src/planner-gantt-view.c:139 ../src/planner-task-view.c:121
+#: ../src/planner-gantt-view.c:144 ../src/planner-task-view.c:125
 msgid "_Remove Task"
 msgstr "Fja_rlægja verk"
 
-#: ../src/planner-gantt-view.c:140 ../src/planner-task-view.c:122
+#: ../src/planner-gantt-view.c:145 ../src/planner-task-view.c:126
 msgid "Remove the selected tasks"
 msgstr "Fjarlægja valið verk"
 
-#: ../src/planner-gantt-view.c:142
+#: ../src/planner-gantt-view.c:147
 msgid "_Edit Task Properties..."
 msgstr "B_reyta eiginleikum verks"
 
-#: ../src/planner-gantt-view.c:145 ../src/planner-resource-view.c:245
-#: ../src/planner-task-view.c:127
+#: ../src/planner-gantt-view.c:150 ../src/planner-resource-view.c:248
+#: ../src/planner-task-view.c:131
 msgid "Select _All"
-msgstr "Velja _Allt"
+msgstr "Velja _allt"
 
-#: ../src/planner-gantt-view.c:146 ../src/planner-resource-view.c:246
-#: ../src/planner-task-view.c:128
+#: ../src/planner-gantt-view.c:151 ../src/planner-resource-view.c:249
+#: ../src/planner-task-view.c:132
 msgid "Select all tasks"
 msgstr "Velja öll verk"
 
-#: ../src/planner-gantt-view.c:148 ../src/planner-task-view.c:130
+#: ../src/planner-gantt-view.c:153 ../src/planner-task-view.c:134
 msgid "_Unlink Task"
 msgstr "A_ftengja verk"
 
-#: ../src/planner-gantt-view.c:149 ../src/planner-task-view.c:131
+#: ../src/planner-gantt-view.c:154 ../src/planner-task-view.c:135
 msgid "Unlink the selected tasks"
 msgstr "Aftengja valið verk"
 
-#: ../src/planner-gantt-view.c:151 ../src/planner-task-view.c:133
+#: ../src/planner-gantt-view.c:156 ../src/planner-task-view.c:137
 msgid "_Link Tasks"
 msgstr "_Tengja verk"
 
-#: ../src/planner-gantt-view.c:152 ../src/planner-task-view.c:134
+#: ../src/planner-gantt-view.c:157 ../src/planner-task-view.c:138
 msgid "Link the selected tasks"
 msgstr "Tengja valið verk"
 
-#: ../src/planner-gantt-view.c:154 ../src/planner-task-view.c:136
+#: ../src/planner-gantt-view.c:159 ../src/planner-task-view.c:140
 msgid "I_ndent Task"
 msgstr "_Draga inn verk"
 
-#: ../src/planner-gantt-view.c:155 ../src/planner-task-view.c:137
+#: ../src/planner-gantt-view.c:160 ../src/planner-task-view.c:141
 msgid "Indent the selected tasks"
 msgstr "Draga inn valið verk"
 
-#: ../src/planner-gantt-view.c:157 ../src/planner-task-view.c:139
+#: ../src/planner-gantt-view.c:162 ../src/planner-task-view.c:143
 msgid "Unin_dent Task"
 msgstr "Minnk_a inndrátt verks"
 
-#: ../src/planner-gantt-view.c:158 ../src/planner-task-view.c:140
+#: ../src/planner-gantt-view.c:163 ../src/planner-task-view.c:144
 msgid "Unindent the selected tasks"
 msgstr "Minnka indrátt valins verks"
 
-#: ../src/planner-gantt-view.c:160 ../src/planner-task-view.c:142
+#: ../src/planner-gantt-view.c:165 ../src/planner-task-view.c:146
 msgid "Move Task _Up"
 msgstr "Færa verk _upp"
 
-#: ../src/planner-gantt-view.c:161 ../src/planner-task-view.c:143
+#: ../src/planner-gantt-view.c:166 ../src/planner-task-view.c:147
 msgid "Move the selected tasks upwards"
 msgstr "Færa valið verk upp"
 
-#: ../src/planner-gantt-view.c:163 ../src/planner-task-view.c:145
+#: ../src/planner-gantt-view.c:168 ../src/planner-task-view.c:149
 msgid "Move Task Do_wn"
 msgstr "Færa verk ni_ður"
 
-#: ../src/planner-gantt-view.c:164 ../src/planner-task-view.c:146
+#: ../src/planner-gantt-view.c:169 ../src/planner-task-view.c:150
 msgid "Move the selected tasks downwards"
 msgstr "Færa valið verk niður"
 
-#: ../src/planner-gantt-view.c:166 ../src/planner-task-view.c:148
+#: ../src/planner-gantt-view.c:171 ../src/planner-task-view.c:152
 msgid "Reset _Constraint"
 msgstr "Frumstilla s_korður"
 
-#: ../src/planner-gantt-view.c:169
+#: ../src/planner-gantt-view.c:174
 msgid "Zoom To _Fit"
 msgstr "Stækka til að _passa"
 
-#: ../src/planner-gantt-view.c:170 ../src/planner-usage-view.c:112
+#: ../src/planner-gantt-view.c:175 ../src/planner-usage-view.c:115
 msgid "Zoom to fit the entire project"
-msgstr "Breyta stærð til að allt verkefnið sjáist"
+msgstr "Breyta aðdrætti svo að allt verkefnið sjáist"
 
-#: ../src/planner-gantt-view.c:172
+#: ../src/planner-gantt-view.c:177
 msgid "_Zoom In"
 msgstr "Renn_a að"
 
-#: ../src/planner-gantt-view.c:173 ../src/planner-usage-view.c:108
-#: ../src/planner-usage-view.c:109
+#: ../src/planner-gantt-view.c:178 ../src/planner-usage-view.c:111
+#: ../src/planner-usage-view.c:112
 msgid "Zoom in"
 msgstr "Renna að"
 
-#: ../src/planner-gantt-view.c:175
+#: ../src/planner-gantt-view.c:180
 msgid "Zoom _Out"
 msgstr "Renna _frá"
 
-#: ../src/planner-gantt-view.c:176 ../src/planner-usage-view.c:105
-#: ../src/planner-usage-view.c:106
+#: ../src/planner-gantt-view.c:181 ../src/planner-usage-view.c:108
+#: ../src/planner-usage-view.c:109
 msgid "Zoom out"
 msgstr "Renna frá"
 
-#: ../src/planner-gantt-view.c:178 ../src/planner-resource-view.c:251
-#: ../src/planner-task-view.c:154 ../src/planner-usage-view.c:114
+#: ../src/planner-gantt-view.c:183 ../src/planner-resource-view.c:254
+#: ../src/planner-task-view.c:158 ../src/planner-usage-view.c:117
 msgid "Edit _Visible Columns"
 msgstr "Bre_yta sýnilegum dálkum"
 
-#: ../src/planner-gantt-view.c:179 ../src/planner-resource-view.c:252
-#: ../src/planner-task-view.c:155 ../src/planner-usage-view.c:115
+#: ../src/planner-gantt-view.c:184 ../src/planner-resource-view.c:255
+#: ../src/planner-task-view.c:159 ../src/planner-usage-view.c:118
 msgid "Edit visible columns"
 msgstr "Breyta sýnilegum dálkum"
 
-#: ../src/planner-gantt-view.c:184 ../src/planner-task-view.c:160
+#: ../src/planner-gantt-view.c:189 ../src/planner-task-view.c:164
 msgid "_Highlight Critical Tasks"
-msgstr "Merkja við _mikilvæg verk"
+msgstr "Áherslulita _mikilvæg verk"
 
-#: ../src/planner-gantt-view.c:187
+#: ../src/planner-gantt-view.c:192
 msgid "_Show Guide Lines"
-msgstr "_Sýna leiðilínur"
+msgstr "_Sýna stoðlínur"
 
-#: ../src/planner-gantt-view.c:190 ../src/planner-task-view.c:162
+#: ../src/planner-gantt-view.c:195 ../src/planner-task-view.c:166
 msgid "_Nonstandard Days"
 msgstr "Óstaðlað_laðir dagar"
 
 #. i18n: Label used for the sidebar. Please try to make it short and use
 #. * a linebreak if necessary/possible.
 #.
-#: ../src/planner-gantt-view.c:344
+#: ../src/planner-gantt-view.c:379
 msgid "Gantt"
 msgstr "Gantt"
 
-#: ../src/planner-gantt-view.c:350
+#: ../src/planner-gantt-view.c:385
 msgid "_Gantt Chart"
-msgstr "_Gantt rit"
+msgstr "_Gantt kort"
 
 #. i18n: WBS is short for work breakdown structure, and is a
 #. * project management term. You might want to leave it
@@ -1309,38 +1357,38 @@ msgstr "_Gantt rit"
 #. * project management term. You might want to leave it
 #. * untranslated unless there is a localized term for it.
 #.
-#: ../src/planner-gantt-view.c:588 ../src/planner-task-view.c:335
+#: ../src/planner-gantt-view.c:623 ../src/planner-task-view.c:366
 msgid "WBS"
-msgstr "WBS"
+msgstr "Verkþ."
 
-#: ../src/planner-gantt-view.c:590 ../src/planner-task-view.c:337
+#: ../src/planner-gantt-view.c:625 ../src/planner-task-view.c:368
 msgid "Start"
 msgstr "Byrja"
 
-#: ../src/planner-gantt-view.c:591 ../src/planner-task-view.c:338
+#: ../src/planner-gantt-view.c:626 ../src/planner-task-view.c:369
 msgid "Finish"
 msgstr "Enda"
 
-#: ../src/planner-gantt-view.c:594 ../src/planner-task-view.c:341
+#: ../src/planner-gantt-view.c:629 ../src/planner-task-view.c:372
 msgid "Slack"
 msgstr "Slaki"
 
-#: ../src/planner-gantt-view.c:596 ../src/planner-task-view.c:343
+#: ../src/planner-gantt-view.c:631 ../src/planner-task-view.c:374
 msgid "Assigned to"
-msgstr "Falið í hendur"
+msgstr "Úthlutað til"
 
 #. i18n: The string "% Complete" will be used in the header
 #. * of a column containing values from 0 upto 100, indicating
 #. * what part of a task has been completed.
 #.
-#: ../src/planner-gantt-view.c:602 ../src/planner-task-view.c:349
+#: ../src/planner-gantt-view.c:637 ../src/planner-task-view.c:380
 #, no-c-format
 msgid "% Complete"
-msgstr "% Lokið"
+msgstr "% lokið"
 
-#: ../src/planner-gantt-view.c:956
+#: ../src/planner-gantt-view.c:991
 msgid "Edit Gantt Columns"
-msgstr "Breyta Gantt dálkum"
+msgstr "Breyta Gantt-dálkum"
 
 #: ../src/planner-group-dialog.c:304
 msgid "Insert group"
@@ -1350,85 +1398,105 @@ msgstr "Bæta við hóp"
 msgid "Remove group"
 msgstr "Fjarlægja hóp"
 
-#: ../src/planner-group-dialog.c:526
+#: ../src/planner-group-dialog.c:525
 msgid "Default group"
 msgstr "Sjálfgefinn hópur"
 
-#: ../src/planner-group-dialog.c:644
+#: ../src/planner-group-dialog.c:643
 msgid "Edit group property"
 msgstr "Breyta eiginleikum hóps"
 
-#: ../src/planner-group-dialog.c:828
+#: ../src/planner-group-dialog.c:824
 msgid "Manager name"
 msgstr "Nafn stjórnanda"
 
-#: ../src/planner-group-dialog.c:834
+#: ../src/planner-group-dialog.c:830
 msgid "Manager phone"
 msgstr "Sími stjórnanda"
 
-#: ../src/planner-group-dialog.c:840
+#: ../src/planner-group-dialog.c:836
 msgid "Manager email"
 msgstr "Netfang stjórnanda"
 
-#: ../src/planner-html-plugin.c:47
+#: ../src/planner-html-plugin.c:46
 msgid "HTML"
 msgstr "HTML"
 
-#: ../src/planner-html-plugin.c:48
+#: ../src/planner-html-plugin.c:47
 msgid "Export project to HTML"
 msgstr "Flytja út verkefni sem HTML"
 
-#: ../src/planner-html-plugin.c:82
+#: ../src/planner-html-plugin.c:79
 msgid "Could not export to HTML"
 msgstr "Gat ekki flutt út í HTML"
 
-#: ../src/planner-html-plugin.c:110
+#: ../src/planner-html-plugin.c:105
 msgid "Export to HTML"
 msgstr "Flytja út sem HTML"
 
-#: ../src/planner-html-plugin.c:154
+#: ../src/planner-html-plugin.c:149
 msgid "Show result in browser"
-msgstr "Sýna niðurstöðu í vafra"
+msgstr "Birta niðurstöðu í vafra"
 
-#: ../src/planner-html-plugin.c:173 ../src/planner-window.c:1697
+#: ../src/planner-html-plugin.c:168 ../src/planner-window.c:1532
 #: ../src/planner-xml-planner-plugin.c:124
 #, c-format
 msgid "File \"%s\" exists, do you want to overwrite it?"
 msgstr "Skráin \"%s\" er nú þegar til, viltu yfirskrifa hana?"
 
-#: ../src/planner-main.c:56
+#: ../src/planner-main.c:44
 msgid "Create the initial window with the given geometry."
-msgstr "Búa til fyrsta glugga með uppgefnum stærðarhlutföllum."
+msgstr "Búa til upphafsglugga með uppgefnum stærðarhlutföllum."
 
-#: ../src/planner-main.c:56
+#: ../src/planner-main.c:44
 msgid "GEOMETRY"
 msgstr "STÆRÐARHLUTFÖLL"
 
-#: ../src/planner-main.c:70
-msgid "[FILE...]"
-msgstr "[SKRÁ...]"
+#: ../src/planner-main.c:45
+msgid "FILES|URIs"
+msgstr "SKRÁR|SLÓÐIR"
 
-#: ../src/planner-msp-plugin.c:50
+#: ../src/planner-main.c:68
+#| msgid "Planner Project Management"
+msgid "- Planner project management"
+msgstr "- Planner verkstjórnun"
+
+#: ../src/planner-main.c:72
+#, c-format
+msgid ""
+"%s\n"
+"Run '%s --help' to see a full list of available command line options.\n"
+msgstr ""
+"%s\n"
+"Keyrðu '%s --help' til að sjá lista með öllum mögulegum valkostum "
+"skipanalínunnar.\n"
+
+#: ../src/planner-main.c:99
+#, c-format
+msgid "Invalid geometry string \"%s\"\n"
+msgstr "Ótækur strengur stærða \"%s\"\n"
+
+#: ../src/planner-msp-plugin.c:49
 msgid "MS Project XML..."
 msgstr "MS Project XML..."
 
-#: ../src/planner-msp-plugin.c:50
+#: ../src/planner-msp-plugin.c:49
 msgid "Import an MS Project XML file"
 msgstr "Flytja inn MS Project XML skrá"
 
-#: ../src/planner-msp-plugin.c:118
+#: ../src/planner-msp-plugin.c:117
 msgid "Couldn't import file."
-msgstr "Gat ekki flutt inn"
+msgstr "Gat ekki flutt inn skrá."
 
-#: ../src/planner-msp-plugin.c:206
+#: ../src/planner-msp-plugin.c:205
 msgid "Import a File"
 msgstr "Flytja inn skrá"
 
-#: ../src/planner-msp-plugin.c:214
+#: ../src/planner-msp-plugin.c:213
 msgid "XML Files"
 msgstr "XML skrár"
 
-#: ../src/planner-msp-plugin.c:219 ../src/planner-window.c:848
+#: ../src/planner-msp-plugin.c:218 ../src/planner-window.c:878
 msgid "All Files"
 msgstr "Allar skrár"
 
@@ -1440,50 +1508,46 @@ msgstr "Setja inn áfanga"
 msgid "Remove phase"
 msgstr "Fjarlægja áfanga"
 
-#: ../src/planner-plugin-loader.c:41
+#: ../src/planner-plugin-loader.c:40
 #, c-format
 msgid "Could not open plugin file '%s'\n"
-msgstr "Ekki tókst að opna viðbótar skrá '%s'\n"
+msgstr "Ekki tókst að opna viðbótarskrá '%s'\n"
 
-#: ../src/planner-predecessor-model.c:191 ../src/planner-task-dialog.c:2217
+#: ../src/planner-predecessor-model.c:191 ../src/planner-task-dialog.c:2211
 msgid "FS"
 msgstr "EB"
 
-#: ../src/planner-predecessor-model.c:194 ../src/planner-task-dialog.c:2218
+#: ../src/planner-predecessor-model.c:194 ../src/planner-task-dialog.c:2212
 msgid "FF"
 msgstr "EE"
 
-#: ../src/planner-predecessor-model.c:197 ../src/planner-task-dialog.c:2219
+#: ../src/planner-predecessor-model.c:197 ../src/planner-task-dialog.c:2213
 msgid "SS"
 msgstr "BB"
 
-#: ../src/planner-predecessor-model.c:200 ../src/planner-task-dialog.c:2220
+#: ../src/planner-predecessor-model.c:200 ../src/planner-task-dialog.c:2214
 msgid "SF"
 msgstr "BE"
 
-#: ../src/planner-print-dialog.c:187
-msgid "Print Project"
-msgstr "Prenta verkefni"
+#: ../src/planner-print-dialog.c:247
+msgid "Select the views to print:"
+msgstr "Veldu sýnir til prentunar:"
 
-#: ../src/planner-print-dialog.c:194
+#: ../src/planner-print-job.c:168
 msgid "Select views"
 msgstr "Veldu sýn"
 
-#: ../src/planner-print-dialog.c:218
-msgid "Select the views to print:"
-msgstr "Veldu þá sýn til prentunar:"
-
 #: ../src/planner-project-properties.c:387
 msgid "Select a calendar to use for this project:"
-msgstr "Veldu dagatal til notkunar með verkstýringu:"
+msgstr "Veldu dagatal til notkunar með þessu verkefni:"
 
 #: ../src/planner-project-properties.c:487
 msgid "Edit Project Name"
-msgstr "Breyta nafni verkefnis"
+msgstr "Breyta heiti verkefnis"
 
 #: ../src/planner-project-properties.c:523
 msgid "Edit Organization"
-msgstr "Breyt stofnun"
+msgstr "Breyta stofnun/fyrirtæki"
 
 #: ../src/planner-project-properties.c:559
 msgid "Edit Manager"
@@ -1492,15 +1556,15 @@ msgstr "Breyta stjórnanda"
 #: ../src/planner-project-properties.c:631
 #: ../src/planner-project-properties.c:665
 msgid "Edit Project Start"
-msgstr "Breyta byrjun verks"
+msgstr "Breyta byrjun verkefnis"
 
 #: ../src/planner-project-properties.c:754
 msgid "OK"
-msgstr "Í Lagi"
+msgstr "Í lagi"
 
 #: ../src/planner-project-properties.c:842
 msgid "Edit Project Phase"
-msgstr "Breyta verk áfanga"
+msgstr "Breyta verkáfanga"
 
 #: ../src/planner-project-properties.c:975
 msgid "Property"
@@ -1510,57 +1574,57 @@ msgstr "Eiginleiki"
 msgid "Value"
 msgstr "Gildi"
 
-#: ../src/planner-project-properties.c:1390
-#: ../src/planner-property-dialog.c:333
+#: ../src/planner-project-properties.c:1391
+#: ../src/planner-property-dialog.c:323
 msgid "The name of the custom property needs to start with a letter."
-msgstr "Nafn sersniðins eiginleika þarf að byrja á bókstaf."
+msgstr "Heiti sérsniðins eiginleika þarf að byrja á bókstaf."
 
-#: ../src/planner-project-properties.c:1461
-#: ../src/planner-property-dialog.c:403
+#: ../src/planner-project-properties.c:1462
+#: ../src/planner-property-dialog.c:393
 #, c-format
 msgid "Do you really want to remove the property '%s' from the project?"
-msgstr "Viltu í raun og veru eyða eiginleika '%s' úr þessi verkefni?"
+msgstr "Viltu í raun og veru eyða eiginleikanum '%s' úr þessi verkefni?"
 
-#: ../src/planner-project-properties.c:1556
+#: ../src/planner-project-properties.c:1557
 msgid "Could not create properties dialog."
-msgstr "Gat ekki búið til eiginleika fyrirspurnarglugga."
+msgstr "Gat ekki búið til eiginleikaglugga."
 
-#: ../src/planner-project-properties.c:1590
+#: ../src/planner-project-properties.c:1591
 msgid "Date..."
-msgstr "Dagsetting..."
+msgstr "Dagseting..."
 
-#: ../src/planner-project-properties.c:1933
+#: ../src/planner-project-properties.c:1935
 msgid "Add project property"
 msgstr "Bæta við eiginleika verkefnis"
 
-#: ../src/planner-project-properties.c:2043
+#: ../src/planner-project-properties.c:2045
 msgid "Remove project property"
 msgstr "Fjarlægja eiginleika verkefnis"
 
-#: ../src/planner-project-properties.c:2136
+#: ../src/planner-project-properties.c:2138
 msgid "Edit project property value"
 msgstr "Breyta gildi eiginleika verkefnis"
 
-#: ../src/planner-property-dialog.c:502
+#: ../src/planner-property-dialog.c:492
 msgid "Label"
-msgstr "Miði"
+msgstr "Skýring"
 
-#: ../src/planner-property-dialog.c:514 ../src/planner-resource-view.c:1224
-#: ../src/planner-task-dialog.c:2722
+#: ../src/planner-property-dialog.c:504 ../src/planner-resource-view.c:1253
+#: ../src/planner-task-dialog.c:2716
 msgid "Type"
-msgstr "Gerð"
+msgstr "Tegund"
 
-#: ../src/planner-property-dialog.c:671
+#: ../src/planner-property-dialog.c:661
 msgid "Add property"
 msgstr "Bæta við eiginleika"
 
-#: ../src/planner-property-dialog.c:816
+#: ../src/planner-property-dialog.c:806
 msgid "Remove property"
 msgstr "Fjarlægja eiginleika"
 
-#: ../src/planner-property-dialog.c:909
+#: ../src/planner-property-dialog.c:899
 msgid "Edit property label"
-msgstr "Breyta miða eiginleika"
+msgstr "Breyta skýringu eiginleika"
 
 #: ../src/planner-resource-cmd.c:75
 msgid "Insert resource"
@@ -1569,18 +1633,18 @@ msgstr "Setja inn tilfang"
 #. Put "no group" at the top.
 #: ../src/planner-resource-dialog.c:312
 #: ../src/planner-resource-input-dialog.c:100
-#: ../src/planner-resource-view.c:1945
+#: ../src/planner-resource-view.c:1967
 msgid "(None)"
 msgstr "(Engin)"
 
 #: ../src/planner-resource-dialog.c:322
-#: ../src/planner-resource-input-dialog.c:110 ../src/planner-task-dialog.c:381
+#: ../src/planner-resource-input-dialog.c:110 ../src/planner-task-dialog.c:385
 msgid "(No name)"
 msgstr "(Ekkert nafn)"
 
 #: ../src/planner-resource-dialog.c:495
 msgid "Edit resource calendar"
-msgstr "Breyta dagtali tilfangs"
+msgstr "Breyta tilfangadagtali"
 
 #: ../src/planner-resource-dialog.c:576
 msgid "Edit resource note"
@@ -1591,98 +1655,98 @@ msgid "Edit resource cost"
 msgstr "Breyta kostnaði tilfangs"
 
 #: ../src/planner-resource-dialog.c:711 ../src/planner-resource-dialog.c:752
-#: ../src/planner-resource-view.c:1413 ../src/planner-resource-view.c:1494
+#: ../src/planner-resource-view.c:1442 ../src/planner-resource-view.c:1523
 msgid "Edit resource property"
 msgstr "Breyta eiginleikum tilfangs"
 
 #. i18n: time stamp format for notes in task dialog, see strftime(3) for
 #. * a detailed description.
-#: ../src/planner-resource-dialog.c:1404 ../src/planner-task-dialog.c:1808
+#: ../src/planner-resource-dialog.c:1396 ../src/planner-task-dialog.c:1800
 msgid "%a %d %b %Y, %H:%M\n"
-msgstr "%a %d. %b. %Y, %H:%M\n"
+msgstr "%a %d. %b %Y, %H:%M\n"
 
-#: ../src/planner-resource-dialog.c:1521
+#: ../src/planner-resource-dialog.c:1512
 msgid "None (use project default)"
 msgstr "Ekkert (nota sjálfgefið f. verkefni)"
 
-#: ../src/planner-resource-dialog.c:1648 ../src/planner-resource-dialog.c:1650
+#: ../src/planner-resource-dialog.c:1634 ../src/planner-resource-dialog.c:1636
 msgid "Edit resource properties"
-msgstr "Breyta einingleikum tilfangs"
+msgstr "Breyta eiginleikum tilfangs"
 
-#: ../src/planner-resource-dialog.c:1851 ../src/planner-resource-view.c:753
-#: ../src/planner-resource-view.c:767 ../src/planner-resource-view.c:1737
+#: ../src/planner-resource-dialog.c:1837 ../src/planner-resource-view.c:793
+#: ../src/planner-resource-view.c:807 ../src/planner-resource-view.c:1761
 msgid "Material"
 msgstr "Efni"
 
-#: ../src/planner-resource-view.c:230
+#: ../src/planner-resource-view.c:233
 msgid "_Insert Resource"
 msgstr "_Setja inn tilföng"
 
-#: ../src/planner-resource-view.c:231
+#: ../src/planner-resource-view.c:234
 msgid "Insert a new resource"
 msgstr "Setja inn nýtt tilfang"
 
-#: ../src/planner-resource-view.c:233
+#: ../src/planner-resource-view.c:236
 msgid "In_sert Resources..."
 msgstr "Setja _inn tilfang..."
 
-#: ../src/planner-resource-view.c:236
+#: ../src/planner-resource-view.c:239
 msgid "_Remove Resource"
 msgstr "Fja_rlægja tilfang"
 
-#: ../src/planner-resource-view.c:237
+#: ../src/planner-resource-view.c:240
 msgid "Remove the selected resource"
 msgstr "Fjarlægja valið tilfang"
 
-#: ../src/planner-resource-view.c:239
-msgid "_Edit Resource Properties..."
-msgstr "Br_eyta einingleikum tilfangs..."
-
 #: ../src/planner-resource-view.c:242
+msgid "_Edit Resource Properties..."
+msgstr "Br_eyta eiginleikum tilfangs..."
+
+#: ../src/planner-resource-view.c:245
 msgid "Edit _Groups"
 msgstr "Breyta _hópum"
 
-#: ../src/planner-resource-view.c:243
+#: ../src/planner-resource-view.c:246
 msgid "Edit resource groups"
 msgstr "Breyta hópum tilfangs"
 
-#: ../src/planner-resource-view.c:248
+#: ../src/planner-resource-view.c:251
 msgid "Edit _Custom Properties..."
-msgstr "_Breyta eiginleikum sérsniðs..."
-
-#: ../src/planner-resource-view.c:266
-msgid "/_Insert resource"
-msgstr "/_Setja inn tilfang"
+msgstr "_Breyta sérsniðnum eiginleikum..."
 
 #: ../src/planner-resource-view.c:269
+msgid "/_Insert resource"
+msgstr "/Setja _inn tilfang"
+
+#: ../src/planner-resource-view.c:272
 msgid "/_Remove resource"
 msgstr "/Fja_rlægja tilfang"
 
-#: ../src/planner-resource-view.c:272 ../src/planner-usage-tree.c:102
+#: ../src/planner-resource-view.c:275 ../src/planner-usage-tree.c:102
 msgid "/_Edit resource..."
 msgstr "/_Breyta tilfangi..."
 
-#: ../src/planner-resource-view.c:423
+#: ../src/planner-resource-view.c:463
 msgid "_Resources"
 msgstr "_Tilföng"
 
-#: ../src/planner-resource-view.c:943
+#: ../src/planner-resource-view.c:980
 msgid "Remove resource"
 msgstr "Fjarlægja tilfang"
 
-#: ../src/planner-resource-view.c:1020
+#: ../src/planner-resource-view.c:1049
 msgid "Edit Resource Columns"
 msgstr "Breyta dálkum tilfanga"
 
-#: ../src/planner-resource-view.c:1055
+#: ../src/planner-resource-view.c:1084
 msgid "Edit custom resource properties"
-msgstr "Breyta eininleikum sérsniðins tilfangs"
+msgstr "Breyta sérsniðnum eiginleikum tilfangs"
 
-#: ../src/planner-resource-view.c:1197
+#: ../src/planner-resource-view.c:1226
 msgid "Short name"
 msgstr "Stutt nafn"
 
-#: ../src/planner-resource-view.c:1253
+#: ../src/planner-resource-view.c:1282
 msgid "Group"
 msgstr "Hópur"
 
@@ -1690,7 +1754,7 @@ msgstr "Hópur"
 #: ../src/planner-scale-utils.c:129
 #, c-format
 msgid "Wk %d"
-msgstr "V %d"
+msgstr "Vk %d"
 
 #: ../src/planner-scale-utils.c:133
 #, c-format
@@ -1706,20 +1770,20 @@ msgstr "Vika %d, %d"
 #: ../src/planner-scale-utils.c:170
 #, c-format
 msgid "Q%d"
-msgstr "%dÁrsfj."
+msgstr "%dársfj."
 
 #. i18n: Short "Quarter", preferably 2-3 letters.
 #: ../src/planner-scale-utils.c:174
 #, c-format
 msgid "Qtr %d"
-msgstr "%d Ársfj."
+msgstr "%d ársfj."
 
 #  i18n: Year, short "Quarter", preferrably 2-3 letters.
 #. i18n: Year, short "Quarter", preferably 2-3 letters.
 #: ../src/planner-scale-utils.c:178
 #, c-format
 msgid "%d, Qtr %d"
-msgstr "%d, %d Ársfj."
+msgstr "%d, %d ársfj."
 
 #  i18n: Short "Half year", prefferably 1 letter.
 #. i18n: Short "Half year", preferably 1 letter.
@@ -1735,36 +1799,36 @@ msgstr "H%d"
 msgid "%04d, H%d"
 msgstr "%04d, H%d"
 
-#: ../src/planner-sql-plugin.c:101
+#: ../src/planner-sql-plugin.c:93
 msgid "Open from Database..."
-msgstr "Opna úr gagangrunni..."
+msgstr "Opna úr gagnagrunni..."
 
-#: ../src/planner-sql-plugin.c:102
+#: ../src/planner-sql-plugin.c:94
 msgid "Open a project from a database"
 msgstr "Opna verkefni úr gagnagrunni"
 
-#: ../src/planner-sql-plugin.c:104 ../src/planner-sql-plugin.c:1242
+#: ../src/planner-sql-plugin.c:96 ../src/planner-sql-plugin.c:1141
 msgid "Save to Database"
 msgstr "Vista í gagnagrunni"
 
-#: ../src/planner-sql-plugin.c:105
+#: ../src/planner-sql-plugin.c:97
 msgid "Save the current project to a database"
 msgstr "Vista núverandi verkefni í gagnagrunn"
 
-#: ../src/planner-sql-plugin.c:598
+#: ../src/planner-sql-plugin.c:523
 #, c-format
 msgid ""
 "Database %s needs to be upgraded from version %s to version %s.\n"
 "Please backup database before the upgrade."
 msgstr ""
-"Gangagrunnurinn %s þarfnast uppfærslu frá útgáfu %s yfir í útgáfu %s.\n"
-"Vinsamlegast takið afrit af gagnagrunninum áður en er uppfært."
+"Gagnagrunnurinn %s þarfnast uppfærslu frá útgáfu %s yfir í útgáfu %s.\n"
+"Taktu afrit af gagnagrunninum áður en uppfært er."
 
-#: ../src/planner-sql-plugin.c:605
+#: ../src/planner-sql-plugin.c:530
 msgid "Upgrade"
 msgstr "Uppfæra"
 
-#: ../src/planner-sql-plugin.c:619
+#: ../src/planner-sql-plugin.c:544
 #, c-format
 msgid ""
 "Could not upgrade database %s.\n"
@@ -1773,61 +1837,61 @@ msgid ""
 "Database error: \n"
 "%s"
 msgstr ""
-"Gat ekki uppfærst gagnagrunn %s.\n"
-" Uppfærslu skrá notuð:%s.\n"
+"Gat ekki uppfært gagnagrunn %s.\n"
+" Uppfærsluskrá sem var notuð:%s.\n"
 "\n"
-"Gangagrunns villa: \n"
+"Gagnagrunnsvilla: \n"
 "%s"
 
-#: ../src/planner-sql-plugin.c:659
+#: ../src/planner-sql-plugin.c:584
 #, c-format
 msgid "Can't create tables in database %s"
 msgstr "Gat ekki búið til töflu í gangagrunni %s"
 
-#: ../src/planner-sql-plugin.c:727
+#: ../src/planner-sql-plugin.c:646
 #, c-format
 msgid "Database %s is not setup for Planner. Do you want to do that?"
 msgstr "Gagnagrunnur %s er ekki uppsettur fyrir Planner. Viltu gera það?"
 
-#: ../src/planner-sql-plugin.c:776
+#: ../src/planner-sql-plugin.c:689
 #, c-format
 msgid "Connection to database '%s@%s' failed."
-msgstr "Tengingin við gagnagrunn '%s@%s' mistókst"
+msgstr "Tenging við gagnagrunn '%s@%s' mistókst"
 
-#: ../src/planner-sql-plugin.c:799
+#: ../src/planner-sql-plugin.c:708
 #, c-format
 msgid "Test to tables in database '%s' failed."
-msgstr "Prufa fyrir töflur í gagnagrunni '%s' mistókst."
+msgstr "Prófun á töflum í gagnagrunni '%s' mistókst."
 
-#: ../src/planner-sql-plugin.c:908
+#: ../src/planner-sql-plugin.c:810
 msgid "ID"
 msgstr "Auðkenni"
 
-#: ../src/planner-sql-plugin.c:916
+#: ../src/planner-sql-plugin.c:818
 msgid "Project"
 msgstr "Verkefni"
 
-#: ../src/planner-sql-plugin.c:924
+#: ../src/planner-sql-plugin.c:826
 msgid "Phase"
 msgstr "Áfangi"
 
-#: ../src/planner-sql-plugin.c:932
+#: ../src/planner-sql-plugin.c:834
 msgid "Revision"
 msgstr "Breyting"
 
-#: ../src/planner-sql-plugin.c:1130
+#: ../src/planner-sql-plugin.c:1029
 msgid "Open from Database"
-msgstr "Opna úr gagnagrunn"
+msgstr "Opna úr gagnagrunni"
 
-#: ../src/planner-task-cmd.c:97
+#: ../src/planner-task-cmd.c:96
 msgid "Link task"
 msgstr "Tengja verk"
 
-#: ../src/planner-task-cmd.c:173
+#: ../src/planner-task-cmd.c:172
 msgid "Unlink task"
 msgstr "Aftengja verk"
 
-#: ../src/planner-task-cmd.c:268
+#: ../src/planner-task-cmd.c:267
 msgid "Insert task"
 msgstr "Setja inn verk"
 
@@ -1837,7 +1901,7 @@ msgstr "Breyta gerð verks"
 
 #: ../src/planner-task-dialog.c:596
 msgid "Toggle fixed duration"
-msgstr "Skipta á milli fastra lengda"
+msgstr "Skipta á milli fastra tímalengda"
 
 #: ../src/planner-task-dialog.c:663
 msgid "Edit task scheduling"
@@ -1849,7 +1913,7 @@ msgstr "Tengja tilföng við verk"
 
 #: ../src/planner-task-dialog.c:803
 msgid "Unassign resource from task"
-msgstr "Aftengja tilföng við verk"
+msgstr "Aftengja tilföng frá verki"
 
 #: ../src/planner-task-dialog.c:862
 msgid "Change resource units in task"
@@ -1857,197 +1921,199 @@ msgstr "Breyta einingum tilfangs í verki"
 
 #: ../src/planner-task-dialog.c:950
 msgid "Edit task predecessor"
-msgstr "Breyta forrennara verks"
+msgstr "Breyta fyrirrennara verks"
 
 #: ../src/planner-task-dialog.c:1021
 msgid "Edit lag predecessor"
-msgstr "Breyta seinkun forrennara"
+msgstr "Breyta seinkun fyrirrennara"
 
-#: ../src/planner-task-dialog.c:1087
+#: ../src/planner-task-dialog.c:1086
 msgid "Edit task note"
 msgstr "Breyt athugasemdum verks"
 
-#: ../src/planner-task-dialog.c:1495
+#: ../src/planner-task-dialog.c:1489
 #, c-format
 msgid "No earlier than %s"
 msgstr "Ekki fyrr en %s"
 
-#: ../src/planner-task-dialog.c:1499
+#: ../src/planner-task-dialog.c:1493
 #, c-format
 msgid "On fixed date %s"
-msgstr "Á tiltekinni dagsettningu %s"
+msgstr "Á tiltekinni dagsetningu %s"
 
-#: ../src/planner-task-dialog.c:1917
+#: ../src/planner-task-dialog.c:1909
 msgid "Finish to start (FS)"
 msgstr "Frá enda til byrjunar (EB)"
 
-#: ../src/planner-task-dialog.c:1918
+#: ../src/planner-task-dialog.c:1910
 msgid "Finish to finish (FF)"
-msgstr "Frá Enda til Enda (EE)"
+msgstr "Frá enda til enda (EE)"
 
-#: ../src/planner-task-dialog.c:1919
+#: ../src/planner-task-dialog.c:1911
 msgid "Start to start (SS)"
-msgstr "Frá byrjun til byrjun (BB)"
+msgstr "Frá byrjun til byrjunar (BB)"
 
-#: ../src/planner-task-dialog.c:1920
+#: ../src/planner-task-dialog.c:1912
 msgid "Start to finish (SF)"
-msgstr "Frá Byrjun til Enda (BE)"
+msgstr "Frá byrjun til enda (BE)"
 
-#: ../src/planner-task-dialog.c:1975
+#: ../src/planner-task-dialog.c:1972
 msgid "Can't add new predecessor. No task selected!"
-msgstr "Get ekki bætt við forrennara. Ekkert verk var valið!"
+msgstr "Get ekki bætt við fyrirrennara. Ekkert verk var valið!"
 
-#: ../src/planner-task-dialog.c:2463
+#: ../src/planner-task-dialog.c:2457
 msgid "Change..."
 msgstr "Breyta..."
 
-#: ../src/planner-task-dialog.c:2637
+#: ../src/planner-task-dialog.c:2631
 msgid "Assigned"
 msgstr "Úthlutað"
 
-#: ../src/planner-task-dialog.c:2654
+#: ../src/planner-task-dialog.c:2648
 msgid "Units"
 msgstr "Einingar"
 
-#: ../src/planner-task-dialog.c:2744
+#: ../src/planner-task-dialog.c:2738
 msgid "Lag"
-msgstr "Töf"
+msgstr "Seinkun"
 
-#: ../src/planner-task-dialog.c:2887 ../src/planner-task-dialog.c:2889
+#: ../src/planner-task-dialog.c:2881 ../src/planner-task-dialog.c:2883
 msgid "Edit task properties"
 msgstr "Breyta eiginleikum verks"
 
-#: ../src/planner-task-popup.c:54
+#: ../src/planner-task-popup.c:52
 msgid "/_Insert task"
 msgstr "/_Setja inn verk"
 
-#: ../src/planner-task-popup.c:57
+#: ../src/planner-task-popup.c:55
 msgid "/Insert _subtask"
 msgstr "/Setja inn _undirverk"
 
-#: ../src/planner-task-popup.c:60
+#: ../src/planner-task-popup.c:58
 msgid "/_Remove task"
 msgstr "/Fja_rlægja verk"
 
-#: ../src/planner-task-popup.c:65
+#: ../src/planner-task-popup.c:63
 msgid "/_Unlink task"
 msgstr "/_Aftengja verk"
 
-#: ../src/planner-task-popup.c:70
+#: ../src/planner-task-popup.c:68
 msgid "/Assign _resources..."
 msgstr "Úthluta til_föngum..."
 
-#: ../src/planner-task-popup.c:73 ../src/planner-usage-tree.c:105
+#: ../src/planner-task-popup.c:71 ../src/planner-usage-tree.c:105
 msgid "/_Edit task..."
 msgstr "/_Breyta verki..."
 
-#: ../src/planner-task-tree.c:572
+#: ../src/planner-task-tree.c:561
 msgid "Remove task"
 msgstr "Fjarlægja verk"
 
-#: ../src/planner-task-tree.c:649
+#: ../src/planner-task-tree.c:638
 msgid "Apply constraint to task"
 msgstr "Setja skorður á verk"
 
-#: ../src/planner-task-tree.c:711
+#: ../src/planner-task-tree.c:700
 msgid "Reset task constraint"
 msgstr "Frumstilla skorður verks"
 
-#: ../src/planner-task-tree.c:1497 ../src/planner-task-tree.c:1654
+#: ../src/planner-task-tree.c:1483 ../src/planner-task-tree.c:1637
 msgid "N/A"
 msgstr "Á ekki við"
 
-#: ../src/planner-task-tree.c:2824
+#: ../src/planner-task-tree.c:2804
 msgid "Remove tasks"
 msgstr "Fjarlægja verk"
 
-#: ../src/planner-task-tree.c:2886
+#: ../src/planner-task-tree.c:2866
 #, c-format
 msgid ""
 "You are about to open an edit dialog each for %i tasks. Are you sure that "
 "you want to do that?"
-msgstr "Þú ert að fara að opna breytingavalmynd fyrir %i verk. Ertu viss um að þú viljir gera það?"
+msgstr ""
+"Þú ert að fara að opna breytingavalmynd fyrir %i verk. Ertu viss um að þú "
+"viljir gera það?"
 
-#: ../src/planner-task-tree.c:2988
+#: ../src/planner-task-tree.c:2968
 msgid "Unlink tasks"
 msgstr "Rjúfa tengsl milli verka"
 
-#: ../src/planner-task-tree.c:3040
+#: ../src/planner-task-tree.c:3020
 msgid "Link tasks"
 msgstr "Mynda tengsl milli verka"
 
-#: ../src/planner-task-tree.c:3131
+#: ../src/planner-task-tree.c:3109
 msgid "Indent tasks"
 msgstr "Inndráttur verka"
 
-#: ../src/planner-task-tree.c:3142
+#: ../src/planner-task-tree.c:3120
 msgid "Indent task"
 msgstr "Inndráttur verks"
 
-#: ../src/planner-task-tree.c:3236
+#: ../src/planner-task-tree.c:3212
 msgid "Unindent tasks"
 msgstr "Minnka inndrátt verka"
 
-#: ../src/planner-task-tree.c:3254
+#: ../src/planner-task-tree.c:3230
 msgid "Unindent task"
 msgstr "Minnka inndrátt verks"
 
-#: ../src/planner-task-tree.c:3332
+#: ../src/planner-task-tree.c:3306
 msgid "Move tasks up"
 msgstr "Færa verk upp"
 
-#: ../src/planner-task-tree.c:3370
+#: ../src/planner-task-tree.c:3344
 msgid "Move task up"
 msgstr "Færa verk upp"
 
-#: ../src/planner-task-tree.c:3458
+#: ../src/planner-task-tree.c:3432
 msgid "Move tasks down"
 msgstr "Færa verk niður"
 
 #. Moving task from 'position' to 'position + 1'
-#: ../src/planner-task-tree.c:3504
+#: ../src/planner-task-tree.c:3478
 msgid "Move task down"
 msgstr "Færa verk niður"
 
-#: ../src/planner-task-tree.c:3560
+#: ../src/planner-task-tree.c:3534
 msgid "Reset task constraints"
 msgstr "Frumstilla skorður verks"
 
-#: ../src/planner-task-tree.c:3592
+#: ../src/planner-task-tree.c:3566
 msgid "Reset all task constraints"
 msgstr "Frumstilla allar skorður verks"
 
-#: ../src/planner-task-view.c:124
+#: ../src/planner-task-view.c:128
 msgid "_Edit Task"
 msgstr "Br_eyta verki"
 
-#: ../src/planner-task-view.c:151
+#: ../src/planner-task-view.c:155
 msgid "_Edit Custom Properties..."
-msgstr "Br_eyta sérstökum stillingum..."
+msgstr "Br_eyta sérsniðnum eiginleikum..."
 
-#: ../src/planner-task-view.c:270
+#: ../src/planner-task-view.c:301
 msgid "Tasks"
 msgstr "Verk"
 
-#: ../src/planner-task-view.c:276
+#: ../src/planner-task-view.c:307
 msgid "_Tasks"
 msgstr "_Verk"
 
-#: ../src/planner-task-view.c:578
+#: ../src/planner-task-view.c:609
 msgid "Edit custom task properties"
 msgstr "Breyta sérsniðnum stillingum verks"
 
-#: ../src/planner-task-view.c:632
+#: ../src/planner-task-view.c:663
 msgid "Edit Task Columns"
-msgstr "Br_eyta verkdálkum"
+msgstr "Breyta verkdálkum"
 
 #: ../src/planner-usage-tree.c:108
 msgid "/_Expand all resources"
-msgstr "_Opna öll tilföng"
+msgstr "/_Fletta út öllum tilföngum"
 
 #: ../src/planner-usage-tree.c:111
 msgid "/_Collapse all resources"
-msgstr "_Loka öllum tiilföngum"
+msgstr "/_Fella öll tiilföng saman"
 
 #: ../src/planner-usage-tree.c:379
 msgid ""
@@ -2065,14 +2131,14 @@ msgstr ""
 "\n"
 "Verk"
 
-#: ../src/planner-usage-view.c:111
+#: ../src/planner-usage-view.c:114
 msgid "Zoom to fit"
 msgstr "Renna að gluggastærð"
 
 #. i18n: Label used for the sidebar. Please try to make it short and use
 #. * a linebreak if necessary/possible.
 #.
-#: ../src/planner-usage-view.c:228
+#: ../src/planner-usage-view.c:261
 msgid ""
 "Resource\n"
 "Usage"
@@ -2080,237 +2146,261 @@ msgstr ""
 "Tilfang\n"
 "Notkun"
 
-#: ../src/planner-usage-view.c:234
+#: ../src/planner-usage-view.c:267
 msgid "Resource _Usage"
 msgstr "Notk_un tilfangs"
 
-#: ../src/planner-usage-view.c:345
+#: ../src/planner-usage-view.c:380
 msgid "Edit Resource Usage Columns"
-msgstr "Breyta dálkum í Notkun tilfangs"
+msgstr "Breyta dálkum fyrir notkun tilfanga"
 
-#: ../src/planner-window.c:225
+#: ../src/planner-util-win32.c:45
+#, c-format
+msgid "Unable to open '%s'"
+msgstr "Gat ekki opnað '%s'"
+
+#: ../src/planner-util-win32.c:72
+msgid "Unable to open help file"
+msgstr "Get ekki opnað hjálparskrána"
+
+#: ../src/planner-window.c:216
 msgid "_File"
 msgstr "_Skrá"
 
-#: ../src/planner-window.c:229
+#: ../src/planner-window.c:220
 msgid "_New Project"
-msgstr "_Ný verkstýring"
+msgstr "_Nýtt verkefni"
 
-#: ../src/planner-window.c:229
+#: ../src/planner-window.c:220
 msgid "Create a new project"
-msgstr "Stofna nýja verkstýringu"
+msgstr "Stofna nýtt verkefni"
 
-#: ../src/planner-window.c:233
+#: ../src/planner-window.c:224
 msgid "_Open..."
 msgstr "_Opna..."
 
-#: ../src/planner-window.c:233
+#: ../src/planner-window.c:224
 msgid "Open a project"
-msgstr "Opna verkstýringu"
+msgstr "Opna verkefni"
 
-#: ../src/planner-window.c:236
+#: ../src/planner-window.c:227
+#| msgid "Open a project"
+msgid "Open _Recent"
+msgstr "O_pna nýlegt"
+
+#: ../src/planner-window.c:230
 msgid "_Import"
 msgstr "Flytja _inn"
 
-#: ../src/planner-window.c:240 ../src/planner-window.c:1567
+#: ../src/planner-window.c:234 ../src/planner-window.c:1401
 msgid "_Save"
 msgstr "_Vista"
 
-#: ../src/planner-window.c:240
+#: ../src/planner-window.c:234
 msgid "Save the current project"
-msgstr "Vista núverandi verkstýringu"
+msgstr "Vista núverandi verkefni"
 
-#: ../src/planner-window.c:243
+#: ../src/planner-window.c:237
 msgid "_Export"
 msgstr "_Flytja út"
 
-#: ../src/planner-window.c:246
+#: ../src/planner-window.c:240
 msgid "Save _As..."
 msgstr "Vist_a sem..."
 
-#: ../src/planner-window.c:246
+#: ../src/planner-window.c:240
 msgid "Save the current project with a different name"
-msgstr "Vista núverandi verkstýringu undir öðru nafni"
+msgstr "Vista núverandi verkefni undir öðru nafni"
 
-#: ../src/planner-window.c:249
+#: ../src/planner-window.c:243
+msgid "Page Set_up..."
+msgstr "_Uppsetning síðu..."
+
+#: ../src/planner-window.c:243
+msgid "Setup the page settings for your current printer"
+msgstr "Stilla blaðsíðu af fyrir prentarann þinn"
+
+#: ../src/planner-window.c:246
 msgid "_Print..."
 msgstr "_Prenta..."
 
-#: ../src/planner-window.c:249
+#: ../src/planner-window.c:246
 msgid "Print the current project"
-msgstr "Prenta núverandi verkstýringu"
+msgstr "Prenta núverandi verkefni"
 
-#: ../src/planner-window.c:252
+#: ../src/planner-window.c:249
 msgid "Print Pre_view"
-msgstr "Prenta _forsýn"
+msgstr "Prenta _forskoðun"
+
+#: ../src/planner-window.c:249
+msgid "Print preview of the current project"
+msgstr "Prentunarforskoðun fyrir núverandi verkefni"
 
 #: ../src/planner-window.c:252
-msgid "Print preview of the current project"
-msgstr "Prentaraforsýn fyrir núverandi verkstýringu"
-
-#: ../src/planner-window.c:255
 msgid "_Close"
 msgstr "_Loka"
 
-#: ../src/planner-window.c:255
+#: ../src/planner-window.c:252
 msgid "Close the current file"
 msgstr "Loka núverandi skrá"
 
-#: ../src/planner-window.c:258
+#: ../src/planner-window.c:255
 msgid "_Quit"
 msgstr "_Hætta"
 
-#: ../src/planner-window.c:258
+#: ../src/planner-window.c:255
 msgid "Exit the program"
 msgstr "Hætta í forritinu"
 
-#: ../src/planner-window.c:262
+#: ../src/planner-window.c:259
 msgid "_Edit"
-msgstr "_Sýsla"
+msgstr "Br_eyta"
 
-#: ../src/planner-window.c:265
+#: ../src/planner-window.c:262
 msgid "_Undo"
 msgstr "_Afturkalla"
 
-#: ../src/planner-window.c:265
+#: ../src/planner-window.c:262
 msgid "Undo the last action"
 msgstr "Hætta við síðustu aðgerð"
 
-#: ../src/planner-window.c:268
+#: ../src/planner-window.c:265
 msgid "_Redo"
 msgstr "_Endurgera"
 
-#: ../src/planner-window.c:268
+#: ../src/planner-window.c:265
 msgid "Redo the undone action"
-msgstr "Endurkalla afturkallaða aðgerð"
+msgstr "Endurgera afturkallaða aðgerð"
 
-#: ../src/planner-window.c:272
+#: ../src/planner-window.c:269
 msgid "_View"
 msgstr "Sý_n"
 
-#: ../src/planner-window.c:276
+#: ../src/planner-window.c:273
 msgid "_Actions"
 msgstr "_Aðgerðir"
 
-#: ../src/planner-window.c:280
+#: ../src/planner-window.c:277
 msgid "_Project"
-msgstr "_Verkstýring"
+msgstr "_Verkefni"
+
+#: ../src/planner-window.c:280
+msgid "_Manage Calendars"
+msgstr "Sýsla með _dagatöl"
 
 #: ../src/planner-window.c:283
-msgid "_Manage Calendars"
-msgstr "_Stjórna dagatölum"
+msgid "Edit Day _Types"
+msgstr "Brey_ta tegundum daga"
 
 #: ../src/planner-window.c:286
-msgid "Edit Day _Types"
-msgstr "Brey_ta dagsstillingum"
+msgid "Edit Project _Phases"
+msgstr "Breyta _verkáföngum"
 
 #: ../src/planner-window.c:289
-msgid "Edit Project _Phases"
-msgstr "Breyta _verkstigi"
-
-#: ../src/planner-window.c:292
 msgid "_Edit Project Properties"
-msgstr "Br_eyta stillingum verkstýringar"
+msgstr "Br_eyta stillingum verkefnis"
 
-#: ../src/planner-window.c:292
+#: ../src/planner-window.c:289
 msgid "Edit the project properties"
-msgstr "Breyta stillingum versktýringar"
+msgstr "Breyta stillingum verkefnis"
 
-#: ../src/planner-window.c:300
+#: ../src/planner-window.c:297
 msgid "_Help"
 msgstr "_Hjálp"
 
-#: ../src/planner-window.c:303
+#: ../src/planner-window.c:300
 msgid "_User Guide"
 msgstr "_Notendahandbók"
 
-#: ../src/planner-window.c:303
+#: ../src/planner-window.c:300
 msgid "Show the Planner User Guide"
-msgstr "Sýna notendhandbók Planner"
+msgstr "Birta notendhandbók Planner"
 
-#: ../src/planner-window.c:306
+#: ../src/planner-window.c:303
 msgid "_About"
-msgstr "_Um"
+msgstr "_Um hugbúnaðinn"
 
-#: ../src/planner-window.c:306
+#: ../src/planner-window.c:303
 msgid "About this application"
 msgstr "Um þetta forrit"
 
-#. Note: these strings are leaked.
-#: ../src/planner-window.c:665
+#: ../src/planner-window.c:692
 #, c-format
 msgid "Switch to the view \"%s\""
 msgstr "Skipta yfir í sýn \"%s\""
 
-#: ../src/planner-window.c:832
+#: ../src/planner-window.c:862
 msgid "Open a File"
 msgstr "Opna skrá"
 
-#: ../src/planner-window.c:842
+#: ../src/planner-window.c:872
 msgid "Planner Files"
 msgstr "Planner skrár"
 
-#. I18n: Translators, list your names here, newline separated if there
-#. * are more than one, to appear in the about box.
-#.
-#: ../src/planner-window.c:1324 ../src/planner-window.c:1346
+#: ../src/planner-window.c:1180
+msgid "A Project Management application for the GNOME desktop"
+msgstr "Verkstjórnunarforrit fyrir GNOME skjáborðið"
+
+#: ../src/planner-window.c:1183
 msgid "translator-credits"
 msgstr ""
 "Anna Jonna Ármannsdóttir <annajonna@gmail.com>\n"
 "Samúel Jón Gunnarsson <sammi@techattack.nu>\n"
-"Olafur Arason"
+"Olafur Arason\n"
+"Sveinn í Felli <sv1@fellsnet.is>"
 
-#: ../src/planner-window.c:1341
-msgid "A Project Management application for the GNOME desktop"
-msgstr "Verkstjórnunarforrit fyrir GNOME skjáborðið"
-
-#: ../src/planner-window.c:1348
+#: ../src/planner-window.c:1185
 msgid "The Planner Homepage"
 msgstr "Heimasíða Planner"
 
-#: ../src/planner-window.c:1500
+#: ../src/planner-window.c:1334
 msgid "If you don't save, changes made the last minute will be discarded."
-msgstr "Ef þú vistar ekk þá munu breytingar sl. mínútu verða hundsaðar."
+msgstr ""
+"Ef þú vistar ekki, þá mun öllum breytingum síðustu mínútuna verða hent."
 
-#: ../src/planner-window.c:1506
+#: ../src/planner-window.c:1340
 #, c-format
 msgid "If you don't save, changes made the last %d minute will be discarded."
 msgid_plural ""
 "If you don't save, changes made the last %d minutes will be discarded."
-msgstr[0] "Ef þú vistar ekki þá munu breytingar sl. %d mínútnu verða hundsaðar."
-msgstr[1] "Ef þú vistar ekki þá munu breytingar sl. %d mínútnur verða hundsaðar."
+msgstr[0] ""
+"Ef þú vistar ekki, þá mun öllum breytingum síðustu %d mínútu verða hent."
+msgstr[1] ""
+"Ef þú vistar ekki, þá mun öllum breytingum síðustu %d mínútur verða hent."
 
-#: ../src/planner-window.c:1514
+#: ../src/planner-window.c:1348
 msgid "If you don't save, changes made the last hour will be discarded."
-msgstr "Ef þú vistar ekki þá munu breytingar sl. klukkutíma verða hundsaðar."
+msgstr ""
+"Ef þú vistar ekki, þá mun öllum breytingum síðasta klukkutímann verða hent."
 
-#: ../src/planner-window.c:1519
+#: ../src/planner-window.c:1353
 #, c-format
 msgid "If you don't save, changes made the last %d hour will be discarded."
 msgid_plural ""
 "If you don't save, changes made the last %d hours will be discarded."
-msgstr[0] "Ef þú vistar ekki þá munu breytingar sl. %d klukkutíma verða hundsaðar."
+msgstr[0] ""
+"Ef þú vistar ekki, þá mun öllum breytingum síðasta %d klukkutíma verða hent."
 msgstr[1] ""
-"Ef þú vistar ekki þá munu breytingar sl. %d klukkutíma verða hundsaðar."
+"Ef þú vistar ekki, þá mun öllum breytingum síðustu %d klukkutíma verða hent."
 
-#: ../src/planner-window.c:1529
+#: ../src/planner-window.c:1363
 #, c-format
 msgid "Save changes to document '%s' before closing?"
 msgstr "Vista breytingar í skjali '%s' áður en lokað er?"
 
-#: ../src/planner-window.c:1554
+#: ../src/planner-window.c:1388
 msgid "C_lose without saving"
 msgstr "_Loka án þess að vista"
 
-#: ../src/planner-window.c:1560
+#: ../src/planner-window.c:1394
 msgid "_Cancel"
 msgstr "_Hætta við"
 
-#: ../src/planner-window.c:1659
+#: ../src/planner-window.c:1494
 msgid "Save a File"
 msgstr "Vista skrá"
 
-#: ../src/planner-window.c:1945
+#: ../src/planner-window.c:1762
 msgid ""
 "You have opened a file that was saved with an old version of Planner.\n"
 "\n"
@@ -2327,26 +2417,22 @@ msgid ""
 msgstr ""
 "Þú hefur opnað skrá sem var vistuð með eldri gerð af Planner.\n"
 "\n"
-"Við hleðslu á eldri skrám munu öll verk nota hömlur 'Verður að byrja á', þar "
+"Við hleðslu á eldri skrám munu öll verk nota skilyrðið 'Verður að byrja á', "
+"þar "
 "sem eldri útgáfur studdu ekki fyllilega sjálfvirka endurskipulagningu. Til "
-"geta nýtt þenna nýja möguleika ættir þú að bæta við undanfaraskyldleika "
+"geta nýtt þenna nýja möguleika ættir þú að bæta við fyrirrennaraskyldleika "
 "milli verka sem eru háð hvort öðru.\n"
 "\n"
-"Þú getur bætt við undanfaraskyldleika með því að klikka á undanfara og draga "
+"Þú getur bætt við forveraskyldleika með því að smella á fyrirrennara og draga "
 "yfir á eftirfara.\n"
 "\n"
-"Að því loknu ættir þú að fjarlægja allar hömlur með því að velja 'Endursetja "
-"allar hömlur' undir 'Breyta' valmyndinni."
+"Að því loknu ættir þú að fjarlægja allar skorður með því að velja 'Frumstilla "
+"allar skorður' undir 'Breyta' valmyndinni."
 
 #. Hack.
-#: ../src/planner-window.c:1980
+#: ../src/planner-window.c:1797
 msgid "Unnamed database project"
 msgstr "Ónefnt verkefni í gagnagrunni"
-
-#: ../src/planner-window.c:2094
-#, c-format
-msgid "Open '%s'"
-msgstr "Opna '%s'"
 
 #: ../src/planner-working-time-dialog.c:145
 msgid "Edit working time"
@@ -2354,7 +2440,7 @@ msgstr "Breyta vinnutíma"
 
 #: ../src/planner-xml-planner-plugin.c:54
 msgid "Planner 0.11 Format"
-msgstr "Planner 0.11 Snið"
+msgstr "Planner 0.11 snið"
 
 #: ../src/planner-xml-planner-plugin.c:55
 msgid "Export project to a file suitable for Planner 0.11"
@@ -2364,41 +2450,41 @@ msgstr "Flytja út verkefnið í skrá sem er hentug fyrir Planner 0.11"
 msgid "Export"
 msgstr "Flytja út"
 
-#: ../eds-backend/e-cal-backend-planner.c:289
+#: ../eds-backend/e-cal-backend-planner.c:288
 msgid "EDS UID"
 msgstr "EDS UID"
 
-#: ../eds-backend/e-cal-backend-planner.c:290
+#: ../eds-backend/e-cal-backend-planner.c:289
 msgid "Identifier used by Evolution Data Server for tasks"
 msgstr "Kennimerki sem Evolution Data Server notar fyrir verk"
 
-#: ../eds-backend/e-cal-backend-planner.c:299
+#: ../eds-backend/e-cal-backend-planner.c:298
 msgid "EDS Categories"
 msgstr "EDS flokkar"
 
-#: ../eds-backend/e-cal-backend-planner.c:300
+#: ../eds-backend/e-cal-backend-planner.c:299
 msgid "Categories for a task used by Evolution Data Server"
 msgstr "Flokkar fyrir verk sem Evolution Data Server notar"
 
-#: ../eds-backend/e-cal-backend-planner.c:309
+#: ../eds-backend/e-cal-backend-planner.c:308
 msgid "EDS Classification"
 msgstr "EDS Flokkun"
 
-#: ../eds-backend/e-cal-backend-planner.c:310
+#: ../eds-backend/e-cal-backend-planner.c:309
 msgid "Task access classification used by Evolution Data Server"
 msgstr "Flokkun verkaðgangs sem Evolution Data Server notar"
 
-#: ../eds-backend/e-cal-backend-planner.c:319
+#: ../eds-backend/e-cal-backend-planner.c:318
 msgid "EDS URL"
 msgstr "EDS URL"
 
-#: ../eds-backend/e-cal-backend-planner.c:320
+#: ../eds-backend/e-cal-backend-planner.c:319
 msgid "URL for a Task used by Evolution Data Server"
-msgstr "URL fyrir verk sem Evolution Data Server notar"
+msgstr "Slóð á verk sem Evolution Data Server notar"
 
-#: ../eds-backend/e-cal-backend-planner.c:829
+#: ../eds-backend/e-cal-backend-planner.c:828
 msgid "Invalid server URI"
-msgstr "Ógildur vefþjóns URI"
+msgstr "Ógild URI-slóð vefþjóns"
 
 #. book_target = (EABConfigTargetSource *) data->target;
 #. source = book_target->source;
@@ -2409,8 +2495,20 @@ msgstr "Veldu planner skrá"
 #: ../eds-backend/planner-source/planner-source.c:157
 #, c-format
 msgid ""
-"The filename extension of this file isn't the planner usual file extension (%"
-"s) Do you want to continue?"
+"The filename extension of this file isn't the planner usual file extension "
+"(%s) Do you want to continue?"
 msgstr ""
-"Ending nafnsins á þessari skrá er ekki sú sem planner notar venjulega (%s). "
+"Skráarendingin á þessari skrá er ekki sú sem Planner notar venjulega (%s). "
 "Viltu halda áfram?"
+
+#~ msgid " (invalid Unicode)"
+#~ msgstr " (ógildur Unikóði)"
+
+#~ msgid "[FILE...]"
+#~ msgstr "[SKRÁ...]"
+
+#~ msgid "Print Project"
+#~ msgstr "Prenta verkefni"
+
+#~ msgid "Open '%s'"
+#~ msgstr "Opna '%s'"
