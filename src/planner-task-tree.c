@@ -2767,8 +2767,8 @@ planner_task_tree_insert_task (PlannerTaskTree *tree)
 
 	gtk_tree_view_set_cursor (tree_view,
 				  path,
-				  gtk_tree_view_get_column (tree_view, 0),
-				  FALSE);
+				  gtk_tree_view_get_column (tree_view, 1),
+				  TRUE);
 
 	planner_task_tree_set_anchor (tree, path);
 
