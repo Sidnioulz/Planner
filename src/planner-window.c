@@ -221,7 +221,7 @@ static GtkActionEntry entries[] = {
 	  G_CALLBACK (window_new_cb)
 	},
 	{ "FileOpen",
-	  GTK_STOCK_OPEN,          N_("_Open..."),                 "F3",                N_("Open a project"),
+	  GTK_STOCK_OPEN,          N_("_Open..."),                 "<Control>o",        N_("Open a project"),
 	  G_CALLBACK (window_open_cb) },
 	{ "FileOpenRecent",
 	  NULL,                    N_("Open _Recent"),             NULL,                NULL,
@@ -249,10 +249,10 @@ static GtkActionEntry entries[] = {
 	  GTK_STOCK_PRINT_PREVIEW, N_("Print Pre_view"),           "<Shift><Control>p", N_("Print preview of the current project"),
 	  G_CALLBACK (window_print_cb) },
 	{ "FileClose",
-	  GTK_STOCK_CLOSE,         N_("_Close"),                   "<Control>w",        N_("Close the current file"),
+	  GTK_STOCK_CLOSE,         N_("_Close Project"),           "<Control>q",        N_("Close the current file"),
 	  G_CALLBACK (window_close_cb) },
 	{ "FileExit",
-	  GTK_STOCK_QUIT,          N_("_Quit"),                    "<Control>q",        N_("Exit the program"),
+	  GTK_STOCK_QUIT,          N_("_Quit"),                    "<Shift><Control>q", N_("Exit the program"),
 	  G_CALLBACK (window_exit_cb) },
 
 	{ "Edit",
@@ -262,7 +262,7 @@ static GtkActionEntry entries[] = {
 	  GTK_STOCK_UNDO,          N_("_Undo"),                    "<Control>z",        N_("Undo the last action"),
 	  G_CALLBACK (window_undo_cb) },
 	{ "EditRedo",
-	  GTK_STOCK_REDO,          N_("_Redo"),                    "<Control>r",        N_("Redo the undone action"),
+	  GTK_STOCK_REDO,          N_("_Redo"),                    "<Shift><Control>z", N_("Redo the undone action"),
 	  G_CALLBACK (window_redo_cb) },
 
 	{ "View",
