@@ -217,7 +217,7 @@ static GtkActionEntry entries[] = {
 	  NULL
 	},
 	{ "FileNew",
-	  GTK_STOCK_NEW,           N_("_New Project"),             "<Control>n",        N_("Create a new project"),
+	  GTK_STOCK_NEW,           N_("_New Project"),             "",        N_("Create a new project"),
 	  G_CALLBACK (window_new_cb)
 	},
 	{ "FileOpen",

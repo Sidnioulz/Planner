@@ -231,7 +231,7 @@ static PlannerViewClass *parent_class = NULL;
 
 static const GtkActionEntry entries[] = {
 	{ "InsertResource",   "planner-stock-insert-resource", N_("_Insert Resource"),
-	  "<Control>i",        N_("Insert a new resource"),
+	  "<Control>n",        N_("Insert a new resource"),
 	  G_CALLBACK (resource_view_insert_resource_cb) },
 	{ "InsertResources",  "planner-stock-insert-resource", N_("In_sert Resources..."),
 	  NULL,                NULL,
