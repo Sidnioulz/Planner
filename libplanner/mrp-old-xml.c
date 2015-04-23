@@ -599,6 +599,7 @@ old_xml_read_overridden_day_type (MrpParser   *parser,
 				g_free (str);
 				continue;
 			}
+			g_free (str);
 			start = hour * 60 * 60 + min * 60;
 
 			str = old_xml_get_string (child, "end");
@@ -606,6 +607,7 @@ old_xml_read_overridden_day_type (MrpParser   *parser,
 				g_free (str);
 				continue;
 			}
+			g_free (str);
 			end = hour * 60 * 60 + min * 60;
 
 			interval = mrp_interval_new (start, end);

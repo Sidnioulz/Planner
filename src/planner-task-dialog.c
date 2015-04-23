@@ -1899,6 +1899,7 @@ task_dialog_predecessor_dialog_new (MrpTask       *task,
 	tasks = mrp_project_get_all_tasks (project);
 	tasks = g_list_remove (tasks, task);
 	task_dialog_setup_task_combo (GTK_COMBO_BOX_ENTRY (w), tasks);
+	g_list_free (tasks);
 
 	w = glade_xml_get_widget (glade, "type_optionmenu");
 	g_object_set_data (G_OBJECT (dialog), "type_optionmenu", w);

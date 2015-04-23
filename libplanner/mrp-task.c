@@ -425,6 +425,7 @@ task_finalize (GObject *object)
 	g_assert (priv->successors == NULL);
 
 	g_node_destroy (priv->node);
+	g_free (priv->graph_node);
 
 	g_free (priv);
 	task->priv = NULL;

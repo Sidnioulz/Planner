@@ -1519,6 +1519,10 @@ task_manager_get_task_units_intervals (MrpTaskManager *manager,
 		} /* for (l = ivals; l; ... */
 	} /* for (a = assignments; a; ... */
 
+#ifdef WITH_SIMPLE_PRIORITY_SCHEDULING
+	g_list_free (v_tasks);
+#endif
+
 	/* If the task is not allocated, we handle it as if we have one resource
 	 * assigned to it, 100%, using the project calendar.
 	 */
@@ -2766,6 +2770,8 @@ task_manager_get_work_for_task_with_assignments (MrpTaskManager *manager,
 
 			work += delta;
 		}
+
+		g_list_free (ivals);
 
 
 		t += 24*60*60;

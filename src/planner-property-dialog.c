@@ -704,6 +704,8 @@ property_cmd_remove_do (PlannerCmd *cmd_base)
 			g_hash_table_insert (cmd->tasks, g_object_ref (l->data), value);
 		}
 
+		g_list_free (tasks);
+
 	}
 	else if (cmd->owner == MRP_TYPE_RESOURCE && g_hash_table_size (cmd->resources) == 0) {
 		GList *l, *resources = mrp_project_get_resources (cmd->project);
